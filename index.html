@@ -50,12 +50,10 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   margin-bottom: 0.25rem;
+  cursor: pointer;
 }
 
-.header p {
-  color: var(--text-muted);
-  font-size: 0.9rem;
-}
+.header p { color: var(--text-muted); font-size: 0.9rem; }
 
 /* Main container */
 .container {
@@ -65,54 +63,30 @@ body {
 }
 
 /* Search */
-.search-wrap {
-  position: relative;
-  margin-bottom: 1.25rem;
-}
+.search-wrap { position: relative; margin-bottom: 1.25rem; }
 
 .search-wrap svg {
-  position: absolute;
-  left: 14px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 18px;
-  height: 18px;
-  color: var(--text-muted);
+  position: absolute; left: 14px; top: 50%;
+  transform: translateY(-50%); width: 18px; height: 18px; color: var(--text-muted);
 }
 
 #search {
-  width: 100%;
-  padding: 0.85rem 1rem 0.85rem 2.8rem;
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  background: var(--card);
-  color: var(--text);
-  font-size: 1rem;
-  outline: none;
-  transition: border-color 0.2s;
+  width: 100%; padding: 0.85rem 1rem 0.85rem 2.8rem;
+  border: 1px solid var(--border); border-radius: 12px;
+  background: var(--card); color: var(--text);
+  font-size: 1rem; outline: none; transition: border-color 0.2s;
 }
 
 #search:focus { border-color: var(--accent); }
 #search::placeholder { color: var(--text-muted); }
 
 /* Super-category toggles */
-.super-toggles {
-  display: flex;
-  gap: 0.5rem;
-  margin-bottom: 1rem;
-  flex-wrap: wrap;
-}
+.super-toggles { display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; }
 
 .super-btn {
-  padding: 0.5rem 1.2rem;
-  border: 2px solid var(--border);
-  border-radius: 50px;
-  background: transparent;
-  color: var(--text-muted);
-  font-size: 0.9rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.2s;
+  padding: 0.5rem 1.2rem; border: 2px solid var(--border); border-radius: 50px;
+  background: transparent; color: var(--text-muted); font-size: 0.9rem;
+  font-weight: 600; cursor: pointer; transition: all 0.2s;
 }
 
 .super-btn:hover { border-color: var(--text-muted); color: var(--text); }
@@ -121,72 +95,36 @@ body {
 .super-btn.active-transversal { border-color: var(--transversal); color: var(--transversal); background: rgba(253,203,110,0.1); }
 
 /* Filters row */
-.filters {
-  display: flex;
-  gap: 0.75rem;
-  margin-bottom: 1rem;
-  flex-wrap: wrap;
-  align-items: center;
-}
+.filters { display: flex; gap: 0.75rem; margin-bottom: 1rem; flex-wrap: wrap; align-items: center; }
 
 .filter-select {
-  padding: 0.5rem 0.85rem;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  background: var(--card);
-  color: var(--text);
-  font-size: 0.875rem;
-  outline: none;
-  cursor: pointer;
-  min-width: 140px;
+  padding: 0.5rem 0.85rem; border: 1px solid var(--border); border-radius: 8px;
+  background: var(--card); color: var(--text); font-size: 0.875rem;
+  outline: none; cursor: pointer; min-width: 140px;
 }
 
 .filter-select:focus { border-color: var(--accent); }
 .filter-select option { background: var(--card); color: var(--text); }
 
 .btn-reset {
-  padding: 0.5rem 1rem;
-  border: 1px solid var(--danger);
-  border-radius: 8px;
-  background: transparent;
-  color: var(--danger);
-  font-size: 0.875rem;
-  cursor: pointer;
-  transition: all 0.2s;
-  margin-left: auto;
+  padding: 0.5rem 1rem; border: 1px solid var(--danger); border-radius: 8px;
+  background: transparent; color: var(--danger); font-size: 0.875rem;
+  cursor: pointer; transition: all 0.2s; margin-left: auto;
 }
 
 .btn-reset:hover { background: var(--danger); color: #fff; }
 
 /* Count */
-.result-count {
-  color: var(--text-muted);
-  font-size: 0.9rem;
-  margin-bottom: 1rem;
-  padding-left: 0.25rem;
-}
-
+.result-count { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem; padding-left: 0.25rem; }
 .result-count strong { color: var(--accent-light); }
 
 /* Theme pills in filters */
-.theme-filter-wrap {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-  margin-bottom: 1.25rem;
-}
+.theme-filter-wrap { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1.25rem; }
 
 .theme-pill-filter {
-  padding: 0.3rem 0.7rem;
-  border-radius: 50px;
-  font-size: 0.75rem;
-  font-weight: 500;
-  cursor: pointer;
-  border: 1px solid var(--border);
-  background: transparent;
-  color: var(--text-muted);
-  transition: all 0.2s;
-  white-space: nowrap;
+  padding: 0.3rem 0.7rem; border-radius: 50px; font-size: 0.75rem; font-weight: 500;
+  cursor: pointer; border: 1px solid var(--border); background: transparent;
+  color: var(--text-muted); transition: all 0.2s; white-space: nowrap;
 }
 
 .theme-pill-filter:hover { border-color: var(--text-muted); color: var(--text); }
@@ -200,49 +138,24 @@ body {
 }
 
 .card {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 1.25rem;
-  transition: all 0.25s;
-  text-decoration: none;
-  color: inherit;
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
+  background: var(--card); border: 1px solid var(--border); border-radius: 14px;
+  padding: 1.25rem; transition: all 0.25s; cursor: pointer;
+  display: flex; flex-direction: column; gap: 0.75rem;
 }
 
 .card:hover {
-  border-color: var(--accent);
-  background: var(--card-hover);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(108,92,231,0.15);
+  border-color: var(--accent); background: var(--card-hover);
+  transform: translateY(-2px); box-shadow: 0 8px 24px rgba(108,92,231,0.15);
 }
 
-.card-title {
-  font-size: 1.05rem;
-  font-weight: 600;
-  color: #fff;
-  line-height: 1.4;
-}
+.card-title { font-size: 1.05rem; font-weight: 600; color: #fff; line-height: 1.4; }
 
-.card-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  align-items: center;
-}
+.card-meta { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
 
 .meta-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  padding: 0.2rem 0.6rem;
-  border-radius: 6px;
-  font-size: 0.78rem;
-  font-weight: 500;
-  background: rgba(255,255,255,0.06);
-  color: var(--text-muted);
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  padding: 0.2rem 0.6rem; border-radius: 6px; font-size: 0.78rem;
+  font-weight: 500; background: rgba(255,255,255,0.06); color: var(--text-muted);
 }
 
 .meta-badge svg { width: 13px; height: 13px; }
@@ -251,30 +164,116 @@ body {
 .meta-badge.points { color: #ffeaa7; }
 .meta-badge.duration { color: #fab1a0; }
 
-.card-themes {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem;
-  margin-top: auto;
-}
+.card-themes { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: auto; }
 
 .theme-pill {
-  padding: 0.2rem 0.6rem;
-  border-radius: 50px;
-  font-size: 0.72rem;
-  font-weight: 600;
-  color: #fff;
+  padding: 0.2rem 0.6rem; border-radius: 50px;
+  font-size: 0.72rem; font-weight: 600; color: #fff;
 }
 
 /* No results */
-.no-results {
-  text-align: center;
-  padding: 3rem 1rem;
-  color: var(--text-muted);
-  grid-column: 1 / -1;
+.no-results { text-align: center; padding: 3rem 1rem; color: var(--text-muted); grid-column: 1 / -1; }
+.no-results svg { width: 48px; height: 48px; margin-bottom: 1rem; opacity: 0.4; }
+
+/* ===== DETAIL VIEW ===== */
+.detail-overlay {
+  display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  background: var(--bg); z-index: 200; overflow-y: auto;
 }
 
-.no-results svg { width: 48px; height: 48px; margin-bottom: 1rem; opacity: 0.4; }
+.detail-overlay.active { display: block; }
+
+.detail-header {
+  background: linear-gradient(135deg, #0a0a1a 0%, #16213e 50%, #0a0a1a 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 1.5rem;
+  display: flex; align-items: center; gap: 1rem;
+  position: sticky; top: 0; z-index: 201; backdrop-filter: blur(10px);
+}
+
+.btn-back {
+  background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+  color: var(--text); padding: 0.5rem 1rem; cursor: pointer; font-size: 0.9rem;
+  display: flex; align-items: center; gap: 0.4rem; transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.btn-back:hover { border-color: var(--accent); background: var(--card-hover); }
+
+.detail-header-title {
+  font-size: 1.1rem; font-weight: 600; color: #fff;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
+.detail-content {
+  max-width: 1000px; margin: 0 auto; padding: 2rem 1.5rem;
+}
+
+.detail-title {
+  font-size: 1.8rem; font-weight: 700; color: #fff; margin-bottom: 1rem;
+}
+
+.detail-meta {
+  display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem;
+}
+
+.detail-meta .meta-badge { font-size: 0.9rem; padding: 0.4rem 0.8rem; }
+
+.detail-themes {
+  display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 2rem;
+}
+
+.detail-themes .theme-pill { font-size: 0.85rem; padding: 0.35rem 0.85rem; }
+
+.detail-keywords {
+  background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+  padding: 1.25rem; margin-bottom: 2rem;
+}
+
+.detail-keywords h3 { color: var(--accent-light); font-size: 0.95rem; margin-bottom: 0.5rem; }
+.detail-keywords p { color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; }
+
+/* Tab buttons for Sujet / Corrige */
+.doc-tabs {
+  display: flex; gap: 0.5rem; margin-bottom: 1rem;
+}
+
+.doc-tab {
+  padding: 0.6rem 1.5rem; border: 2px solid var(--border); border-radius: 10px;
+  background: transparent; color: var(--text-muted); font-size: 0.95rem;
+  font-weight: 600; cursor: pointer; transition: all 0.2s;
+}
+
+.doc-tab:hover { border-color: var(--accent); color: var(--text); }
+.doc-tab.active { border-color: var(--accent); background: var(--accent); color: #fff; }
+
+.doc-tab.disabled {
+  opacity: 0.4; cursor: not-allowed;
+}
+
+.doc-viewer-wrap {
+  background: #fff; border-radius: 12px; overflow: hidden;
+  border: 1px solid var(--border); min-height: 600px;
+}
+
+.doc-viewer-wrap iframe {
+  width: 100%; height: 80vh; border: none;
+}
+
+.doc-unavailable {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  min-height: 400px; color: var(--text-muted); text-align: center; padding: 2rem;
+}
+
+.doc-unavailable svg { width: 64px; height: 64px; margin-bottom: 1rem; opacity: 0.3; }
+
+.source-link {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  color: var(--accent-light); font-size: 0.85rem; margin-top: 1rem;
+  text-decoration: none; opacity: 0.6; transition: opacity 0.2s;
+}
+
+.source-link:hover { opacity: 1; }
 
 /* Responsive */
 @media (max-width: 600px) {
@@ -283,88 +282,78 @@ body {
   .filters { gap: 0.5rem; }
   .filter-select { min-width: 0; flex: 1 1 120px; }
   .btn-reset { margin-left: 0; }
+  .detail-title { font-size: 1.3rem; }
+  .doc-viewer-wrap iframe { height: 60vh; }
 }
 </style>
 </head>
 <body>
 
-<div class="header">
-  <h1>LaboIA - Physique Chimie Terminale</h1>
-  <p>Moteur de recherche d'exercices du Bac</p>
+<!-- ===== LIST VIEW ===== -->
+<div id="listView">
+  <div class="header">
+    <h1 onclick="goHome()">LaboIA - Physique Chimie Terminale</h1>
+    <p>Moteur de recherche d'exercices du Bac</p>
+  </div>
+
+  <div class="container">
+    <div class="search-wrap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+      <input type="text" id="search" placeholder="Rechercher un exercice par mot-cl&eacute;...">
+    </div>
+
+    <div class="super-toggles">
+      <button class="super-btn" data-cat="chimie" onclick="toggleSuper('chimie')">&#x1F9EA; Chimie</button>
+      <button class="super-btn" data-cat="physique" onclick="toggleSuper('physique')">&#x269B;&#xFE0F; Physique</button>
+      <button class="super-btn" data-cat="transversal" onclick="toggleSuper('transversal')">&#x1F4BB; Transversal</button>
+    </div>
+
+    <div class="filters">
+      <select class="filter-select" id="filterYear">
+        <option value="">Toutes les ann&eacute;es</option>
+        <option value="2025">2025</option><option value="2024">2024</option>
+        <option value="2023">2023</option><option value="2022">2022</option>
+        <option value="2021">2021</option>
+      </select>
+      <select class="filter-select" id="filterLocation"><option value="">Tous les centres</option></select>
+      <select class="filter-select" id="filterTheme"><option value="">Tous les th&egrave;mes</option></select>
+      <button class="btn-reset" onclick="resetFilters()">Reinitialiser</button>
+    </div>
+
+    <div class="theme-filter-wrap" id="themePills"></div>
+    <div class="result-count" id="resultCount"></div>
+    <div class="grid" id="grid"></div>
+  </div>
 </div>
 
-<div class="container">
-  <!-- Search -->
-  <div class="search-wrap">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
-    <input type="text" id="search" placeholder="Rechercher un exercice par mot-cl&eacute;...">
+<!-- ===== DETAIL VIEW ===== -->
+<div class="detail-overlay" id="detailView">
+  <div class="detail-header">
+    <button class="btn-back" onclick="goHome()">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      Retour
+    </button>
+    <div class="detail-header-title" id="detailHeaderTitle"></div>
   </div>
-
-  <!-- Super-category toggles -->
-  <div class="super-toggles">
-    <button class="super-btn" data-cat="chimie" onclick="toggleSuper('chimie')">&#x1F9EA; Chimie</button>
-    <button class="super-btn" data-cat="physique" onclick="toggleSuper('physique')">&#x269B;&#xFE0F; Physique</button>
-    <button class="super-btn" data-cat="transversal" onclick="toggleSuper('transversal')">&#x1F4BB; Transversal</button>
-  </div>
-
-  <!-- Filters -->
-  <div class="filters">
-    <select class="filter-select" id="filterYear">
-      <option value="">Toutes les ann&eacute;es</option>
-      <option value="2025">2025</option>
-      <option value="2024">2024</option>
-      <option value="2023">2023</option>
-      <option value="2022">2022</option>
-      <option value="2021">2021</option>
-    </select>
-    <select class="filter-select" id="filterLocation">
-      <option value="">Tous les centres</option>
-    </select>
-    <select class="filter-select" id="filterTheme">
-      <option value="">Tous les th&egrave;mes</option>
-    </select>
-    <button class="btn-reset" onclick="resetFilters()">Reinitialiser</button>
-  </div>
-
-  <!-- Theme pills -->
-  <div class="theme-filter-wrap" id="themePills"></div>
-
-  <!-- Result count -->
-  <div class="result-count" id="resultCount"></div>
-
-  <!-- Grid -->
-  <div class="grid" id="grid"></div>
+  <div class="detail-content" id="detailContent"></div>
 </div>
 
 <script>
 // Theme definitions
 const THEMES = [
   "Acide-Base","Beer-Lambert","Kohlrausch","Spectroscopie",
-  "Titrage conductimétrique","Titrage pH-métrique","Cinétique",
-  "Piles - Constante équilibre","Electrolyse","Synthèse organique",
-  "2nde Loi Newton","Mouvement champ pesanteur","Mouvement champ électrique",
+  "Titrage conductim\u00e9trique","Titrage pH-m\u00e9trique","Cin\u00e9tique",
+  "Piles - Constante \u00e9quilibre","Electrolyse","Synth\u00e8se organique",
+  "2nde Loi Newton","Mouvement champ pesanteur","Mouvement champ \u00e9lectrique",
   "Satellites/Lois Kepler","Fluide","Thermodynamique","Diffraction",
-  "Interférences","Effet Doppler","Lunette astronomique",
-  "Effet photoélectrique","Circuits RC","Intensité sonore","Python","Nucléaire"
+  "Interf\u00e9rences","Effet Doppler","Lunette astronomique",
+  "Effet photo\u00e9lectrique","Circuits RC","Intensit\u00e9 sonore","Python","Nucl\u00e9aire"
 ];
 
-const CHIMIE = new Set([
-  "Acide-Base","Beer-Lambert","Kohlrausch","Spectroscopie",
-  "Titrage conductimétrique","Titrage pH-métrique","Cinétique",
-  "Piles - Constante équilibre","Electrolyse","Synthèse organique"
-]);
-
-const PHYSIQUE = new Set([
-  "2nde Loi Newton","Mouvement champ pesanteur","Mouvement champ électrique",
-  "Satellites/Lois Kepler","Fluide","Thermodynamique","Diffraction",
-  "Interférences","Effet Doppler","Lunette astronomique",
-  "Effet photoélectrique","Circuits RC","Intensité sonore","Nucléaire"
-]);
-
+const CHIMIE = new Set(THEMES.slice(0, 10));
+const PHYSIQUE = new Set([...THEMES.slice(10, 23), "Nucl\u00e9aire"]);
 const TRANSVERSAL = new Set(["Python"]);
 
-// Color mapping for themes
-const THEME_COLORS = {};
 const PALETTE = [
   "#e17055","#00b894","#0984e3","#6c5ce7","#fdcb6e",
   "#e84393","#00cec9","#ff7675","#55efc4","#a29bfe",
@@ -372,48 +361,49 @@ const PALETTE = [
   "#fd79a8","#636e72","#2d3436","#b2bec3","#d63031",
   "#e17055","#00b894","#0984e3","#6c5ce7","#fdcb6e"
 ];
+const THEME_COLORS = {};
 THEMES.forEach((t, i) => THEME_COLORS[t] = PALETTE[i % PALETTE.length]);
 
-function getThemeCategory(theme) {
-  if (CHIMIE.has(theme)) return 'chimie';
-  if (PHYSIQUE.has(theme)) return 'physique';
-  return 'transversal';
-}
-
-function getThemeBg(theme) {
-  const cat = getThemeCategory(theme);
-  const c = THEME_COLORS[theme];
-  return c;
-}
+function getThemeBg(theme) { return THEME_COLORS[theme] || '#6c5ce7'; }
 
 // State
 let exercises = [];
+let docUrls = {};
 let activeThemes = new Set();
 let activeSuperCats = new Set();
 
 // Load data
 async function loadData() {
   try {
-    const resp = await fetch('data/exercises.json');
-    exercises = await resp.json();
+    const [exResp, docResp] = await Promise.all([
+      fetch('data/exercises.json'),
+      fetch('data/doc-urls.json').catch(() => null)
+    ]);
+    exercises = await exResp.json();
+    if (docResp && docResp.ok) docUrls = await docResp.json();
     populateFilters();
     buildThemePills();
     render();
+    // Check URL hash for direct exercise link
+    if (location.hash) {
+      const id = location.hash.slice(1);
+      const ex = exercises.find(e => e.id === id);
+      if (ex) showDetail(ex);
+    }
   } catch (e) {
     document.getElementById('grid').innerHTML =
-      '<div class="no-results"><p>Impossible de charger les exercices.<br>Verifiez que <code>data/exercises.json</code> existe.</p></div>';
+      '<div class="no-results"><p>Impossible de charger les exercices.</p></div>';
   }
 }
 
 function populateFilters() {
-  const locations = [...new Set(exercises.map(e => e.location))].sort();
+  const locations = [...new Set(exercises.map(e => e.location).filter(Boolean))].sort();
   const locSel = document.getElementById('filterLocation');
   locations.forEach(l => {
     const opt = document.createElement('option');
     opt.value = l; opt.textContent = l;
     locSel.appendChild(opt);
   });
-
   const themeSel = document.getElementById('filterTheme');
   THEMES.forEach(t => {
     const opt = document.createElement('option');
@@ -429,8 +419,6 @@ function buildThemePills() {
     const btn = document.createElement('button');
     btn.className = 'theme-pill-filter';
     btn.textContent = t;
-    btn.dataset.theme = t;
-    btn.style.setProperty('--tc', getThemeBg(t));
     if (activeThemes.has(t)) {
       btn.classList.add('active');
       btn.style.background = getThemeBg(t);
@@ -440,7 +428,6 @@ function buildThemePills() {
     btn.addEventListener('click', () => {
       if (activeThemes.has(t)) activeThemes.delete(t);
       else activeThemes.add(t);
-      // sync dropdown
       document.getElementById('filterTheme').value = '';
       buildThemePills();
       render();
@@ -454,7 +441,6 @@ function toggleSuper(cat) {
   if (activeSuperCats.has(cat)) {
     activeSuperCats.delete(cat);
     btn.classList.remove('active-' + cat);
-    // Remove themes of this category from active
     const set = cat === 'chimie' ? CHIMIE : cat === 'physique' ? PHYSIQUE : TRANSVERSAL;
     set.forEach(t => activeThemes.delete(t));
   } else {
@@ -474,18 +460,14 @@ function getFiltered() {
   const themeDd = document.getElementById('filterTheme').value;
 
   return exercises.filter(ex => {
-    // keyword
     if (q) {
       const haystack = (ex.title + ' ' + ex.themes.join(' ') + ' ' + ex.location + ' ' + ex.year).toLowerCase();
-      if (!haystack.includes(q)) return false;
+      const words = q.split(/\s+/);
+      if (!words.every(w => haystack.includes(w))) return false;
     }
-    // year
     if (year && ex.year !== parseInt(year)) return false;
-    // location
     if (loc && ex.location !== loc) return false;
-    // dropdown theme
     if (themeDd && !ex.themes.includes(themeDd)) return false;
-    // pill themes
     if (activeThemes.size > 0) {
       if (!ex.themes.some(t => activeThemes.has(t))) return false;
     }
@@ -498,19 +480,17 @@ function render() {
   const grid = document.getElementById('grid');
   const count = document.getElementById('resultCount');
 
-  count.innerHTML = `<strong>${filtered.length}</strong> exercice${filtered.length !== 1 ? 's' : ''} trouv&eacute;${filtered.length !== 1 ? 's' : ''}`;
+  count.innerHTML = `<strong>${filtered.length}</strong> exercice${filtered.length !== 1 ? 's' : ''} trouv\u00e9${filtered.length !== 1 ? 's' : ''}`;
 
   if (filtered.length === 0) {
-    grid.innerHTML = `
-      <div class="no-results">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/><path d="M8 11h6"/></svg>
-        <p>Aucun exercice ne correspond a vos criteres.</p>
-      </div>`;
+    grid.innerHTML = `<div class="no-results">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/><path d="M8 11h6"/></svg>
+      <p>Aucun exercice ne correspond \u00e0 vos crit\u00e8res.</p></div>`;
     return;
   }
 
   grid.innerHTML = filtered.map(ex => `
-    <a class="card" href="${ex.url}" target="_blank" rel="noopener">
+    <div class="card" onclick="openExercise('${ex.id}')">
       <div class="card-title">${ex.title}</div>
       <div class="card-meta">
         <span class="meta-badge year">
@@ -533,9 +513,126 @@ function render() {
       <div class="card-themes">
         ${ex.themes.map(t => `<span class="theme-pill" style="background:${getThemeBg(t)}">${t}</span>`).join('')}
       </div>
-    </a>
+    </div>
   `).join('');
 }
+
+// ===== DETAIL VIEW =====
+function openExercise(id) {
+  const ex = exercises.find(e => e.id === id);
+  if (!ex) return;
+  location.hash = id;
+  showDetail(ex);
+}
+
+function showDetail(ex) {
+  const docs = docUrls[ex.id] || {};
+  const sujetUrl = docs.sujetUrl || null;
+  const correctionUrl = docs.correctionUrl || null;
+
+  document.getElementById('detailHeaderTitle').textContent = ex.title;
+
+  const viewerUrl = (url) => {
+    if (!url) return null;
+    // Use Google Docs viewer to embed .doc/.docx
+    return `https://docs.google.com/gview?url=${encodeURIComponent(url)}&embedded=true`;
+  };
+
+  const hasSujet = !!sujetUrl;
+  const hasCorrige = !!correctionUrl;
+
+  document.getElementById('detailContent').innerHTML = `
+    <div class="detail-title">${ex.title}</div>
+    <div class="detail-meta">
+      <span class="meta-badge year" style="font-size:0.95rem;padding:0.45rem 0.9rem">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+        ${ex.year}${ex.session ? ' - ' + ex.session : ''}
+      </span>
+      <span class="meta-badge location" style="font-size:0.95rem;padding:0.45rem 0.9rem">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        ${ex.location}
+      </span>
+      <span class="meta-badge points" style="font-size:0.95rem;padding:0.45rem 0.9rem">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        ${ex.points} pts
+      </span>
+      <span class="meta-badge duration" style="font-size:0.95rem;padding:0.45rem 0.9rem">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        ${ex.duration}
+      </span>
+    </div>
+    <div class="detail-themes">
+      ${ex.themes.map(t => `<span class="theme-pill" style="background:${getThemeBg(t)}">${t}</span>`).join('')}
+    </div>
+
+    <div class="doc-tabs">
+      <button class="doc-tab ${hasSujet ? 'active' : 'disabled'}" id="tabSujet" onclick="${hasSujet ? "switchTab('sujet')" : ''}">
+        Sujet
+      </button>
+      <button class="doc-tab ${!hasSujet && hasCorrige ? 'active' : ''} ${hasCorrige ? '' : 'disabled'}" id="tabCorrige" onclick="${hasCorrige ? "switchTab('corrige')" : ''}">
+        Corrig\u00e9
+      </button>
+    </div>
+
+    <div id="docViewer">
+      ${hasSujet ? `
+        <div class="doc-viewer-wrap" id="viewSujet">
+          <iframe src="${viewerUrl(sujetUrl)}" loading="lazy"></iframe>
+        </div>
+      ` : ''}
+      ${hasCorrige ? `
+        <div class="doc-viewer-wrap" id="viewCorrige" style="${hasSujet ? 'display:none' : ''}">
+          <iframe src="${viewerUrl(correctionUrl)}" loading="lazy"></iframe>
+        </div>
+      ` : ''}
+      ${!hasSujet && !hasCorrige ? `
+        <div class="doc-unavailable">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M12 18v-6M9 15h6"/></svg>
+          <p>Documents en cours d'ajout.<br>Les sujets et corrig\u00e9s seront bient\u00f4t disponibles.</p>
+        </div>
+      ` : ''}
+    </div>
+
+    <a href="${ex.url}" target="_blank" rel="noopener" class="source-link">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+      Source originale
+    </a>
+  `;
+
+  document.getElementById('detailView').classList.add('active');
+  document.getElementById('listView').style.display = 'none';
+  window.scrollTo(0, 0);
+}
+
+function switchTab(tab) {
+  const sujet = document.getElementById('viewSujet');
+  const corrige = document.getElementById('viewCorrige');
+  const tabS = document.getElementById('tabSujet');
+  const tabC = document.getElementById('tabCorrige');
+
+  if (tab === 'sujet' && sujet) {
+    sujet.style.display = 'block';
+    if (corrige) corrige.style.display = 'none';
+    tabS.classList.add('active');
+    tabC.classList.remove('active');
+  } else if (tab === 'corrige' && corrige) {
+    if (sujet) sujet.style.display = 'none';
+    corrige.style.display = 'block';
+    tabC.classList.add('active');
+    tabS.classList.remove('active');
+  }
+}
+
+function goHome() {
+  document.getElementById('detailView').classList.remove('active');
+  document.getElementById('listView').style.display = 'block';
+  history.replaceState(null, '', location.pathname);
+}
+
+// Handle back button
+window.addEventListener('popstate', () => {
+  if (!location.hash) goHome();
+});
 
 function resetFilters() {
   document.getElementById('search').value = '';
@@ -544,9 +641,7 @@ function resetFilters() {
   document.getElementById('filterTheme').value = '';
   activeThemes.clear();
   activeSuperCats.clear();
-  document.querySelectorAll('.super-btn').forEach(b => {
-    b.className = 'super-btn';
-  });
+  document.querySelectorAll('.super-btn').forEach(b => b.className = 'super-btn');
   buildThemePills();
   render();
 }
