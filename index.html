@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LaboIA - Physique Chimie Terminale</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #0a0a1a;
+  --card: #1a1a2e;
+  --card-hover: #22223a;
+  --border: #2a2a4a;
+  --text: #e0e0f0;
+  --text-muted: #8888aa;
+  --accent: #6c5ce7;
+  --accent-light: #a29bfe;
+  --chimie: #00b894;
+  --physique: #0984e3;
+  --transversal: #fdcb6e;
+  --danger: #e17055;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(135deg, #0a0a1a 0%, #16213e 50%, #0a0a1a 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 1.5rem 1rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+}
+
+.header h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--accent-light), #74b9ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.25rem;
+}
+
+.header p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+/* Main container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+/* Search */
+.search-wrap {
+  position: relative;
+  margin-bottom: 1.25rem;
+}
+
+.search-wrap svg {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  color: var(--text-muted);
+}
+
+#search {
+  width: 100%;
+  padding: 0.85rem 1rem 0.85rem 2.8rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--card);
+  color: var(--text);
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+#search:focus { border-color: var(--accent); }
+#search::placeholder { color: var(--text-muted); }
+
+/* Super-category toggles */
+.super-toggles {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.super-btn {
+  padding: 0.5rem 1.2rem;
+  border: 2px solid var(--border);
+  border-radius: 50px;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.super-btn:hover { border-color: var(--text-muted); color: var(--text); }
+.super-btn.active-chimie { border-color: var(--chimie); color: var(--chimie); background: rgba(0,184,148,0.1); }
+.super-btn.active-physique { border-color: var(--physique); color: var(--physique); background: rgba(9,132,227,0.1); }
+.super-btn.active-transversal { border-color: var(--transversal); color: var(--transversal); background: rgba(253,203,110,0.1); }
+
+/* Filters row */
+.filters {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.filter-select {
+  padding: 0.5rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--card);
+  color: var(--text);
+  font-size: 0.875rem;
+  outline: none;
+  cursor: pointer;
+  min-width: 140px;
+}
+
+.filter-select:focus { border-color: var(--accent); }
+.filter-select option { background: var(--card); color: var(--text); }
+
+.btn-reset {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--danger);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--danger);
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-left: auto;
+}
+
+.btn-reset:hover { background: var(--danger); color: #fff; }
+
+/* Count */
+.result-count {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  padding-left: 0.25rem;
+}
+
+.result-count strong { color: var(--accent-light); }
+
+/* Theme pills in filters */
+.theme-filter-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1.25rem;
+}
+
+.theme-pill-filter {
+  padding: 0.3rem 0.7rem;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-muted);
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.theme-pill-filter:hover { border-color: var(--text-muted); color: var(--text); }
+.theme-pill-filter.active { color: #fff; }
+
+/* Cards grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.25rem;
+  transition: all 0.25s;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.card:hover {
+  border-color: var(--accent);
+  background: var(--card-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(108,92,231,0.15);
+}
+
+.card-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.4;
+}
+
+.card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.meta-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  background: rgba(255,255,255,0.06);
+  color: var(--text-muted);
+}
+
+.meta-badge svg { width: 13px; height: 13px; }
+.meta-badge.year { color: var(--accent-light); }
+.meta-badge.location { color: #74b9ff; }
+.meta-badge.points { color: #ffeaa7; }
+.meta-badge.duration { color: #fab1a0; }
+
+.card-themes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: auto;
+}
+
+.theme-pill {
+  padding: 0.2rem 0.6rem;
+  border-radius: 50px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* No results */
+.no-results {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--text-muted);
+  grid-column: 1 / -1;
+}
+
+.no-results svg { width: 48px; height: 48px; margin-bottom: 1rem; opacity: 0.4; }
+
+/* Responsive */
+@media (max-width: 600px) {
+  .header h1 { font-size: 1.4rem; }
+  .grid { grid-template-columns: 1fr; }
+  .filters { gap: 0.5rem; }
+  .filter-select { min-width: 0; flex: 1 1 120px; }
+  .btn-reset { margin-left: 0; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>LaboIA - Physique Chimie Terminale</h1>
+  <p>Moteur de recherche d'exercices du Bac</p>
+</div>
+
+<div class="container">
+  <!-- Search -->
+  <div class="search-wrap">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+    <input type="text" id="search" placeholder="Rechercher un exercice par mot-cl&eacute;...">
+  </div>
+
+  <!-- Super-category toggles -->
+  <div class="super-toggles">
+    <button class="super-btn" data-cat="chimie" onclick="toggleSuper('chimie')">&#x1F9EA; Chimie</button>
+    <button class="super-btn" data-cat="physique" onclick="toggleSuper('physique')">&#x269B;&#xFE0F; Physique</button>
+    <button class="super-btn" data-cat="transversal" onclick="toggleSuper('transversal')">&#x1F4BB; Transversal</button>
+  </div>
+
+  <!-- Filters -->
+  <div class="filters">
+    <select class="filter-select" id="filterYear">
+      <option value="">Toutes les ann&eacute;es</option>
+      <option value="2025">2025</option>
+      <option value="2024">2024</option>
+      <option value="2023">2023</option>
+      <option value="2022">2022</option>
+      <option value="2021">2021</option>
+    </select>
+    <select class="filter-select" id="filterLocation">
+      <option value="">Tous les centres</option>
+    </select>
+    <select class="filter-select" id="filterTheme">
+      <option value="">Tous les th&egrave;mes</option>
+    </select>
+    <button class="btn-reset" onclick="resetFilters()">Reinitialiser</button>
+  </div>
+
+  <!-- Theme pills -->
+  <div class="theme-filter-wrap" id="themePills"></div>
+
+  <!-- Result count -->
+  <div class="result-count" id="resultCount"></div>
+
+  <!-- Grid -->
+  <div class="grid" id="grid"></div>
+</div>
+
+<script>
+// Theme definitions
+const THEMES = [
+  "Acide-Base","Beer-Lambert","Kohlrausch","Spectroscopie",
+  "Titrage conductimétrique","Titrage pH-métrique","Cinétique",
+  "Piles - Constante équilibre","Electrolyse","Synthèse organique",
+  "2nde Loi Newton","Mouvement champ pesanteur","Mouvement champ électrique",
+  "Satellites/Lois Kepler","Fluide","Thermodynamique","Diffraction",
+  "Interférences","Effet Doppler","Lunette astronomique",
+  "Effet photoélectrique","Circuits RC","Intensité sonore","Python","Nucléaire"
+];
+
+const CHIMIE = new Set([
+  "Acide-Base","Beer-Lambert","Kohlrausch","Spectroscopie",
+  "Titrage conductimétrique","Titrage pH-métrique","Cinétique",
+  "Piles - Constante équilibre","Electrolyse","Synthèse organique"
+]);
+
+const PHYSIQUE = new Set([
+  "2nde Loi Newton","Mouvement champ pesanteur","Mouvement champ électrique",
+  "Satellites/Lois Kepler","Fluide","Thermodynamique","Diffraction",
+  "Interférences","Effet Doppler","Lunette astronomique",
+  "Effet photoélectrique","Circuits RC","Intensité sonore","Nucléaire"
+]);
+
+const TRANSVERSAL = new Set(["Python"]);
+
+// Color mapping for themes
+const THEME_COLORS = {};
+const PALETTE = [
+  "#e17055","#00b894","#0984e3","#6c5ce7","#fdcb6e",
+  "#e84393","#00cec9","#ff7675","#55efc4","#a29bfe",
+  "#ffeaa7","#fab1a0","#81ecec","#74b9ff","#dfe6e9",
+  "#fd79a8","#636e72","#2d3436","#b2bec3","#d63031",
+  "#e17055","#00b894","#0984e3","#6c5ce7","#fdcb6e"
+];
+THEMES.forEach((t, i) => THEME_COLORS[t] = PALETTE[i % PALETTE.length]);
+
+function getThemeCategory(theme) {
+  if (CHIMIE.has(theme)) return 'chimie';
+  if (PHYSIQUE.has(theme)) return 'physique';
+  return 'transversal';
+}
+
+function getThemeBg(theme) {
+  const cat = getThemeCategory(theme);
+  const c = THEME_COLORS[theme];
+  return c;
+}
+
+// State
+let exercises = [];
+let activeThemes = new Set();
+let activeSuperCats = new Set();
+
+// Load data
+async function loadData() {
+  try {
+    const resp = await fetch('data/exercises.json');
+    exercises = await resp.json();
+    populateFilters();
+    buildThemePills();
+    render();
+  } catch (e) {
+    document.getElementById('grid').innerHTML =
+      '<div class="no-results"><p>Impossible de charger les exercices.<br>Verifiez que <code>data/exercises.json</code> existe.</p></div>';
+  }
+}
+
+function populateFilters() {
+  const locations = [...new Set(exercises.map(e => e.location))].sort();
+  const locSel = document.getElementById('filterLocation');
+  locations.forEach(l => {
+    const opt = document.createElement('option');
+    opt.value = l; opt.textContent = l;
+    locSel.appendChild(opt);
+  });
+
+  const themeSel = document.getElementById('filterTheme');
+  THEMES.forEach(t => {
+    const opt = document.createElement('option');
+    opt.value = t; opt.textContent = t;
+    themeSel.appendChild(opt);
+  });
+}
+
+function buildThemePills() {
+  const wrap = document.getElementById('themePills');
+  wrap.innerHTML = '';
+  THEMES.forEach(t => {
+    const btn = document.createElement('button');
+    btn.className = 'theme-pill-filter';
+    btn.textContent = t;
+    btn.dataset.theme = t;
+    btn.style.setProperty('--tc', getThemeBg(t));
+    if (activeThemes.has(t)) {
+      btn.classList.add('active');
+      btn.style.background = getThemeBg(t);
+      btn.style.borderColor = getThemeBg(t);
+      btn.style.color = '#fff';
+    }
+    btn.addEventListener('click', () => {
+      if (activeThemes.has(t)) activeThemes.delete(t);
+      else activeThemes.add(t);
+      // sync dropdown
+      document.getElementById('filterTheme').value = '';
+      buildThemePills();
+      render();
+    });
+    wrap.appendChild(btn);
+  });
+}
+
+function toggleSuper(cat) {
+  const btn = document.querySelector(`.super-btn[data-cat="${cat}"]`);
+  if (activeSuperCats.has(cat)) {
+    activeSuperCats.delete(cat);
+    btn.classList.remove('active-' + cat);
+    // Remove themes of this category from active
+    const set = cat === 'chimie' ? CHIMIE : cat === 'physique' ? PHYSIQUE : TRANSVERSAL;
+    set.forEach(t => activeThemes.delete(t));
+  } else {
+    activeSuperCats.add(cat);
+    btn.classList.add('active-' + cat);
+    const set = cat === 'chimie' ? CHIMIE : cat === 'physique' ? PHYSIQUE : TRANSVERSAL;
+    set.forEach(t => activeThemes.add(t));
+  }
+  buildThemePills();
+  render();
+}
+
+function getFiltered() {
+  const q = document.getElementById('search').value.toLowerCase().trim();
+  const year = document.getElementById('filterYear').value;
+  const loc = document.getElementById('filterLocation').value;
+  const themeDd = document.getElementById('filterTheme').value;
+
+  return exercises.filter(ex => {
+    // keyword
+    if (q) {
+      const haystack = (ex.title + ' ' + ex.themes.join(' ') + ' ' + ex.location + ' ' + ex.year).toLowerCase();
+      if (!haystack.includes(q)) return false;
+    }
+    // year
+    if (year && ex.year !== parseInt(year)) return false;
+    // location
+    if (loc && ex.location !== loc) return false;
+    // dropdown theme
+    if (themeDd && !ex.themes.includes(themeDd)) return false;
+    // pill themes
+    if (activeThemes.size > 0) {
+      if (!ex.themes.some(t => activeThemes.has(t))) return false;
+    }
+    return true;
+  });
+}
+
+function render() {
+  const filtered = getFiltered();
+  const grid = document.getElementById('grid');
+  const count = document.getElementById('resultCount');
+
+  count.innerHTML = `<strong>${filtered.length}</strong> exercice${filtered.length !== 1 ? 's' : ''} trouv&eacute;${filtered.length !== 1 ? 's' : ''}`;
+
+  if (filtered.length === 0) {
+    grid.innerHTML = `
+      <div class="no-results">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/><path d="M8 11h6"/></svg>
+        <p>Aucun exercice ne correspond a vos criteres.</p>
+      </div>`;
+    return;
+  }
+
+  grid.innerHTML = filtered.map(ex => `
+    <a class="card" href="${ex.url}" target="_blank" rel="noopener">
+      <div class="card-title">${ex.title}</div>
+      <div class="card-meta">
+        <span class="meta-badge year">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+          ${ex.year}${ex.session ? ' - ' + ex.session : ''}
+        </span>
+        <span class="meta-badge location">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          ${ex.location}
+        </span>
+        <span class="meta-badge points">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          ${ex.points} pts
+        </span>
+        <span class="meta-badge duration">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          ${ex.duration}
+        </span>
+      </div>
+      <div class="card-themes">
+        ${ex.themes.map(t => `<span class="theme-pill" style="background:${getThemeBg(t)}">${t}</span>`).join('')}
+      </div>
+    </a>
+  `).join('');
+}
+
+function resetFilters() {
+  document.getElementById('search').value = '';
+  document.getElementById('filterYear').value = '';
+  document.getElementById('filterLocation').value = '';
+  document.getElementById('filterTheme').value = '';
+  activeThemes.clear();
+  activeSuperCats.clear();
+  document.querySelectorAll('.super-btn').forEach(b => {
+    b.className = 'super-btn';
+  });
+  buildThemePills();
+  render();
+}
+
+// Event listeners
+document.getElementById('search').addEventListener('input', render);
+document.getElementById('filterYear').addEventListener('change', render);
+document.getElementById('filterLocation').addEventListener('change', render);
+document.getElementById('filterTheme').addEventListener('change', render);
+
+// Init
+loadData();
+</script>
+</body>
+</html>
