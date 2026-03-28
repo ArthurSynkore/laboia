@@ -566,40 +566,29 @@ function openExercise(id) {
   showDetail(ex);
 }
 
-// Split HTML into question blocks by detecting Q1., Q2., Question 1, etc.
+// Split HTML into question blocks by Q1. Q2. etc.
 function splitByQuestions(html) {
-  // Create a temp div to work with DOM
-  const div = document.createElement('div');
-  div.innerHTML = html;
+  // Split on Q followed by number, with possible bold tags around it
+  // Pattern: look for Q\d+ at start of a paragraph or strong tag
+  const regex = /(<p[^>]*>(?:\s*<(?:strong|b)>)?\s*Q(\d+)[\.\)\s:])/gi;
+  const matches = [...html.matchAll(regex)];
 
-  // Find all text nodes that contain question markers
-  const questionPattern = /(?:^|\s)(Q\d+[\.\):]|Question\s+\d+)/i;
+  if (matches.length < 2) return null;
+
   const blocks = [];
-  let currentBlock = [];
-  let foundQuestions = false;
-
-  for (const child of div.children) {
-    const text = child.textContent || '';
-    if (questionPattern.test(text) && text.length < 500) {
-      if (currentBlock.length > 0) {
-        blocks.push(currentBlock.join(''));
-      }
-      currentBlock = [child.outerHTML];
-      foundQuestions = true;
-    } else {
-      currentBlock.push(child.outerHTML);
-    }
+  // Intro block (before first Q)
+  if (matches[0].index > 0) {
+    blocks.push({ label: null, html: html.substring(0, matches[0].index) });
   }
-  if (currentBlock.length > 0) blocks.push(currentBlock.join(''));
 
-  if (!foundQuestions || blocks.length <= 1) return null;
+  for (let i = 0; i < matches.length; i++) {
+    const start = matches[i].index;
+    const end = i + 1 < matches.length ? matches[i + 1].index : html.length;
+    const qNum = parseInt(matches[i][2]);
+    blocks.push({ label: 'Q' + qNum, html: html.substring(start, end) });
+  }
+
   return blocks;
-}
-
-// Extract a question label from HTML block
-function extractQuestionLabel(html) {
-  const m = html.match(/(Q\d+[\.\):]?|Question\s+\d+)/i);
-  return m ? m[1].replace(/[\.:\)]$/, '') : null;
 }
 
 async function showDetail(ex) {
@@ -643,17 +632,15 @@ async function showDetail(ex) {
     return;
   }
 
-  // Try to split both sujet and corrige by questions
+  // Split both by questions
   const sujetBlocks = sujetHtml ? splitByQuestions(sujetHtml) : null;
   const corrigeBlocks = corrigeHtml ? splitByQuestions(corrigeHtml) : null;
 
-  // Build correction lookup by question number
-  const correctionByQ = {};
+  // Build correction lookup by Q number
+  const corrByQ = {};
   if (corrigeBlocks) {
-    // First block is usually header/intro, skip if no Q label
-    corrigeBlocks.forEach((block, i) => {
-      const label = extractQuestionLabel(block);
-      if (label) correctionByQ[label.toUpperCase()] = block;
+    corrigeBlocks.forEach(b => {
+      if (b.label) corrByQ[b.label] = b.html;
     });
   }
 
@@ -662,58 +649,51 @@ async function showDetail(ex) {
   if (sujetHtml) {
     html += '<div class="section-label sujet">Sujet</div>';
 
-    if (sujetBlocks && sujetBlocks.length > 1 && Object.keys(correctionByQ).length > 0) {
-      // Question-by-question with inline reveal
+    if (sujetBlocks && sujetBlocks.length > 1) {
+      html += '<div class="exercise-content">';
+
       sujetBlocks.forEach((block, i) => {
-        const qLabel = extractQuestionLabel(block);
-        const qKey = qLabel ? qLabel.toUpperCase() : null;
-        const correction = qKey ? correctionByQ[qKey] : null;
-        const qId = 'q-' + ex.id.substring(0, 10) + '-' + i;
+        if (!block.label) {
+          // Intro block
+          html += block.html;
+        } else {
+          // Question block
+          const qId = 'q-' + i + '-' + Date.now().toString(36);
+          const correction = corrByQ[block.label];
 
-        html += '<div class="question-block">';
-        html += '<div class="question-body">' + block + '</div>';
+          html += '<div class="question-block">';
+          html += '<div class="question-body">' + block.html + '</div>';
 
-        if (correction) {
-          html += `<button class="reveal-btn" onclick="toggleReveal('${qId}', this)">
-            <span class="arrow">&#9654;</span> Voir la correction ${qLabel || ''}
-          </button>`;
-          html += `<div class="correction-content" id="${qId}">
-            <span class="correction-label">Correction</span>
-            ${correction}
-          </div>`;
+          if (correction) {
+            html += '<button class="reveal-btn" onclick="toggleReveal(\'' + qId + '\', this)">';
+            html += '<span class="arrow">&#9654;</span> Voir la correction ' + block.label;
+            html += '</button>';
+            html += '<div class="correction-content" id="' + qId + '">';
+            html += '<span class="correction-label">Correction ' + block.label + '</span>';
+            html += correction;
+            html += '</div>';
+          }
+          html += '</div>';
         }
-        html += '</div>';
       });
 
-      // Any remaining corrections not matched to questions
-      if (corrigeHtml) {
-        const matchedKeys = new Set(sujetBlocks.map(b => {
-          const l = extractQuestionLabel(b);
-          return l ? l.toUpperCase() : null;
-        }).filter(Boolean));
-        const unmatched = Object.entries(correctionByQ).filter(([k]) => !matchedKeys.has(k));
-        if (unmatched.length > 0) {
-          html += '<div class="full-correction">';
-          html += '<button class="full-correction-toggle" onclick="toggleFullCorrection(this)"><span class="arrow">&#9654;</span> Corrections suppl\u00e9mentaires</button>';
-          html += '<div class="full-correction-body exercise-content">';
-          unmatched.forEach(([k, v]) => { html += v; });
-          html += '</div></div>';
-        }
-      }
-    } else {
-      // No question splitting possible - show sujet as-is
-      html += '<div class="exercise-content">' + sujetHtml + '</div>';
+      html += '</div>';
 
-      // Show corrige as a single reveal block
-      if (corrigeHtml) {
-        html += '<div class="full-correction" style="margin-top:1.5rem">';
-        html += '<button class="full-correction-toggle" onclick="toggleFullCorrection(this)"><span class="arrow">&#9654;</span> Voir le corrig\u00e9 complet</button>';
-        html += '<div class="full-correction-body"><div class="exercise-content">' + corrigeHtml + '</div></div>';
-        html += '</div>';
-      }
+    } else {
+      // Can't split by questions - show as-is
+      html += '<div class="exercise-content">' + sujetHtml + '</div>';
     }
+
+    // Full correction toggle (if corrections exist but couldn't match by Q, or for extras)
+    if (corrigeHtml && (!sujetBlocks || sujetBlocks.length <= 1 || Object.keys(corrByQ).length === 0)) {
+      html += '<div class="full-correction" style="margin-top:1.5rem">';
+      html += '<button class="full-correction-toggle" onclick="toggleFullCorrection(this)">';
+      html += '<span class="arrow">&#9654;</span> Voir le corrig\u00e9 complet</button>';
+      html += '<div class="full-correction-body"><div class="exercise-content">' + corrigeHtml + '</div></div>';
+      html += '</div>';
+    }
+
   } else if (corrigeHtml) {
-    // Only correction available
     html += '<div class="section-label corrige">Corrig\u00e9</div>';
     html += '<div class="exercise-content">' + corrigeHtml + '</div>';
   }
