@@ -1,0 +1,987 @@
+{
+  "les-pluies-acides-0": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-12/2025-09-Metropole-J2-Exo1-Sujet-PluiesAcides-9pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-12/2025-09-Metropole-J2-Exo1-Correction-PluiesAcides-9pts_0.docx"
+  },
+  "pollution-ammoniacale": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-Asie-J1-Exo2-Correction-PollutionAmmoniacale-5pts_2.doc"
+  },
+  "un-emballage-intelligent-au-rayon-poissonnerie": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-Metro-J1-Exo1-Correction-BleuBromophenol-9pts_2.doc"
+  },
+  "le-schweppes-r-un-bon-antipaludique-sans-risque-pour-la-sante": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-AmNord-J2-Exo1-Correction-Antipaludique-9pts.doc"
+  },
+  "latropine": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-AmNord-R-Exo1-Correction-Atropine-9pts.doc"
+  },
+  "etude-dun-vernis-ongles": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-AmNord-J1-Exo1-Correction-SyntheseVernis-Beer-9pts_0.doc"
+  },
+  "etude-dune-lessive-multi-usages": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-12/2025-09-Metropole-J1-Exo2-Sujet-LessiveSoude-4pts.doc",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2026-03/2025-09-Metropole-J1-Exo2-Correction-LessiveSoude-4pts.doc"
+  },
+  "batteries-au-lithium": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2026-01/2025-Asie-J2-Exo1-Sujet-BatterieLi-9pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-Asie-J2-Exo1-Correction-BatterieLi-9pts.doc"
+  },
+  "un-parfum-de-rose": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-Metro-J2-Exo3-Correction-Parfumderose-5pts_0.doc"
+  },
+  "saut-de-puce": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-10/2025-CtresEtrangers1-SI-J1-Exo1-Sujet-SautPuce-10pts-30min.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-10/2025-CtresEtrangers1-SI-J1-Exo1-Correction-SautPuce-10pts-30min.doc"
+  },
+  "arome-de-poire": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-Asie-J1-Exo3-CorrectionAromePoire-4pts_1.doc"
+  },
+  "fabrication-et-aromatisation-dun-yaourt-maison": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-CtresEtrangers1-J2-Exo1-Correction-Yaourt-9pts_1.doc"
+  },
+  "eau-de-quinton": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-Metro-J2-Exo2-CorrectionEauQuinton-4pts_1.doc"
+  },
+  "viscosimetre-chute-de-bille": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-Metro-J1-Exo3-Correction-Viscosimetre-5pts_6.doc"
+  },
+  "autour-du-geranium-rosat": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-CtresEtrangers-J1-Exo1-Correction-GeraniumRosat-9pts_2.docx"
+  },
+  "la-viscosite-du-glycerol": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-CtresEtrangers1-J2-Exo3-Correction-ChuteVisqueuse-6pts_1.doc"
+  },
+  "radar-pedagogique-equipe-dun-panneau-solaire": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-CtresEtrangers-J1-Exo2-Correction-RadarSolaire-6pts_0.doc"
+  },
+  "physique-et-raccordement-routier": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-10/2025-AmNord-J1-Exo2-Sujet-Virage-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-12/2025-AmNord-J1-Exo2-Correction-Virage-5pts.docx"
+  },
+  "entrainement-des-spationautes": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-Polynesie-SI-ExoB-Correction-Spationautes-30min_0.doc"
+  },
+  "slam-dunk-au-golf": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2026-02/2025-Asie-J2-Exo2-Sujet-SlamDunkGolf-6pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-Asie-J2-Exo2-Correction-SlamDunkGolf-6pts_0.doc"
+  },
+  "mouvement-de-la-sonde-tgo-autour-de-mars": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2026-03/2025-CtresEtrangers-SI-J2-ExoA-Sujet-SatelliteTGO.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2026-03/2025-CtresEtrangers-SI-J2-ExoA-Correction-SatelliteTGO.docx"
+  },
+  "position-de-liss-en-temps-reel": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-Metro-SI-J2-ExoB-Correction-ISS_0.docx"
+  },
+  "le-molkky": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-09/2025-Polynesie-J1-Exo2-Sujet-Molkky-6pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-12/2025-Polynesie-J1-Exo2-Correction-Molky-6pts.doc"
+  },
+  "les-satellites-artificiels-meteosat": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-12/2025-09-Metro-SI-J1-ExoB-Correction-MeteoSat.docx"
+  },
+  "raven-saunders-la-lanceuse-de-poids-americaine": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-05/2025-AmNord-R-Exo3-Correction-LancerPoids-6pts_2.doc"
+  },
+  "la-face-cachee-de-la-lune": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-CtresEtrangers1-J1-Exo3-Correction-FaceCacheeLune-5pts_2.docx"
+  },
+  "cargo-dirigeable": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-11/2025-AmSud-J2-Exo3-Correction-BallonDirigeable-5pts.docx"
+  },
+  "installation-sanitaire": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2026-01/2025-Asie-J1-Exo1-Sujet-ChauffeEau-11pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-Asie-J1-Exo1-Correction-ChauffeEau-11pts_0.doc"
+  },
+  "traitement-des-eaux-dun-bassin-dorage": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-05/2025-AmNord-J1-Exo3-Correction-Traitement-Eau-Bassin-6pts_3.docx"
+  },
+  "la-physique-au-service-du-vigneron": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-12/2025-09-Metropole-J1-Exo1-Sujet-PhysiqueVigneron-11pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-12/2025-09-Metropole-J1-Exo1-Correction-PhysiqueVigneron-11pts.docx"
+  },
+  "le-destin-funeste-de-la-planete-kepler-1658b": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-Metro-SI-J1-ExoB-Correction-Kepler_1.docx"
+  },
+  "le-refrigerateur": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2026-03/2025-09-Metropole-J2-Exo3-Sujet-Refrigerateur-6pts.doc"
+  },
+  "ecoulement-du-sang-dans-une-artere": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-AmNord-R-Exo2-Correction-DopplerSangBernoulli-5pts.doc"
+  },
+  "mostiglassr-le-vitrage-moustiquaire-rafraichissant": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-05/2025-AmNord-J2-Exo3-Correction-Mostiglass-6pts.doc"
+  },
+  "traitement-de-surface-dune-piece-de-jeu-dechecs": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-12/2025-09-Metropole-J1-Exo3-Sujet-ElectrolyseAnodisation-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2026-03/2025-09-Metropole-J1-Exo3-Correction-ElectrolyseAnodisation-5pts.docx"
+  },
+  "un-brin-en-matiere-synthetique": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-Metro-SI-J1-ExoA-Correction-Diffraction_1.docx"
+  },
+  "les-ondes-lumineuses": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-06/2025-Polynesie-SI-ExoA-Sujet-QCMOndes-30min.doc",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-10/2025-Polynesie-SI-ExoA-Correction-QCMOndes-30min.doc"
+  },
+  "performances-des-bolometres-de-planck": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-12/2025-Polynesie-J1-Exo3-Sujet-BolometrePlanck-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-12/2025-Polynesie-J1-Exo3-Correction-BolometrePlanck-5pts_0.docx"
+  },
+  "la-couleur-des-scarabees": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-12/2025-09-Metropole-J2-Exo2-Sujet-InterferencesScarabee-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2026-01/2025-09-Metropole-J2-Exo2-Correction-InterferencesScarabee-5pts.docx"
+  },
+  "le-trombone-de-koenig": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-CtresEtrangers1-J2-Exo2-Correction-TrombonneKoenig-5pts.doc"
+  },
+  "temperature-au-sein-dun-igloo": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2026-03/2025-CtresEtrangers1-SI-J1-Exo2-Correction-Igloo-10pts-30min.doc"
+  },
+  "mesure-de-lepaisseur-dun-film-alimentaire": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-Metro-J2-Exo1-Correction-FilmAlimentaire-11pts.docx"
+  },
+  "combustible-mox-pour-limiter-les-dechets-radioactifs": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-AmNord-J2-Exo2-MOX-5pts-Correction.doc"
+  },
+  "ariane-6-un-deluge-deau-pour-se-proteger-du-bruit": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-Metro-SI-J2-ExoA-Correction-Ariane_0.docx"
+  },
+  "utilisation-medicale-du-technetium": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2026-03/2025-09-Metro-J2-Secours-Exo3-Correction-Scintigraphie-6pts.doc"
+  },
+  "suivi-cinetique-dune-decoloration": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-09/2024-09-Metro-J2-Exo3-Sujet-CinetiquePhenolphtaleine-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-12/2024-09-Metro-J2-Exo3-Correction-CinetiquePhenolphtaleine-5pts.doc"
+  },
+  "traitement-contre-le-varroa": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-09/2024-09-Metro-J2-Exo2-Sujet-TitragepHOxalique-4pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-10/2024-09-Metro-J2-Exo2-Correction-TitragepHOxalique-4pts.doc"
+  },
+  "paiement-sans-contact": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-Asie-J2-Exo3-Correction-CBRC-5pts.doc"
+  },
+  "lacide-citrique-comme-produit-menager": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-09/2024-09-Metro-J1-Exo1-Sujet-AcideCitriqueMenager-9pts.docx"
+  },
+  "datation-dune-roche": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2025-Metro-J1-Exo2-Correction-Datation-6pts_2.doc"
+  },
+  "coloration-capillaire": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-10/2024-Polynesie-J1-Exo1-Sujet-ColorationCapillaire-9pts.docx"
+  },
+  "larome-dananas": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2026-03/2024-CtresEtrangers1Bis-Exo1-Correction-AnanasEster-9ts.docx"
+  },
+  "un-champignon-parfume": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-08/2024-Metro-J2-Exo2-Sujet-ChampignonParfume-4pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-06/2024-Metro-J2-Exo2-Correction-ChampignonParfume-4pts_1.doc"
+  },
+  "lammoniac-un-futur-carburant-pour-les-transports": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-09/2024-CtresEtrangers1-J2-Exo1-Sujet-Ammoniac-9pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-09/2024-CtresEtrangers1-J2-Exo1-Correction-AmmoniacCarburant-9pts.doc"
+  },
+  "vers-le-bleu-de-thymol": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-10/2024-Metro-J1-Exo1-Sujet-BleuThymol-9pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-06/2024-Metro-J1-Exo1-Correction-BleudeThymol-9pts_4.doc"
+  },
+  "ne-jamais-melanger-eau-de-javel-et-acide": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-10/2024-Asie-J1-Exo1-Sujet-JavelAcide-9pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-12/2024-Asie-J1-Exo1-Correction-JavelAcide-9pts.doc"
+  },
+  "certification-dun-vin": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-10/2024-CtresEtrangers1-J1-Exo1-Sujet-Vin-TitrageS-9pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-06/2024-CtresEtrangers1-J1-Exo1-Correction-Vin-TitrageS-9pts.doc"
+  },
+  "controle-dun-medicament": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-11/2024-Asie-J2-Exo2-Sujet-TitrageIbuprofene-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-06/2024-Asie-J2-Exo2-Correction-TitrageIbuprofene-5pts_0.doc"
+  },
+  "acidite-totale-dun-vin": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-11/2024-AmNord-J2-Exo3-Sujet-AciditeVin-4pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-05/2024-AmNord-J2-Exo3-Correction-AciditeVin-4pts_0.doc"
+  },
+  "une-serie-dexperiences-historiques-la-reaction-desterification-etudiee-par-marcellin-berthelot": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-10/2024-09-Polynesie-Exo1-Sujet-Berthelot-Ester-9pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2024-09-Polynesie-Exo1-Correction-Berthelot-Ester-9pts.doc"
+  },
+  "sante-alimentaire-ne-pas-abuser-des-nitrites": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-08/2024-Asie-J2-Exo3-Sujet-BeerNitrites-4pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-06/2024-Asie-J2-Exo3-Correction-BeerNitrites-4pts_2.doc"
+  },
+  "vol-en-montgolfiere": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-09/2024-09-Metro-J2-Exo1-Sujet-Montgolfiere-11pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2024-09-Metro-J2-Exo1-Correction-Montgolfiere-11pts.doc"
+  },
+  "emilie-du-chatelet-madame-pompon-newton": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-06/2024-09-Polynesie-Exo3-Sujet-EmilieDuChatelet-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-10/2024-09-Polynesie-Exo3-Correction-EmilieDuChatelet-5pts.doc"
+  },
+  "le-curling": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-08/2024-Metro-SI-J1-ExoB-Sujet-Curling-10pts-30min_0.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-06/2024-Metro-SI-J1-Exo2-Correction-Curling-10pts-30min_0.doc"
+  },
+  "batterie-lithium-soufre": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-08/2024-Metro-J2-Exo3-Sujet-BatterieLithiumSoufre-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-06/2024-Metro-J2-Exo3-Correction-BatterieLithiumSoufre-5pts_2.doc"
+  },
+  "le-gallate-de-propyle": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-05/2024-AmNord-J1-Exo3-Sujet-Gallate-Propyle-4pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-06/2024-AmNord-J1-Exo3-Correction-GallatePropyle-4pts.doc"
+  },
+  "accelerometre-dun-mobile-multifonction": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-05/2024-Metro-J1-Exo3-Sujet-AccelerometreMobile-6pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-05/2024-Metro-J1-Exo3-Correction-MecaMobile-6pts.docx"
+  },
+  "une-batterie-comestible": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-05/2024-AmNord-J2-Exo2-Sujet-Batterie-Comestible-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-05/2024-AmNord-J2-Exo2-Correction-BatterieComestible-5pts_0.doc"
+  },
+  "suivi-cinetique-par-conductimetrie-de-lhydrolyse-du-chlorure-de-tertiobutyle": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-09/2024-Polynesie-J2-Exo1-Sujet-CinetiquetBuCl-9pts.docx"
+  },
+  "autour-du-basket-ball": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-11/2024-Metro-J2-Exo1-Sujet-BasketBall-11pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-06/2024-Metro-J2-Exo1-Correction-BasketBall-11pts_0.doc"
+  },
+  "des-batteries-flux-redox-organiques": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-05/2024-AmNord-J1-Exo2-Correction-BatteriesOrganiques-5pts.doc"
+  },
+  "la-protontherapie-sauve-la-vue": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2026-02/2024-Polynesie-J1-Exo2-Sujet-Cyclotron-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2026-02/2024-Polynesie-J1-Exo2-Correction-Cyclotron-5pts.doc"
+  },
+  "lhomme-canon": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-10/2024-CtresEtrangers1-J1-Exo3-Sujet-HommeCanon-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-06/2024-CtresEtrangers-J1-Exo3-Correction-HommeCanon-5pts_0.docx"
+  },
+  "points-de-reglement-au-tennis-de-table": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-09/2024-AmNord-J2-Exo1-Sujet-TennisdeTable-11pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-05/2024-AmNord-J2-Exo1-Correction-TennisdeTable-11pts.doc"
+  },
+  "la-tour-de-la-terreur": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-09/2024-CtresEtrangers1-SI-J2-ExoB-Sujet-TourTerreur-10pts-30min.docx"
+  },
+  "les-accelerateurs-de-particules-au-service-de-la-medecine": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-08/2024-Metro-SI-J2-ExoA-Sujet-ProtonTherapie-10pts-30min.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2026-02/2024-Metro-SI-J2-ExoA-Correction-ProtonTherapie-10pts-30min.doc"
+  },
+  "la-decouverte-de-neptune": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-09/2024-09-Metro-J1-Exo2-Sujet-Neptune-Lunette-5pts.docx"
+  },
+  "le-jeu-du-palet": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-11/2024-09-Metro-SI-ExoA-Correction-JeuPalet-10pts-30min.doc"
+  },
+  "vol-du-drone-ingenuity-sur-mars": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-09/2024-CtresEtrangers1-SI-J1-ExoB-Sujet-Ingenuity-10pts-30min.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-06/2024-CtresEtrangers1-SI-J1-ExoB-Correction-Ingenuity-10pts-30min.doc"
+  },
+  "la-masse-de-la-terre": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-03/2024-Polynesie-J2-Exo2-Sujet-MasseTerreAsterix-6pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-02/2024-Polynesie-J2-Exo2-Correction-MasseTerreAsterix-6pts.doc"
+  },
+  "etude-de-la-calefaction": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-11/2024-Polynesie-J2-Exo3-Sujet-Diffraction%20-Leidenfrost-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-12/2024-Polynesie-J2-Exo3-Correction-Diffraction-Leidenfrost-5pts.doc"
+  },
+  "la-decouverte-des-lunes-glacees-de-jupiter": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-11/2024-CtresEtrangers1-J2-Exo2-Sujet-Juice-Satellite-6pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-01/2024-CtresEtrangers-J2-Exo2-Correction-Juice-Satellite-6pts.doc"
+  },
+  "evolution-de-la-temperature-dans-une-bouteille-isotherme": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-09/2024-Polynesie-SI-ExoB-Sujet-Thermos-10pts-30min.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2024-Polynesie-SI-ExoB-Correction-Thermos-10pts-30min.doc"
+  },
+  "acoustique-dune-salle-de-spectacle": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-10/2024-CtresEtrangers1-SI-J1-ExoA-Sujet-Acoustique-10pts-30min.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-06/2024-CtresEtrangers1-SI-J1-ExoA-Correction-Acoustique-10pts-30min.doc"
+  },
+  "etude-dune-bouteille-isotherme": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-09/2024-09-Metro-J1-Exo3-Sujet-Thermos-6pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-04/2024-09-Metro-J1-Exo3-Correction-Thermos-6pts.docx"
+  },
+  "observation-dun-volcan-par-interferometrie-satellitaire-radar": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-10/2024-AmNord-J1-Exo1-Sujet-Satellite-Interferences-Volcan-11pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-05/2024-AmNord-J1-Exo1-Correction-Satellite-Interferences-Volcan-11pts_3.doc"
+  },
+  "couverture-de-survie-ou-couverture-en-laine": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-05/2024-CtresEtrangers1-J2-Exo3-Sujet-Couverture-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-08/2024-CtresEtrangers-J2-Exo3-Correction-Couverturedesurvie-5pts.docx"
+  },
+  "au-bonheur-des-hippocampes": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-10/2024-Asie-J1-Exo3-Sujet-HippocampesAquariumThermo-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2024-Asie-J1-Exo3-Correction-HippocampesAquariumThermo-5pts.doc"
+  },
+  "chargeur-solaire": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-08/2024-Metro-SI-J2-ExoB-Sujet-Chargeur-solaire-10pts-30min.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-06/2024-Metro-SI-J2-ExoB-Correction-EffetPhotoelectrique-10pts-30min.doc"
+  },
+  "securite-acoustique": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-06/2024-CtresEtrangers1bis-Exo2-Correction-SecuriteAcoustique-5pts.docx"
+  },
+  "une-jeune-astronome": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-10/2024-Polynesie-J1-Exo3-Sujet-Lunette-6pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2024-Polynesie-J1-Exo3-Correction-Lunette-6pts.doc"
+  },
+  "tissage-dune-voile-de-bateau": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-10/2024-Asie-J2-Exo1-Sujet-VoileInterferences-11pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-06/2024-Asie-J2-Exo1-Correction-VoileInterferences-11pts_5.doc"
+  },
+  "utilisation-dun-laser-comme-instrument-de-mesure": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-11/2024-CtresEtrangers1-J1-Exo2-Sujet-Diffraction-6pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-09/2024-CentresEtrangers1-J1-Exo2-Correction-Diffraction-6pts_0.doc"
+  },
+  "galaxie-dandromede": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-08/2024-Metro-SI-J1-ExoA-Sujet-AndromedeDoppler-10pts-30min.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-06/2024-Metro-SI-Exo1-Correction-AndromedeDoppler-10pts-30min_0.doc"
+  },
+  "resolution-dun-ecran-de-smartphone": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-09/2024-CtresEtrangers1-SI-J2-ExoA-Sujet-InterferencesSmartphone-10pts-30min.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-06/2024-CtresEtrangers1-SI-J2-ExoA-Correction-InterferencesSmartphone-10pts-30min.doc"
+  },
+  "observation-distante": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-10/2024-Asie-J1-Exo2-Sujet-Arcaja-Lunette-6pts.docx"
+  },
+  "observation-dun-avion-en-vol": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-08/2024-Metro-J1-Exo2-Sujet-LunetteDoppler-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2024-Metro-J1-Exo2-Correction-LunetteDoppler-5pts.doc"
+  },
+  "micro-usinage-par-interferences-laser": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2024-09-Metro-SI-ExoB-Correction-Interferences-10pts-30min.doc"
+  },
+  "teneur-en-ions-salicylate-dans-une-creme": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-01/2023-Asie-J1-Exo3-Sujet-Salicylate-BeerLambert-K-4-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-08/2023-Asie-J1-Exo3-Correction-Salicylate-BeerLambert-K-4-5pts.pdf.doc"
+  },
+  "juste-une-impression-gustative": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-01/2023-09-Metropole-J2-Exo1-Sujet-Pommes-9pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-02/2023-09-Metropole-J2-Exo1-Correction-Pommes-9pts.docx"
+  },
+  "leau-de-boisson-des-poules": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-02/2023-Reunion-J1-Exo1-Sujet-EauPoules-9pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-07/2023-Reunion-J1-Exo1-Correction-EauPoules-9pts.doc"
+  },
+  "lacide-butyrique": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-01/2023-Reunion-J2-Exo2-Sujet-Acide%20Butyrique-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-07/2023-Reunion-J2-Exo2-Correction-AcideButyrique-5pts.doc"
+  },
+  "une-formulation-de-laspirine": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-01/2023-Metropole-J1-Exo3-Sujet-Aspirine-4pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2023-Metro-J1-Exo3-Correction-Aspirine-4pts_1.doc"
+  },
+  "etude-dun-traitement-contre-les-verrues": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2023-12/2023-09-Polynesie-Exo3-Sujet-TitragepH-4pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-12/2023-09-Polynesie-Exo3-Correction-TitragepH-4pts.docx"
+  },
+  "nettoyage-dune-paroi-de-douche": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-01/2023-AmNord-J1-Exo3-Sujet-CalcaireVinaigre-4pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-06/2023-AmNord-J1-Exo3-Correction-CalcaireVinaigre-4pts.doc"
+  },
+  "limportance-de-la-vitamine-c": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-02/2023-Asie-J2-Exo1-Sujet-VitamineC-9pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-03/2023-Asie-J2-Exo1-Correction-VitamineC-9pts.doc"
+  },
+  "technique-de-dosage-de-luree": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-09/2023-AmNord-J1-Exo2-Sujet-DosageUree-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-12/2023-AmNord-J1-Exo2-Correction-DosageUree-5pts.docx"
+  },
+  "analyse-dun-sol": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2023-Reunion-J2-Exo3-Sujet-BeerLambert-Fe-Sol-4pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-11/2023-Reunion-J2-Exo3-Correction-BeerLambert-Fe-Sol-4pts.doc"
+  },
+  "optimisation-de-la-synthese-de-lethanoate-de-benzyle": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2023-AmNord-J2-Exo2-Sujet-Ester-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-08/2023-AmNord-J2-Exo2-Correction-Ester-5pts.doc"
+  },
+  "synthese-de-larome-de-banane": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2023-Metro-J1-Exo2-Sujet-AromeBanane-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2023-Metro-J1-Exo2-Correction-AromeBanane-5pts_0.doc"
+  },
+  "un-polymere-biodegradable-le-pla": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-06/2023-NelleCaledo-J1-Exo1-Sujet-PLA-9pts.docx"
+  },
+  "controle-de-la-qualite-dun-biberon": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-02/2023-CtresEtrangers1-J1-Exo1-Sujet-NitrateBiberon-9pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2023-CtresEtrangers1-J1-Exo1-Correction-NitrateBiberon-9pts_4.doc"
+  },
+  "lerythrosine-colorant-alimentaire": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2023-CtresEtrangers1-J2-Exo2-Sujet-ColorantAlimentaire-4-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2023-CtresEtrangers1-J2-Exo2-Correction-ColorantAlimentaire-4-5pts_0.docx"
+  },
+  "le-miel-et-les-abeilles": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2023-NelleCaledo-J2-Exo1-Sujet-MielAbeille-9pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-12/2023-NelleCaledo-J2-Exo1-Correction-MielAbeille-9pts_0.docx"
+  },
+  "etude-de-la-vitamine-c-contenue-dans-les-kiwis": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-01/2023-Metropole-J2-Exo1-Sujet-KiwiVitamineC-9pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2023-Metropole-J2-Exo1-Correction-Kiwi-9pts%20_0.docx"
+  },
+  "lacide-butanoique": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-01/2023-09-Polynesie-Exo2-Sujet-Kholrausch-Qr-Tau-5pts_0.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2026-03/2023-09-Polynesie-Exo2-Correction-Kholrausch-Qr-Tau-5pts.docx"
+  },
+  "stockage-dangereux-du-peroxyde-dhydrogene": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-01/2023-Liban-J1-Exo3-Sujet-H2O2-4pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2023-Liban-J1-Exo3-Correction-H2O2-4pts_1.doc"
+  },
+  "controle-de-lordre-dune-reaction": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-03/2023-Asie-J1-Exo2-Sujet-CinetiqueH2O2-4-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-04/2023-Asie-J1-Exo2-Correction-CinetiqueH2O2-4-5pts.docx"
+  },
+  "fabrication-de-la-biere": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2023-AmNord-J2-Exo3-Sujet-Biere-4pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-08/2023-AmNord-J2-Exo3-Correction-Biere-4pts_0.doc"
+  },
+  "un-assouplissant-fait-maison": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-02/2023-Liban-J1-Exo2-Sujet-Assouplissant-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-02/2023-Liban-J1-Exo2-Correction-Assouplissant-5pts.doc"
+  },
+  "un-savon-fait-maison": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2023-09-Metropole-J1-Exo3-Sujet-Savons-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-02/2023-09-Metropole-J1-Exo3-Correction-Savons-5pts.docx"
+  },
+  "comprendre-les-nuages": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2023-Liban-J2-Exo1-Sujet-Nuage-11pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-05/2023-Liban-J2-Exo1-Correction-Nuage-11pts.doc"
+  },
+  "lacetanilide-medicament-antipyretique": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2023-CtresEtrangers1-J2-Exo3-Sujet-Acetanilide-4-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2023-CtresEtrangers1-J2-Exo3-Correction-Acetanilide-4-5pts.docx"
+  },
+  "un-chimiste-qui-merite-detre-connu-karl-friedrich-mohr": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2023-Polynesie-J1-Exo1-Sujet-KFMohr-9pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2023-Polynesie-J1-Exo1-Correction-KFMohr-9pts_1.docx"
+  },
+  "synthese-et-recyclage-du-pet-en-vanilline": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-01/2023-Liban-J2-Exo2-Sujet-PETVanilline-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-03/2023-Liban-J2-Exo2-Correction-PETVanilline-5pts.doc"
+  },
+  "preparation-du-chlorure-de-tertiobutyle": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2023-Liban-J2-Exo3-Sujet-Synthese-tBuCl-4pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-04/2023-Liban-J2-Exo3-Correction-Synthese-tBuCl-4pts.doc"
+  },
+  "etude-dune-chaufferette": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2023-09-Metropole-J1-Exo2-Sujet-TitrageConductiChaufferettes-4pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-11/2023-09-Metropole-J1-Exo2-Correction-TitrageConductiChaufferettes-4pts.docx"
+  },
+  "lexperience-de-millikan-revisitee-par-des-chercheurs-suedois": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-01/2023-09-Polynesie-Exo1-Sujet-RC-Millikan-11pts.docx"
+  },
+  "le-scanner-rayons-x": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-10/2023-Reunion-SI-J1-Exo2-Sujet-ScanXChpE-10pts-30min.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-06/2023-Reunion-SI-J1-Exo2-Correction-ScanXChpE-10pts-30min.doc"
+  },
+  "peser-un-corps-celeste": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2023-Reunion-SI-J2-ExoA-Sujet-PenduleMt-10pts-30min.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-06/2023-Reunion-SI-J2-ExoA-Correction-PenduleMt-10pts-30min.doc"
+  },
+  "le-street-une-pratique-olympique": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2023-AmNord-J1-Exo1-Sujet-SkateRC-11pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2023-AmNord-J1-Exo1-Correction-SkateRC-11pts.doc"
+  },
+  "mouvement-dune-goutte-dencre-dans-une-imprimante-jet-dencre": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-09/2023-Reunion-J2-Exo1-Sujet-GoutteJetEncreChpE-11pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-04/2023-Reunion-J2-Exo1-Correction-GoutteJetEncreChpE-11pts.doc"
+  },
+  "imprimante-jet-dencre-continu": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2023-11/2023-09-Metropole-J2-Exo3-Sujet-MvtChpE-Imprimante-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-11/2023-09-Metropole-J2-Exo3-Correction-MvtChpE-Imprimante-5pts.docx"
+  },
+  "un-saut-parfait": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-03/2023-Asie-J2-Exo2-Sujet-SautSki-5-5pts.doc",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2026-02/2023-Asie-J2-Exo2-Correction-SautSki-5-5pts.doc"
+  },
+  "bicycle-moto-cross": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-02/2023-AmNord-J2-Exo1-Sujet-MotoCross-11pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-12/2023-AmNord-J2-Exo1-Correction-MotoCross-11pts.doc"
+  },
+  "etude-des-agregats-deau": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-11/2023-Asie-J2-Exo3-Sujet-ChpEGoutteEau-5-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2023-Asie-J2-Exo3-Correction-ChpEGoutteEau-5-5pts.docx"
+  },
+  "correction-de-la-trajectoire-dun-nanosatellite": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2023-CtresEtrangers1-J1-SI-Exo1-Sujet-Nanosatellite-30min-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2023-CtresEtrangers1-J1-SI-Exo1-Correction-Nanosatellite-30min-10pts.pdf.doc"
+  },
+  "la-recherche-dune-autre-terre": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-12/2023-CtresEtrangers1-J1-Exo2-Sujet-Exoplanete-6pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2023-CtresEtrangers1-J1-Exo2-Correction-Exoplanete-6pts_0.docx"
+  },
+  "la-decouverte-de-saturne": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-09/2023-Metro-J1-Exo1-Sujet-Saturne-11pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2023-Metro-J1-Exo1-Correction-Saturne-11pts_1.docx"
+  },
+  "principe-de-laccelerateur-de-van-de-graaff": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-11/2023-Polynesie-J2-Exo3-Sujet-AccelerateurVanDeGraaf-6pts_0.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2023-Polynesie-J2-Exo3-Correction-AccelerateurVanDeGraff-6pts.docx"
+  },
+  "combien-de-temps-avant-lhypothermie": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-04/2023-NelleCaledo-SI-J1-ExoB-Correction-Hypothermie-30min-10pts.docx"
+  },
+  "mars-vue-sous-loeil-de-kepler": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-02/2023-09-Metropole-J2-Exo3-Sujet-Kepler-Lunette-6pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2026-02/2023-09-Metropole-J2-Exo3-Correction-Kepler-Lunette-6pts.docx"
+  },
+  "sagittarius": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2023-Metropole-SI-J2-ExoB-Sujet-SagitariusA-10pts-30min.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2023-Metropole-SI-J2-ExoB-Correction-Sagittaire-10pts-30min.docx"
+  },
+  "autour-de-saturne": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2023-Asie-J1-Exo1-Sujet-Saturne-LunetteDiffractionSatellite-11pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-01/2023-Asie-J1-Exo1-Correction-Saturne-LunetteDiffractionSatellite-11pts.docx"
+  },
+  "dorothy-crowfoot-femme-de-sciences": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2023-Polynesie-J1-Exo2-Sujet-CrowFoot-Interferences-ChpE-6pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2023-Polynesie-J1-Exo2-Correction-CrowFoot-Interferences-ChpE-6pts.docx"
+  },
+  "installation-dune-fenetre-de-toit": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-12/2023-Reunion-SI-J2-ExoB-Sujet-VeluxThermo-10pts-30min.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-12/2023-Reunion-SI-J2-ExoB-Correction-VeluxThermo-10pts-30min.docx"
+  },
+  "lobservation-de-saturne": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-09/2023-NelleCaledo-J1-Exo2-Sujet-LunetteSaturne-5pts.docx"
+  },
+  "etude-thermique-dun-methanier": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-09/2023-Metro-SI-J1-ExoB-Sujet-ThermiqueMethanier-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-03/2023-Metro-SI-J1-ExoB-Correction-ThermiqueMethanier-10pts.docx"
+  },
+  "comment-sentendre-le-jour-de-la-fete-de-la-musique": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-02/2023-NelleCaledo-SI-J1-ExoA-Sujet-SonFeteMusique-30min-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-11/2023-NelleCaledo-SI-J1-ExoA-Correction-SonFeteMusique-30min-10pts_0.docx"
+  },
+  "pompe-chaleur-et-habitation": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2023-Polynesie-J1-Exo3-Sujet-PAC-L-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-04/2023-Polynesie-J1-Exo3-Correction-PAC-L-5pts.doc"
+  },
+  "observation-ornithologique-dune-oie-cendree": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-02/2023-09-Metropole-J1-Exo1-Sujet-OieLunette-DiffractionInterferences-11pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-02/2023-09-Metropole-J1-Exo1-Correction-OieLunette-DiffractionInterferences-11pts_0.docx"
+  },
+  "etude-dun-analyseur-dhematologie": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-09/2023-Polynesie-SI-Exo2-Sujet-DiffractionHematologie-10pts-30min.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2023-Polynesie-SI-Exo2-Correction-DiffractionHematologie-10pts-30min.doc"
+  },
+  "etude-thermique-dune-construction": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2023-CtresEtrangers1-J1-SI-Exo2-Correction-Thermique-30min-10pts_0.doc"
+  },
+  "four-ceramique": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-04/2023-CtresEtrangers1-J1-Exo3-Correction-Four-5pts.docx"
+  },
+  "transfert-thermique-et-gastronomie": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-09/2023-CtresEtrangers1-J2-SI-ExoA-Sujet-TruffadeThermo-30min-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2023-CtresEtrangers1-J2-SI-ExoA-Correction-TruffadeThermo-30min-10pts.doc"
+  },
+  "evolution-de-la-temperature-dun-vaccin": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2023-Reunion-SI-J1-Exo1-Sujet-TemperatureVaccin-10pts-30min.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-12/2023-Reunion-SI-J1-Exo1-Correction-TemperatureVaccin-10pts-30min.docx"
+  },
+  "la-meduse-radar-anti-bruit": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2023-Metropole-SI-J2-ExoA-Sujet-RadarAntibruit-10pts-30min.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2023-Metropole-SI-J2-ExoA-Correction-AntiBruit-10pts-30min.doc"
+  },
+  "capteur-darrosage-capacitif": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-09/2023-NelleCaledo-J1-Exo3-Sujet-RCHumidite-6pts.docx"
+  },
+  "extraction-du-gaz-de-schiste-par-electro-fracturation": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-06/2023-Reunion-J1-Exo3-Sujet-ElectrofracturationRC-6pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-06/2023-Reunion-J1-Exo3-Correction-ElectrofracturationRC-6pts.doc"
+  },
+  "modelisation-dun-detecteur-capacitif-dhumidite": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-09/2023-Metropole-J2-Exo3-Sujet-DetecteurCapacitif-6pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-09/2023-Metropole-J2-Exo3-Correction-DetecteurCapacitif-6pts.doc"
+  },
+  "etude-de-colorants-dans-une-boisson": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2022-09-Metro-J2-ExoC-Sujet-DJA-ColorantVert-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-11/2022-09-Metro-J2-ExoC-Correction-DJA-ColorantVert-5pts.doc"
+  },
+  "fete-de-la-musique": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-02/2023-NelleCaledo-J2-Exo2-Sujet-DJSon-5pts.docx"
+  },
+  "microphone-electrostatique": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2023-Polynesie-J2-Exo2-Sujet-RC-Micro-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2023-Polynesie-J2-Exo2-Correction-RCMicrophone-5pts_0.docx"
+  },
+  "un-jet-de-7-metres-au-hand-ball": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-08/2023-Liban-J1-Exo1-Sujet-Handball-11pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2023-Liban-J1-Exo1-Correction-Handball-11pts.docx"
+  },
+  "le-vin-et-ses-composants": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2022-Asie-J1-Exo1-Sujet-BeerVin-Ester-Titrage-10pts.docx"
+  },
+  "plongeon-de-haut-vol": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-09/2023-CtresEtrangers1-J2-Exo1-Sujet-Plongeon-11pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2023-CtresEtrangers1-J2-Exo1-Correction-Plongeon-11pts_4.docx"
+  },
+  "lacide-formique-pour-stocker-le-dihydrogene": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2022-Asie-J2-ExoA-Sujet-AcFormique-H2-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2022-Asie-J2-ExoA-Correction-AcFormique-H2-5pts.doc"
+  },
+  "arome-de-vanille": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-01/2022-CtresEtrangers2-J2-ExoA-Sujet-VanilleConducti-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-04/2022-CentresEtrangers2-J2-ExoA-Correction-VanilleConducti-5pts.doc"
+  },
+  "dissolution-dune-coquille-doeuf": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-01/2022-Asie-J2-ExoC-Sujet-DissolutionCoquille-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2022-Asie-J2-ExoC-Correction-DissolutionCoquille-5pts.doc"
+  },
+  "le-colorant-e-127": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2022-Metropole-J1-Exo1-Sujet-ColorantE127-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-05/2022-Metropole-J1-Exo1-Correction-ColorantE127-10pts_4.docx"
+  },
+  "encre-et-effaceur": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2022-Metropole-J2-ExoB-Sujet-EncreEffaceur-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-05/2022-Metropole-J2-ExoB-Correction-EncreEffaceur-5pts_0.doc"
+  },
+  "indigo-et-carmin-dindigo": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-01/2022-AmNord-J1-Exo1-Sujet-Indigo-Carmin-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-03/2022-AmNord-J1-Exo1-Correction-Indigo-Carmin-10pts.docx"
+  },
+  "solution-desinfectante": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-01/2022-Amsud-J1-Exo1-Sujet-AcideLactique-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-12/2022-Amsud-J1-Exo1-Correction-AcideLactique-10pts.doc"
+  },
+  "la-spiruline": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2022-CentresEtrangers1-J1-ExoA-Sujet-Spiruline-Beer-Incertitude-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-11/2022-CentresEtrangers1-J1-ExoA-Correction-Spiruline-5pts.doc"
+  },
+  "synthese-du-polycarbonate-de-bisphenol": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2022-NelleCaledo-J2-Exo1-Sujet-Bisphenol-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-05/2022-NelleCaledo-J2-Exo1-Correction-Bisphenol-10pts.docx"
+  },
+  "lacide-formique": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-01/2022-CtresEtrangers1-J2-Exo1-Sujet-AcideFormique-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2022-CtresEtrangers1-J2-Exo1-Correction-Acide%20formique-10pts.docx"
+  },
+  "la-batterie-au-lithium-fer-phosphate-dune-automobile": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-08/2022-Amsud-J2-ExoC-Sujet-BatterieLiFePO4-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-06/2022-Amsud-J2-ExoC-Correction-BatterieLiFePO4-5pts.docx"
+  },
+  "lacide-methanoique": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2022-09-Metro-J1-Exo1-Sujet-AcideMethanoique-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-04/2022-09-Metro-J1-Exo1-Correction-AcideMethanoique-10pts.doc"
+  },
+  "synthese-dun-arome-dorange": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2022-CentresEtrangers1-J1-ExoB-Sujet-SyntheseEsterOrange-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-06/2022-CentresEtrangers1-J1-ExoB-Correction-AromeOorange-5pts.doc"
+  },
+  "la-pile-au-methanol": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2022-11/2022-NelleCaledo-J1-ExoC-Sujet-PileMethanol-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-03/2022-NelleCaledo-J1-ExoC-Correction-PileMethanol-5pts.doc"
+  },
+  "fermentation-de-la-pate-pizza-napolitaine": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-03/2022-CtresEtrangers2-J1-Exo1-Sujet-PatePizza-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-03/2022-CentresEtrangers2-J1-Exo1-Correction-PatePizza-10pts.doc"
+  },
+  "synthese-du-2-methylpropan-2-ol": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2022-CentresEtrangers2-J2-ExoB-Sujet-CinetiqueConducti-RClH2O-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-04/2022-CentresEtrangers2-J2-ExoB-Correction-CinetiqueConducti-RClH2O-5pts.doc"
+  },
+  "la-vitamine-c-sans-sucre": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2022-AmNord-J2-Exo1-Sujet-VitamineC-10pts.docx"
+  },
+  "besoin-en-magnesium": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2022-Amsud-J2-ExoB-Sujet-CarafeMg-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-12/2022-Amsud-J2-ExoB-Correction-CarafeMg-5pts.docx"
+  },
+  "qualite-des-eaux-souterraines-sur-le-littoral": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2022-11/2022-NelleCaledo-J1-ExoB-Sujet-EauxConducti-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2026-02/2022-NelleCaledo-J1-ExoB-Correction-EauxConducti-5pts.docx"
+  },
+  "atterrissage-du-premier-etage-dune-fusee": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2022-Amsud-J1-ExoC-Sujet-FuseeAtterrissage-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-12/2022-Amsud-J1-ExoC-Correction-FuseeAterrissage-5pts.doc"
+  },
+  "lairbag": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2023-02/2022-AmSud-J2-Exo1-Sujet-Airbag-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2022-AmSud-J2-Exo1-Correction-Airbag-10pts.docx"
+  },
+  "des-piles-historiques": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-06/2022-Metropole-J2-ExoC-Sujet-PilesHistoriques-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-05/2022-Metropole-J2-ExoC-Correction-PilesHistoriques-5pts_0.doc"
+  },
+  "defibrillateur-cardiaque-implantable": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2022-CentresEtrangers2-J2-ExoC-Sujet-PileLithium-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-06/2022-CentresEtrangers2-J2-ExoC-Correction-PileLithium-5pts.doc"
+  },
+  "formule-1-freinage-en-ligne-droite": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2022-Asie-J1-ExoA-Sujet-Formule1-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-02/2022-Asie-J1-ExoA-Correction-Formule1-5pts.doc"
+  },
+  "la-physique-de-la-plongee": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2022-09-Metro-J2-Exo1-Sujet-PhysiquePlongee-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-06/2022-09-Metro-J2-Exo1-Correction-PhysiquePlongee-10pts_0.doc"
+  },
+  "ingenuity-le-premier-helicoptere-voler-sur-mars": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2022-11/2022-NelleCaledo-J1-Exo1-Sujet-Ingenuity-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-02/2022-NelleCaledo-J1-Exo1-Correction-Ingenuity-10pts.docx"
+  },
+  "etude-dune-frappe-au-football": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2023-09/2022-09-SI-Metro-J1-ExoA-Sujet-FootballMeca-10pts.doc",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-10/2022-09-SI-Metro-J1-ExoA-Correction-FootballMeca-10pts.doc"
+  },
+  "telemetre-ultrasons": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2022-Asie-J2-Exo1-Sujet-Telemetre-EqHoraire-ThEc-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2022-Asie-J2-Exo1-Correction-Telemetre-EqHoraire-ThEc-10pts.doc"
+  },
+  "etudes-de-manoeuvres-avec-un-gyropode": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-06/2022-NelleCaledo-SI-J2-Exo1-Sujet-GyropodeMCU-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-01/2022-NelleCaledo-SI-J2-Exo1-Correction-GyropodeMCU-10pts.doc"
+  },
+  "impression-3d-dobjets-metalliques": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-11/2022-Polynesie-SI-J1-Exo2-Sujet-Impression3D-10pts-30min.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-06/2022-Polynesie-SI-J1-Exo2-Correction-Impression3D-ThEc.pdf.doc"
+  },
+  "linteret-energetique-dune-pac": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-02/2022-NelleCaledo-SI-J2-Exo3-Correction-PAC-10pts.doc"
+  },
+  "observation-de-la-lune-depuis-la-terre": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-07/2022-Amsud-J1-ExoA-Sujet-LunetteLuneSatellite-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-12/2022-Amsud-J1-ExoA-Correction-LunetteLuneSatellite-5pts.doc"
+  },
+  "quelques-utilisations-du-condensateur": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2022-CentresEtrangers2-J2-Exo1-Sujet-CondensateurAccelerateur-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-06/2022-CentresEtrangers2-J2-Exo1-Correction-CondensateurAccelerateur-10pts.doc"
+  },
+  "mission-mars-2020-le-portrait-robot-de-perseverance": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-01/2022-CtresEtrangers2-SI-J2-Exo3-Sujet-Perseverance-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-06/2022-CentresEtrangers2-SI-J2-Exo3-Correction-Perseverance.doc"
+  },
+  "vitesse-de-la-station-spatiale-internationale": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-08/2022-09-Metro-J1-ExoB-Sujet-ISS-Chronophoto-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-01/2022-09-Metro-J1-ExoB-Correction-ISS-Chronophoto-5pts.doc"
+  },
+  "la-pente-deau-de-montech": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2022-09/2022-AmNord-J2-ExoA-Sujet-PenteLunette-5pts.doc",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-06/2022-AmNord-J2-ExoA-Correction-PenteLunette-5pts_0.doc"
+  },
+  "vol-droit-dequilibre-dun-parapentiste": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2022-Polynesie-SI-J2-Exo1-Sujet-Parapente.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-06/2022-Polynesie-SI-J2-Exo1-Correction-Parapente.doc"
+  },
+  "des-satellites-pour-mieux-connaitre-les-oceans": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2022-NelleCaledo-SI-J1-Exo1-Sujet-SatelliteJason-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-12/2022-NelleCaledo-SI-J1-Exo1-Correction-SatelliteJason-10pts.doc"
+  },
+  "vers-liss": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2022-CentresEtrangers2-SI-J1-Exo2-Sujet-ISS.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-06/2022-CentresEtrangers2-SI-J1-Exo2-Correction-ISS.doc"
+  },
+  "mesure-de-la-taille-des-mailles-dun-masque-respiratoire": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2023-02/2022-09-SI-Metro-J2-ExoA-Sujet-DiffractionMasque-10pts.doc",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-02/2022-09-SI-Metro-J2-ExoA-Correction-DiffractionMasque-10pts_0.doc"
+  },
+  "dimension-dune-microalgue": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-06/2022-CentresEtrangers2-SI-J1-Exo1-Sujet-DiffractionAlgue-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-06/2022-CentresEtrangers2-SI-J1-Exo1-Correction-DiffractionAlgue.doc"
+  },
+  "acoustique-dune-salle": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-05/2022-Polynesie-J1-ExoC-Correction-AcoustiqueSalle-5pts_1.doc"
+  },
+  "granulometrie-du-lactose": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-06/2022-CentresEtrangers2-SI-J2-Exo1-Sujet-DiffractionLactose-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-07/2022-CentresEtrangers2-SI-J2-Exo1-Correction-DiffractionLactose.doc"
+  },
+  "controle-de-la-largeur-dun-fil-de-suture": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-06/2022-09-Metro-J1-ExoC-Sujet-DiffractionSuture-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-01/2022-09-Metro-J1-ExoC-Correction-DiffractionSuture-5pts.doc"
+  },
+  "les-ondes-gravitationnelles-detectees-par-interferometrie": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2022-NelleCaledo-SI-J1-Exo3-Sujet-InterferencesVirgo-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-12/2022-NelleCaledo-SI-J1-Exo3-Correction-InterferencesVirgo-10pts.doc"
+  },
+  "qualite-decoute-dune-enceinte-bluetooth": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2022-09-SI-Metro-J1-ExoC-Sujet-EnceinteInterferences-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-01/2022-09-SI-Metro-J1-ExoC-Correction-EnceinteInterferences-10pts.doc"
+  },
+  "lexperience-des-trous-de-young": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-12/2022-Asie-J1-ExoC-Sujet-TrousYoung-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-12/2022-Asie-J1-ExoC-Correction-TrousYoung-5pts.docx"
+  },
+  "intervalle-entre-les-buses-dune-tete-dimpression": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-03/2022-Metropole-SI-J2-ExoB-Correction-InterferenceImprimante-10pts.doc"
+  },
+  "une-exoplanete-51pegb": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-12/2022-AmNord-J1-ExoC-Sujet-ExoPlanete-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-12/2022-AmNord-J1-ExoC-Correction-ExoPlanete-5pts.docx"
+  },
+  "observer-les-anneaux-de-saturne": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-06/2022-09-Metro-J1-ExoA-Sujet-Lunette-Saturne-5pts.docx"
+  },
+  "determination-du-diametre-de-jupiter": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-09/2022-CentresEtrangers1-J2-ExoA-Sujet-LunetteJupiter-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-07/2022-CentresEtrangers1-J2-ExoA-Correction-LunetteJupiter-5pts.doc"
+  },
+  "observation-de-la-planete-mars": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-09/2022-Metropole-J2-Exo1-Sujet-Mars-Satellite-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-05/2022-Metropole-J2-Exo1-Correction-Mars-Satellite-10pts_1.doc"
+  },
+  "utilisation-dun-avertisseur-sonore": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-08/2022-NelleCaledo-SI-J2-Exo2-Sujet-GyropodeKlaxxon-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-12/2022-NelleCaledo-SI-J2-Exo2-Correction-GyropodeKlaxxon-10pts.doc"
+  },
+  "observation-dun-satellite": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-09/2022-CentresEtrangers2-J1-ExoA-Sujet-SatelliteStarlink-Lunette-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-06/2022-CentresEtrangers2-J1-ExoA-Correction-SatelliteStarlink-Lunette-5pts.doc"
+  },
+  "lunette-astronomique-et-observations-de-mars": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-09/2022-CentresEtrangers1-J1-Exo1-Sujet-LunetteThermo-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-05/2022-CentresEtrangers1-J1-Exo1-Correction-LunetteThermo-10pts.doc"
+  },
+  "observations-de-la-division-de-cassini": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-09/2022-Asie-J1-ExoB-Sujet-Lunette-DivisionCassini-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-12/2022-Asie-J1-ExoB-Correction-Lunette-DivisionCassini-5pts.docx"
+  },
+  "eclipse-solaire-du-10-juin-2021": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-05/2022-Polynesie-J1-ExoB-Correction-LunetteEclipse-5pts_2.doc"
+  },
+  "defibrillateur-cardiaque-implantable-0": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2022-Amsud-J1-ExoB-Sujet-RC-Defibrillateur-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-12/2022-Amsud-J1-ExoB-Correction-RC-Defibrillateur-5pts.doc"
+  },
+  "un-capteur-capacitif": {
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-05/2022-Polynesie-J2-ExoA-Correction-Capteur%20capacitif-5pts.doc"
+  },
+  "une-table-de-tennis-de-table-connectee": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-11/2022-CentresEtrangers2-J1-ExoB-Sujet-PingPong-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-09/2022-CentresEtrangers2-J1-ExoB-Correction-PingPong-5pts.doc"
+  },
+  "nos-oreilles-y-tient": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2022-Polynesie-J2-ExoC-Sujet-ProtectionAudition-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-05/2022-Polynesie-J2-ExoC-Correction-ProtectionAudition-5pts.doc"
+  },
+  "des-supercondensateurs-pour-recharger-un-bus-electrique": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-11/2022-AmNord-J1-ExoB-Sujet-RC-SuperCBus-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-02/2022-AmNord-J1-ExoB-Correction-RC-SuperCBus-5pts.docx"
+  },
+  "un-radar-de-controle-de-vitesses": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-05/2022-AmNord-J2-ExoB-Sujet-RC-Flash-5pts.docx"
+  },
+  "degradation-dun-produit-de-contraste": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-01/2022-CentresEtrangers1-J1-ExoC-Sujet-CinetiqueAcBase-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-06/2022-CentresEtrangers1-J1-ExoC-Correction-Cinetique-AcBase-5pts.doc"
+  },
+  "anatomie-dun-condensateur": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-04/2022-NelleCaledo-J2-ExoC-Sujet-RC-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2025-04/2022-NelleCaledo-J2-ExoC-Correction-RC-5pts.docx"
+  },
+  "defibrillateur-cardiaque-0": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-06/2022-Metropole-J1-ExoC-Sujet-DefibrillateurCardiaqueRC-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-05/2022-Metropole-J1-ExoC-Correction-DefibrillateurCardiaqueRC-5pts.doc"
+  },
+  "lepaisseur-du-matelas-du-saut-la-perche": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-11/2022-AmNord-J1-ExoA-Sujet-Perche-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2026-01/2022-AmNord-J1-ExoA-Correction-Perche-5pts.docx"
+  },
+  "additif-alimentaire-pour-les-agneaux": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2021-10/2021-AmNord-Sujet2-ExoB-ConductiPython-5pts-Correction.doc"
+  },
+  "degre-dhydratation-du-chlorure-de-magnesium": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2022-02/2021-06-Metro-ExoB-Sujet-TitrageConducti-5pts-Correction.docx"
+  },
+  "preparation-dune-biere-brune-aromatisee": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2021-Liban-Sujet1-Exo1-Sujet-BiereEster-10pts.docx"
+  },
+  "decapage-dune-piece-en-aluminium": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2021-11/2021-AmNord-Sujet1-ExoC-DecapageConducti-5pts-Correction.doc"
+  },
+  "etude-dune-pile-au-laboratoire": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-02/2021-09-Metro-Sujet2-Correction-ExoB-Pile-5pts.docx"
+  },
+  "une-boisson-de-rehydratation": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2022-02/2021-03-Metro-Sujet1-ExoB-BoissonHydratation-5pts-Correction.docx"
+  },
+  "le-sel-doseille": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-01/2022-Polynesie-J2-Exo1-Sujet-SelOseille-10pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2023-01/2022-Polynesie-J2-Exo1-Correction-SelOseille-10pts.docx"
+  },
+  "laquarium-recifal": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2021-03-Metro-Sujet2-Exo1-Aquarium-10pts-Correction.docx"
+  },
+  "protection-des-fondations-en-acier-des-eoliennes-de-mer": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-03/2021-AmNord-Sujet2-ExoA-Pile-Eolienne-5pts-Correction.doc"
+  },
+  "lencre-et-son-effaceur": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2022-05/2021-09-Metro-Sujet1-ExoA-Correction-Encre-BeerCinetique-5pts.docx"
+  },
+  "pile-zinc-air": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2021-12/2020-Tle-SPE-Sujetzero-Exo2-Correction-PileZincAir-5pts.doc"
+  },
+  "appareil-photographique": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2022-01/2021-09-Metro-SI-ExoC-Sujet-Diffraction.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-04/2021-09-Metro-SI-ExoC-Correction-Diffraction.docx"
+  },
+  "etude-dun-film-de-savon": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2021-10/2021-06-Metro-ExoC-Sujet2-FilmSavon-5pts-Correction.doc"
+  },
+  "apprentissage-du-saut-en-parachute": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2026-01/2021-CentresEtrangers-Exo1-Sujet-SautParachute-10pts.docx"
+  },
+  "enregistrement-sonore-en-stereophonie": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2022-04/2021-06-Metro-SI-Sujet2-ExoC-Interferences-Correction.doc"
+  },
+  "quelle-taille-pour-les-mailles-dun-tamis": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2023-03/2021-03-Metro-Sujet2-ExoC-TamisInterferences-5pts-Correction_0.docx"
+  },
+  "puissance-rayonnee-par-la-lune": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2022-04/2021-09-Metro-ExoA-Sujet-LunetteThermo-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2022-04/2021-09-Metro-ExoA-Correction-LunetteThermo-5pts.docx"
+  },
+  "une-lunette-damateur-pour-voir-des-etoiles-doubles": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2022-04/2021-Asie-Sujet2-ExoC-Correction-Lunette-5pts.docx"
+  },
+  "accelerateur-lineaire-linac2-du-cern": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2021-Sujet-Zero-ExoB-AccelLineaire-5pts.docx"
+  },
+  "de-la-musique-dans-le-calme": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2022-01/2021-06-Metro-SI-Sujet1-ExoC-MusiqueDsCalme-Correction.doc"
+  },
+  "nuisances-sonores-dun-drone": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2021-06/2021-03-Metro-SI-Sujet2-ExoC-NuisancesSonores-Correction.docx"
+  },
+  "mesures-depaisseur": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2022-01/2021-06-Metro-ExoB-Sujet2-Microscope-RC-5pts-Correction.doc"
+  },
+  "la-grande-lunette-de-meudon": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-03/2021-Polynesie-Sujet-ExoC-Correction-LunetteMeudon-5pts.doc"
+  },
+  "cave-vin": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2022-04/2021-Asie-Sujet2-ExoA-Correction-CaveVin-Thermo-Att%C3%A9nuation-5pts.docx"
+  },
+  "un-systeme-de-detection-de-passager": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2021-06/2021-03-Metro-Sujet2-ExoB-Correction-CondensateurSiege-5pts.doc"
+  },
+  "pollution-acoustique-dans-une-web-radio": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2024-04/2021-Sujet-Zero-SI-ExoC-Sujet-PollutionAcoustique-30minutes.docx"
+  },
+  "nuisances-sonores-dun-aeroport": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2022-11/2021-Polynesie-Sujet-ExoA-NuisancesSonoresAeroport-5pts.docx",
+    "correctionUrl": "https://labolycee.org/sites/default/files/2024-01/2021-Polynesie-Correction-ExoA-NuisancesSonoresAeroport-5pts.doc"
+  },
+  "les-supercondensateurs": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2022-03/2021-Liban-Sujet1-ExoA-Correction-Supercondensateur-5pts.docx"
+  },
+  "un-sport-traditionnel-le-lancer-de-gerbe-de-paille": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2022-03/2021-AmNord-Sujet1-Exo1-LancerGerbe-10pts-Correction.doc"
+  },
+  "niveaux-dintensite-sonore": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2021-06/2021-03-Metro-SI-Sujet1-ExoC-AttenuationSonore-Correction.docx"
+  },
+  "la-mission-grace-fo": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2021-08/2021-AmNord-Sujet2-Exo1-SatelliteGraceFo-10pts-Correction.doc"
+  },
+  "des-alternatives-aux-lampes-incandescence": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/exos/sujets/2016/2016-11-NelleCaledo-Spe-Exo3-Sujet-LED-5pts.doc",
+    "correctionUrl": "https://labolycee.org/sites/default/files/exos/corriges/2016/2016-11-NelleCaledo-Spe-Exo3-Correction-LED-5pts.doc"
+  },
+  "les-cellules-photovoltaiques-multi-jonctions": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/exos/sujets/2017/2017-11-NelleCaledo-Spe-Exo3-Sujet-CellulesPhotovoltaiquesMultijonctions-5pts.doc",
+    "correctionUrl": "https://labolycee.org/sites/default/files/exos/corriges/2017/2017-11-NelleCaledo-Spe-Exo3-Correction-CellulesPhotovoltaiquesMultijonctions-5pts.doc"
+  },
+  "le-jeu-du-cornhole": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2021-07/2021-03-Metro-Sujet1-Exo1-Cornhole-10pts-Correction.docx"
+  },
+  "water-bottle-flip": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2025-01/2021-Asie-Sujet2-ExoB-Correction-BottleFlip-MvtChpPesanteur-5pts.docx"
+  },
+  "parker-solar-probe": {
+    "sujetUrl": "https://labolycee.org/sites/default/files/2022-03/2021-Asie-Sujet1-Exo1-Correction-SolarProbe-Satellite-Thermo-10pts.doc"
+  }
+}
