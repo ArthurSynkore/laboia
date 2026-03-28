@@ -223,9 +223,19 @@ body {
   border: 1px solid #ccc; padding: 0.4em 0.8em; text-align: left;
 }
 .exercise-content th { background: #f0f0f5; font-weight: 600; }
-.exercise-content img.exercise-img {
-  display: inline-block; max-width: 100%; vertical-align: middle;
-  background: transparent; border-radius: 2px;
+.exercise-content img {
+  max-width: 100%; height: auto; vertical-align: middle;
+  border-radius: 2px;
+}
+/* Inline formula images - keep them small and inline */
+.exercise-content p img, .exercise-content li img, .exercise-content td img {
+  max-height: 2.5em; width: auto; max-width: 100%;
+  vertical-align: middle; display: inline;
+}
+/* Block-level figures (wide images) */
+.exercise-content p > img:only-child {
+  display: block; max-height: none; max-width: 100%;
+  margin: 1em auto;
 }
 .exercise-content strong { color: #0a0a1a; }
 .exercise-content em { font-style: italic; }
@@ -263,8 +273,16 @@ body {
 }
 .correction-content.visible { display: block; }
 .correction-content p { margin: 0.4em 0; }
-.correction-content img.exercise-img {
-  display: inline-block; max-width: 100%; vertical-align: middle;
+.correction-content img {
+  max-width: 100%; height: auto; vertical-align: middle;
+}
+.correction-content p img, .correction-content li img, .correction-content td img {
+  max-height: 2.5em; width: auto; max-width: 100%;
+  vertical-align: middle; display: inline;
+}
+.correction-content p > img:only-child {
+  display: block; max-height: none; max-width: 100%;
+  margin: 1em auto;
 }
 .correction-content strong { color: #0a0a1a; }
 .correction-label {
