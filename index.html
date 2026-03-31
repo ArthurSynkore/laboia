@@ -166,6 +166,14 @@ body {
 
 .card-themes { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: auto; }
 
+.correction-badge {
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  padding: 0.2rem 0.6rem; border-radius: 6px; font-size: 0.72rem;
+  font-weight: 600; margin-left: auto;
+}
+.correction-badge.has-corr { background: rgba(0,206,201,0.15); color: #00cec9; }
+.correction-badge.no-corr { background: rgba(255,255,255,0.06); color: var(--text-muted); opacity: 0.6; }
+
 .theme-pill {
   padding: 0.2rem 0.6rem; border-radius: 50px;
   font-size: 0.72rem; font-weight: 600; color: #fff;
@@ -241,6 +249,59 @@ body {
 .exercise-content em { font-style: italic; }
 .exercise-content ul, .exercise-content ol { margin: 0.5em 0 0.5em 1.5em; }
 .exercise-content li { margin: 0.3em 0; }
+
+/* PDF embed */
+.pdf-embed {
+  width: 100%; height: 80vh; border: none; border-radius: 10px;
+  background: #fff; margin: 0.5rem 0 1.5rem;
+}
+
+/* Text fallback toggle */
+.text-fallback {
+  margin: 0.5rem 0;
+}
+.text-fallback summary {
+  cursor: pointer; color: var(--accent-light); font-size: 0.85rem;
+  padding: 0.4rem 0; user-select: none;
+}
+.text-fallback summary:hover { text-decoration: underline; }
+
+/* WMF placeholder */
+.wmf-placeholder {
+  display: inline-block; background: rgba(255,255,255,0.08);
+  border: 1px dashed #999; border-radius: 4px; padding: 0.3em 0.8em;
+  color: #999; font-size: 0.8em; font-style: italic;
+}
+
+/* PDF banner for WMF-heavy content */
+.pdf-banner {
+  padding: 0.7rem 1rem; border-radius: 8px; margin-bottom: 1rem;
+  background: rgba(116,185,255,0.1); border: 1px solid rgba(116,185,255,0.25);
+  cursor: pointer; font-size: 0.85rem; color: #74b9ff;
+  display: flex; align-items: center; gap: 0.5rem;
+}
+.pdf-banner:hover { background: rgba(116,185,255,0.15); }
+.pdf-banner .banner-link { margin-left: auto; white-space: nowrap; font-weight: 600; }
+.pdf-banner .banner-arrow { display: inline-block; transition: transform 0.2s; font-size: 0.7em; }
+.pdf-banner .banner-arrow.open { transform: rotate(90deg); }
+
+/* Quality report */
+.quality-report {
+  margin-top: 1.5rem; padding: 1rem 1.2rem; border-radius: 10px;
+  background: rgba(253,203,110,0.08); border: 1px solid rgba(253,203,110,0.25);
+}
+.quality-report-header {
+  font-weight: 700; font-size: 0.9rem; margin-bottom: 0.5rem; color: #fdcb6e;
+}
+.quality-report ul {
+  margin: 0.3rem 0 0.3rem 1.2rem; padding: 0;
+}
+.quality-report li {
+  font-size: 0.82rem; color: var(--text-muted); margin: 0.2rem 0;
+}
+.quality-tip {
+  font-size: 0.82rem; color: #00cec9; margin: 0.5rem 0 0;
+}
 
 /* Question block with reveal */
 .question-block {
@@ -568,6 +629,11 @@ function render() {
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
           ${ex.duration}
         </span>
+        <span class="correction-badge ${ex.hasCorrection ? 'has-corr' : 'no-corr'}">
+          ${ex.hasCorrection
+            ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px"><path d="M20 6L9 17l-5-5"/></svg> Corrigé'
+            : 'Pas de corrigé'}
+        </span>
       </div>
       <div class="card-themes">
         ${ex.themes.map(t => `<span class="theme-pill" style="background:${getThemeBg(t)}">${t}</span>`).join('')}
@@ -644,15 +710,54 @@ async function showDetail(ex) {
 
   const sujetHtml = content && content.sujetHtml;
   const corrigeHtml = content && content.correctionHtml;
+  const sujetPdfUrl = content && content.sujetPdfUrl;
+  const corrPdfUrl = content && content.correctionPdfUrl;
+  const sujetTextOnly = content && content.sujetTextOnly;
+  const corrTextOnly = content && content.correctionTextOnly;
 
-  if (!sujetHtml && !corrigeHtml) {
+  if (!sujetHtml && !corrigeHtml && !sujetPdfUrl && !corrPdfUrl) {
     container.insertAdjacentHTML('beforeend', '<div class="doc-unavailable"><p>Contenu en cours d\'ajout pour cet exercice.</p></div>');
     return;
   }
 
+  // Check if HTML content is low quality (text-only with no formatting at all)
+  function isLowQuality(html) {
+    if (!html) return true;
+    const hasFormatting = /<(table|strong|em|h[1-6]|ul|ol|div|img)/i.test(html);
+    return !hasFormatting;
+  }
+
+  // Check if content has heavy WMF (formulas that won't render in browsers)
+  function hasHeavyWmf(html) {
+    if (!html) return false;
+    return (html.match(/data:image\/x-wmf/gi) || []).length > 5;
+  }
+
+  // Clean WMF images from HTML (browsers can't display them)
+  function cleanWmfImages(html) {
+    if (!html) return html;
+    return html.replace(/<img[^>]*src="data:image\/x-wmf[^"]*"[^>]*>/gi,
+      '<span class="wmf-placeholder" title="Image non convertible (format WMF)">[Image]</span>');
+  }
+
+  const sujetIsLowQ = isLowQuality(sujetHtml);
+  const corrIsLowQ = isLowQuality(corrigeHtml);
+  const sujetHasWmf = hasHeavyWmf(sujetHtml);
+  const corrHasWmf = hasHeavyWmf(corrigeHtml);
+  const useSujetPdf = sujetPdfUrl && (sujetIsLowQ || !sujetHtml);
+  const useCorrPdf = corrPdfUrl && (corrIsLowQ || !corrigeHtml);
+
+  // Clean HTML content
+  const cleanSujetHtml = cleanWmfImages(sujetHtml);
+  const cleanCorrigeHtml = cleanWmfImages(corrigeHtml);
+
+  // Use cleaned HTML for splitting
+  const effectiveSujetHtml = useSujetPdf ? null : cleanSujetHtml;
+  const effectiveCorrigeHtml = useCorrPdf ? null : cleanCorrigeHtml;
+
   // Split both by questions
-  const sujetBlocks = sujetHtml ? splitByQuestions(sujetHtml) : null;
-  const corrigeBlocks = corrigeHtml ? splitByQuestions(corrigeHtml) : null;
+  const sujetBlocks = effectiveSujetHtml ? splitByQuestions(effectiveSujetHtml) : null;
+  const corrigeBlocks = effectiveCorrigeHtml ? splitByQuestions(effectiveCorrigeHtml) : null;
 
   // Build correction lookup by Q number
   const corrByQ = {};
@@ -663,19 +768,34 @@ async function showDetail(ex) {
   }
 
   let html = '';
+  let issues = []; // Track display issues for AI report
 
-  if (sujetHtml) {
+  // === SUJET ===
+  if (useSujetPdf) {
     html += '<div class="section-label sujet">Sujet</div>';
+    html += '<iframe src="' + sujetPdfUrl + '" class="pdf-embed" title="Sujet PDF"></iframe>';
+    if (sujetHtml) {
+      html += '<details class="text-fallback"><summary>Voir en version texte</summary>';
+      html += '<div class="exercise-content">' + cleanSujetHtml + '</div></details>';
+    }
+  } else if (effectiveSujetHtml) {
+    html += '<div class="section-label sujet">Sujet</div>';
+
+    // If WMF-heavy, show PDF option banner at the top
+    if (sujetHasWmf && sujetPdfUrl) {
+      html += '<div class="pdf-banner" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display===\'none\'?\'block\':\'none\';this.querySelector(\'.banner-arrow\').classList.toggle(\'open\')">';
+      html += '📄 <span>Certaines formules ne s\'affichent pas correctement.</span> ';
+      html += '<span class="banner-link"><span class="banner-arrow">&#9654;</span> Voir en PDF</span></div>';
+      html += '<iframe src="' + sujetPdfUrl + '" class="pdf-embed" style="display:none" title="Sujet PDF"></iframe>';
+    }
 
     if (sujetBlocks && sujetBlocks.length > 1) {
       html += '<div class="exercise-content">';
 
       sujetBlocks.forEach((block, i) => {
         if (!block.label) {
-          // Intro block
           html += block.html;
         } else {
-          // Question block
           const qId = 'q-' + i + '-' + Date.now().toString(36);
           const correction = corrByQ[block.label];
 
@@ -694,26 +814,107 @@ async function showDetail(ex) {
           html += '</div>';
         }
       });
-
       html += '</div>';
-
     } else {
-      // Can't split by questions - show as-is
-      html += '<div class="exercise-content">' + sujetHtml + '</div>';
+      html += '<div class="exercise-content">' + effectiveSujetHtml + '</div>';
     }
 
-    // Full correction toggle (if corrections exist but couldn't match by Q, or for extras)
-    if (corrigeHtml && (!sujetBlocks || sujetBlocks.length <= 1 || Object.keys(corrByQ).length === 0)) {
+    // Check for display issues
+    if (/\[Image\]/.test(effectiveSujetHtml)) issues.push('Images WMF non affichables dans le sujet');
+
+    // PDF option for sujet only when it has no images at all (not just a few WMF)
+    const sujetWmfCount = (effectiveSujetHtml.match(/\[Image\]/g) || []).length;
+    if (sujetPdfUrl && !sujetHasWmf && sujetWmfCount > 3) {
+      html += '<details class="text-fallback" style="margin-top:0.5rem"><summary>📄 Voir le sujet en PDF</summary>';
+      html += '<iframe src="' + sujetPdfUrl + '" class="pdf-embed" title="Sujet PDF"></iframe></details>';
+    }
+
+    // If corrections were shown inline and have WMF issues, offer PDF corrigé
+    if (corrHasWmf && corrPdfUrl && Object.keys(corrByQ).length > 0) {
+      html += '<div class="pdf-banner" style="margin-top:1rem" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display===\'none\'?\'block\':\'none\';this.querySelector(\'.banner-arrow\').classList.toggle(\'open\')">';
+      html += '📄 <span>Des formules manquent dans les corrections.</span> ';
+      html += '<span class="banner-link"><span class="banner-arrow">&#9654;</span> Voir le corrigé complet en PDF</span></div>';
+      html += '<iframe src="' + corrPdfUrl + '" class="pdf-embed" style="display:none" title="Corrigé PDF"></iframe>';
+    }
+  }
+
+  // === CORRECTION ===
+  if (useCorrPdf) {
+    // PDF correction
+    if (!useSujetPdf || !effectiveSujetHtml) {
+      html += '<div class="section-label corrige">Corrigé</div>';
+      html += '<iframe src="' + corrPdfUrl + '" class="pdf-embed" title="Corrigé PDF"></iframe>';
+    } else {
       html += '<div class="full-correction" style="margin-top:1.5rem">';
       html += '<button class="full-correction-toggle" onclick="toggleFullCorrection(this)">';
-      html += '<span class="arrow">&#9654;</span> Voir le corrig\u00e9 complet</button>';
-      html += '<div class="full-correction-body"><div class="exercise-content">' + corrigeHtml + '</div></div>';
-      html += '</div>';
+      html += '<span class="arrow">&#9654;</span> Voir le corrigé complet</button>';
+      html += '<div class="full-correction-body">';
+      html += '<iframe src="' + corrPdfUrl + '" class="pdf-embed" title="Corrigé PDF" style="margin-top:0.5rem"></iframe>';
+      html += '</div></div>';
     }
+    if (corrigeHtml) {
+      html += '<details class="text-fallback"><summary>Voir la correction en texte</summary>';
+      html += '<div class="exercise-content">' + cleanCorrigeHtml + '</div></details>';
+    }
+  } else if (effectiveCorrigeHtml && !Object.keys(corrByQ).length) {
+    // Full correction toggle when not matched by Q
+    if (effectiveSujetHtml) {
+      html += '<div class="full-correction" style="margin-top:1.5rem">';
+      html += '<button class="full-correction-toggle" onclick="toggleFullCorrection(this)">';
+      html += '<span class="arrow">&#9654;</span> Voir le corrigé complet</button>';
+      html += '<div class="full-correction-body">';
+      if (corrHasWmf && corrPdfUrl) {
+        html += '<div class="pdf-banner" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display===\'none\'?\'block\':\'none\';this.querySelector(\'.banner-arrow\').classList.toggle(\'open\')">';
+        html += '📄 <span>Certaines formules ne s\'affichent pas.</span> ';
+        html += '<span class="banner-link"><span class="banner-arrow">&#9654;</span> Voir en PDF</span></div>';
+        html += '<iframe src="' + corrPdfUrl + '" class="pdf-embed" style="display:none" title="Corrigé PDF"></iframe>';
+      }
+      html += '<div class="exercise-content">' + effectiveCorrigeHtml + '</div></div>';
+      html += '</div>';
+    } else {
+      html += '<div class="section-label corrige">Corrigé</div>';
+      if (corrHasWmf && corrPdfUrl) {
+        html += '<div class="pdf-banner" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display===\'none\'?\'block\':\'none\';this.querySelector(\'.banner-arrow\').classList.toggle(\'open\')">';
+        html += '📄 <span>Certaines formules ne s\'affichent pas.</span> ';
+        html += '<span class="banner-link"><span class="banner-arrow">&#9654;</span> Voir en PDF</span></div>';
+        html += '<iframe src="' + corrPdfUrl + '" class="pdf-embed" style="display:none" title="Corrigé PDF"></iframe>';
+      }
+      html += '<div class="exercise-content">' + effectiveCorrigeHtml + '</div>';
+    }
+    if (/\[Image\]/.test(effectiveCorrigeHtml)) issues.push('Images WMF non affichables dans la correction');
+    if (corrPdfUrl && !corrHasWmf) {
+      html += '<details class="text-fallback" style="margin-top:0.5rem"><summary>📄 Voir le corrigé en PDF</summary>';
+      html += '<iframe src="' + corrPdfUrl + '" class="pdf-embed" title="Corrigé PDF"></iframe></details>';
+    }
+  }
 
-  } else if (corrigeHtml) {
-    html += '<div class="section-label corrige">Corrig\u00e9</div>';
-    html += '<div class="exercise-content">' + corrigeHtml + '</div>';
+  // === AI QUALITY REPORT ===
+  // Auto-detect issues in the displayed content
+  if (effectiveSujetHtml || effectiveCorrigeHtml) {
+    const allDisplayedHtml = (effectiveSujetHtml || '') + (effectiveCorrigeHtml || '');
+    // Check for truncated text patterns (missing formulas)
+    if (/(?:soit|donc|or|car|avec)\s*,?\s*<\/p>/gi.test(allDisplayedHtml)) {
+      issues.push('Formules potentiellement manquantes (texte interrompu)');
+    }
+    // Check for empty paragraphs
+    const emptyP = (allDisplayedHtml.match(/<p>\s*<\/p>/gi) || []).length;
+    if (emptyP > 3) issues.push(emptyP + ' paragraphes vides détectés');
+    // Check for WMF placeholders
+    const wmfCount = (allDisplayedHtml.match(/\[Image\]/g) || []).length;
+    if (wmfCount > 0) issues.push(wmfCount + ' image(s) au format WMF non convertible(s)');
+    // Check if content seems very short
+    const textLen = allDisplayedHtml.replace(/<[^>]*>/g, '').trim().length;
+    if (textLen < 200 && !useSujetPdf) issues.push('Contenu très court (' + textLen + ' caractères)');
+  }
+
+  if (issues.length > 0) {
+    html += '<div class="quality-report">';
+    html += '<div class="quality-report-header">⚠️ Rapport qualité</div>';
+    html += '<ul>' + issues.map(i => '<li>' + i + '</li>').join('') + '</ul>';
+    if (sujetPdfUrl || corrPdfUrl) {
+      html += '<p class="quality-tip">💡 Les versions PDF ci-dessus offrent un meilleur rendu.</p>';
+    }
+    html += '</div>';
   }
 
   container.insertAdjacentHTML('beforeend', html);

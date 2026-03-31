@@ -1,39 +1,50 @@
 [
   {
     "id": "infusion-la-framboise",
-    "title": "Infusion \u00e0 la framboise",
+    "title": "Infusion à la framboise",
     "year": 2025,
-    "location": "Am\u00e9rique du Sud",
+    "location": "Amérique du Sud",
     "session": null,
     "points": 9,
     "duration": "1h35",
-    "themes": ["Acide-Base", "Synth\u00e8se organique", "Titrage pH-m\u00e9trique"],
+    "themes": [
+      "Acide-Base",
+      "Synthèse organique",
+      "Titrage pH-métrique"
+    ],
     "url": "https://labolycee.org/infusion-la-framboise",
     "subjectUrl": "https://labolycee.org/infusion-la-framboise",
-    "hasCorrection": true
+    "hasCorrection": false,
+    "hasContent": false
   },
   {
     "id": "les-pluies-acides-0",
     "title": "Les pluies acides",
     "year": 2025,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 9,
     "duration": "1h35",
-    "themes": ["Acide-Base", "Cin\u00e9tique"],
+    "themes": [
+      "Acide-Base",
+      "Cinétique"
+    ],
     "url": "https://labolycee.org/les-pluies-acides-0",
     "subjectUrl": "https://labolycee.org/les-pluies-acides-0",
     "hasCorrection": true
   },
   {
     "id": "etude-dune-lessive-multi-usages",
-    "title": "\u00c9tude d'une lessive \u00ab multi-usages \u00bb",
+    "title": "Étude d'une lessive « multi-usages »",
     "year": 2025,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 4,
     "duration": "42min",
-    "themes": ["Acide-Base", "Titrage pH-m\u00e9trique"],
+    "themes": [
+      "Acide-Base",
+      "Titrage pH-métrique"
+    ],
     "url": "https://labolycee.org/etude-dune-lessive-multi-usages",
     "subjectUrl": "https://labolycee.org/etude-dune-lessive-multi-usages",
     "hasCorrection": true
@@ -42,11 +53,16 @@
     "id": "un-emballage-intelligent-au-rayon-poissonnerie",
     "title": "Un emballage intelligent au rayon poissonnerie",
     "year": 2025,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 9,
     "duration": "1h35",
-    "themes": ["Acide-Base", "Cin\u00e9tique", "Synth\u00e8se organique", "Titrage pH-m\u00e9trique"],
+    "themes": [
+      "Acide-Base",
+      "Cinétique",
+      "Synthèse organique",
+      "Titrage pH-métrique"
+    ],
     "url": "https://labolycee.org/un-emballage-intelligent-au-rayon-poissonnerie",
     "subjectUrl": "https://labolycee.org/un-emballage-intelligent-au-rayon-poissonnerie",
     "hasCorrection": true
@@ -59,7 +75,10 @@
     "session": null,
     "points": 9,
     "duration": "1h35",
-    "themes": ["Acide-Base", "Piles - Constante d'\u00e9quilibre"],
+    "themes": [
+      "Acide-Base",
+      "Piles - Constante d'équilibre"
+    ],
     "url": "https://labolycee.org/batteries-au-lithium",
     "subjectUrl": "https://labolycee.org/batteries-au-lithium",
     "hasCorrection": true
@@ -72,7 +91,10 @@
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Acide-Base", "Titrage conductim\u00e9trique"],
+    "themes": [
+      "Acide-Base",
+      "Titrage conductimétrique"
+    ],
     "url": "https://labolycee.org/pollution-ammoniacale",
     "subjectUrl": "https://labolycee.org/pollution-ammoniacale",
     "hasCorrection": true
@@ -81,11 +103,17 @@
     "id": "latropine",
     "title": "L'atropine",
     "year": 2025,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": null,
     "points": 9,
     "duration": "1h35",
-    "themes": ["Acide-Base", "Cin\u00e9tique", "Piles - Constante d'\u00e9quilibre", "Spectroscopie", "Synth\u00e8se organique"],
+    "themes": [
+      "Acide-Base",
+      "Cinétique",
+      "Piles - Constante d'équilibre",
+      "Spectroscopie",
+      "Synthèse organique"
+    ],
     "url": "https://labolycee.org/latropine",
     "subjectUrl": "https://labolycee.org/latropine",
     "hasCorrection": true
@@ -94,63 +122,84 @@
     "id": "autour-de-la-glace",
     "title": "Autour de la glace",
     "year": 2025,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": "Jour 1",
     "points": 9,
     "duration": "1h35",
-    "themes": ["Beer-Lambert", "Nucl\u00e9aire", "Piles - Constante d'\u00e9quilibre"],
+    "themes": [
+      "Beer-Lambert",
+      "Nucléaire",
+      "Piles - Constante d'équilibre"
+    ],
     "url": "https://labolycee.org/autour-de-la-glace",
     "subjectUrl": "https://labolycee.org/autour-de-la-glace",
-    "hasCorrection": true
+    "hasCorrection": false,
+    "hasContent": false
   },
   {
     "id": "le-schweppes-r-un-bon-antipaludique-sans-risque-pour-la-sante",
-    "title": "Le schweppes : un bon antipaludique sans risque pour la sant\u00e9 ?",
+    "title": "Le schweppes : un bon antipaludique sans risque pour la santé ?",
     "year": 2025,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": null,
     "points": 9,
     "duration": "1h35",
-    "themes": ["Beer-Lambert", "Titrage pH-m\u00e9trique"],
+    "themes": [
+      "Beer-Lambert",
+      "Titrage pH-métrique"
+    ],
     "url": "https://labolycee.org/le-schweppes-r-un-bon-antipaludique-sans-risque-pour-la-sante",
     "subjectUrl": "https://labolycee.org/le-schweppes-r-un-bon-antipaludique-sans-risque-pour-la-sante",
     "hasCorrection": true
   },
   {
     "id": "etude-dun-vernis-ongles",
-    "title": "\u00c9tude d'un vernis \u00e0 ongles",
+    "title": "Étude d'un vernis à ongles",
     "year": 2025,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": "Jour 1",
     "points": 9,
     "duration": "1h35",
-    "themes": ["Beer-Lambert", "Cin\u00e9tique", "Synth\u00e8se organique"],
+    "themes": [
+      "Beer-Lambert",
+      "Cinétique",
+      "Synthèse organique"
+    ],
     "url": "https://labolycee.org/etude-dun-vernis-ongles",
     "subjectUrl": "https://labolycee.org/etude-dun-vernis-ongles",
     "hasCorrection": true
   },
   {
     "id": "savon-parfum-synthese-et-utilisation",
-    "title": "Savon : parfum, synth\u00e8se et utilisation",
+    "title": "Savon : parfum, synthèse et utilisation",
     "year": 2025,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 9,
     "duration": "1h35",
-    "themes": ["Cin\u00e9tique", "Synth\u00e8se organique"],
+    "themes": [
+      "Cinétique",
+      "Synthèse organique"
+    ],
     "url": "https://labolycee.org/savon-parfum-synthese-et-utilisation",
     "subjectUrl": "https://labolycee.org/savon-parfum-synthese-et-utilisation",
-    "hasCorrection": true
+    "hasCorrection": false,
+    "hasContent": false
   },
   {
     "id": "un-parfum-de-rose",
     "title": "Un parfum de rose",
     "year": 2025,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Jour 2",
     "points": 5,
     "duration": "53min",
-    "themes": ["Cin\u00e9tique", "Spectroscopie", "Synth\u00e8se organique", "Titrage pH-m\u00e9trique"],
+    "themes": [
+      "Cinétique",
+      "Spectroscopie",
+      "Synthèse organique",
+      "Titrage pH-métrique"
+    ],
     "url": "https://labolycee.org/un-parfum-de-rose",
     "subjectUrl": "https://labolycee.org/un-parfum-de-rose",
     "hasCorrection": true
@@ -159,37 +208,48 @@
     "id": "fabrication-et-aromatisation-dun-yaourt-maison",
     "title": "Fabrication et aromatisation d'un yaourt maison",
     "year": 2025,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": "Jour 2",
     "points": 9,
     "duration": "1h35",
-    "themes": ["Cin\u00e9tique", "Spectroscopie", "Synth\u00e8se organique", "Titrage conductim\u00e9trique"],
+    "themes": [
+      "Cinétique",
+      "Spectroscopie",
+      "Synthèse organique",
+      "Titrage conductimétrique"
+    ],
     "url": "https://labolycee.org/fabrication-et-aromatisation-dun-yaourt-maison",
     "subjectUrl": "https://labolycee.org/fabrication-et-aromatisation-dun-yaourt-maison",
     "hasCorrection": true
   },
   {
     "id": "autour-du-geranium-rosat",
-    "title": "Autour du g\u00e9ranium Rosat",
+    "title": "Autour du géranium Rosat",
     "year": 2025,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 9,
     "duration": "1h35",
-    "themes": ["Synth\u00e8se organique", "Titrage pH-m\u00e9trique"],
+    "themes": [
+      "Synthèse organique",
+      "Titrage pH-métrique"
+    ],
     "url": "https://labolycee.org/autour-du-geranium-rosat",
     "subjectUrl": "https://labolycee.org/autour-du-geranium-rosat",
     "hasCorrection": true
   },
   {
     "id": "arome-de-poire",
-    "title": "Ar\u00f4me de poire",
+    "title": "Arôme de poire",
     "year": 2025,
     "location": "Asie",
     "session": "Jour 1",
     "points": 4,
     "duration": "42min",
-    "themes": ["Spectroscopie", "Synth\u00e8se organique"],
+    "themes": [
+      "Spectroscopie",
+      "Synthèse organique"
+    ],
     "url": "https://labolycee.org/arome-de-poire",
     "subjectUrl": "https://labolycee.org/arome-de-poire",
     "hasCorrection": true
@@ -198,11 +258,14 @@
     "id": "eau-de-quinton",
     "title": "Eau de Quinton",
     "year": 2025,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Jour 2",
     "points": 4,
     "duration": "42min",
-    "themes": ["Python", "Titrage conductim\u00e9trique"],
+    "themes": [
+      "Python",
+      "Titrage conductimétrique"
+    ],
     "url": "https://labolycee.org/eau-de-quinton",
     "subjectUrl": "https://labolycee.org/eau-de-quinton",
     "hasCorrection": true
@@ -211,24 +274,33 @@
     "id": "tour-montparnasse",
     "title": "Tour Montparnasse",
     "year": 2025,
-    "location": "Am\u00e9rique du Sud",
+    "location": "Amérique du Sud",
     "session": null,
     "points": 11,
     "duration": "1h56",
-    "themes": ["2nde loi de Newton", "Effet photo\u00e9lectrique", "M\u00e9canique des fluides", "Python", "Thermodynamique"],
+    "themes": [
+      "2nde loi de Newton",
+      "Effet photoélectrique",
+      "Mécanique des fluides",
+      "Python",
+      "Thermodynamique"
+    ],
     "url": "https://labolycee.org/tour-montparnasse",
     "subjectUrl": "https://labolycee.org/tour-montparnasse",
-    "hasCorrection": true
+    "hasCorrection": false,
+    "hasContent": false
   },
   {
     "id": "viscosimetre-chute-de-bille",
-    "title": "Viscosim\u00e8tre \u00e0 chute de bille",
+    "title": "Viscosimètre à chute de bille",
     "year": 2025,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["2nde loi de Newton"],
+    "themes": [
+      "2nde loi de Newton"
+    ],
     "url": "https://labolycee.org/viscosimetre-chute-de-bille",
     "subjectUrl": "https://labolycee.org/viscosimetre-chute-de-bille",
     "hasCorrection": true
@@ -237,37 +309,47 @@
     "id": "saut-de-puce",
     "title": "Saut de puce",
     "year": 2025,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["2nde loi de Newton", "Mouvement dans un champ de pesanteur"],
+    "themes": [
+      "2nde loi de Newton",
+      "Mouvement dans un champ de pesanteur"
+    ],
     "url": "https://labolycee.org/saut-de-puce",
     "subjectUrl": "https://labolycee.org/saut-de-puce",
     "hasCorrection": true
   },
   {
     "id": "la-viscosite-du-glycerol",
-    "title": "La viscosit\u00e9 du glyc\u00e9rol",
+    "title": "La viscosité du glycérol",
     "year": 2025,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 6,
     "duration": "1h03",
-    "themes": ["2nde loi de Newton", "Mouvement dans un champ de pesanteur"],
+    "themes": [
+      "2nde loi de Newton",
+      "Mouvement dans un champ de pesanteur"
+    ],
     "url": "https://labolycee.org/la-viscosite-du-glycerol",
     "subjectUrl": "https://labolycee.org/la-viscosite-du-glycerol",
     "hasCorrection": true
   },
   {
     "id": "radar-pedagogique-equipe-dun-panneau-solaire",
-    "title": "Radar p\u00e9dagogique \u00e9quip\u00e9 d'un panneau solaire",
+    "title": "Radar pédagogique équipé d'un panneau solaire",
     "year": 2025,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": "Jour 1",
     "points": 6,
     "duration": "1h03",
-    "themes": ["2nde loi de Newton", "Effet Doppler", "Effet photo\u00e9lectrique"],
+    "themes": [
+      "2nde loi de Newton",
+      "Effet Doppler",
+      "Effet photoélectrique"
+    ],
     "url": "https://labolycee.org/radar-pedagogique-equipe-dun-panneau-solaire",
     "subjectUrl": "https://labolycee.org/radar-pedagogique-equipe-dun-panneau-solaire",
     "hasCorrection": true
@@ -276,50 +358,63 @@
     "id": "physique-et-raccordement-routier",
     "title": "Physique et raccordement routier",
     "year": 2025,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["2nde loi de Newton", "Python"],
+    "themes": [
+      "2nde loi de Newton",
+      "Python"
+    ],
     "url": "https://labolycee.org/physique-et-raccordement-routier",
     "subjectUrl": "https://labolycee.org/physique-et-raccordement-routier",
     "hasCorrection": true
   },
   {
     "id": "jeu-de-billes-et-gravite",
-    "title": "Jeu de billes et gravit\u00e9",
+    "title": "Jeu de billes et gravité",
     "year": 2025,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Mouvement dans un champ de pesanteur", "Python"],
+    "themes": [
+      "Mouvement dans un champ de pesanteur",
+      "Python"
+    ],
     "url": "https://labolycee.org/jeu-de-billes-et-gravite",
     "subjectUrl": "https://labolycee.org/jeu-de-billes-et-gravite",
-    "hasCorrection": true
+    "hasCorrection": false,
+    "hasContent": false
   },
   {
     "id": "entrainement-des-spationautes",
-    "title": "Entra\u00eenement des spationautes",
+    "title": "Entraînement des spationautes",
     "year": 2025,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Mouvement dans un champ de pesanteur", "Satellites - Lois de Kepler"],
+    "themes": [
+      "Mouvement dans un champ de pesanteur",
+      "Satellites - Lois de Kepler"
+    ],
     "url": "https://labolycee.org/entrainement-des-spationautes",
     "subjectUrl": "https://labolycee.org/entrainement-des-spationautes",
     "hasCorrection": true
   },
   {
     "id": "le-molkky",
-    "title": "Le m\u00f6lkky",
+    "title": "Le mölkky",
     "year": 2025,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": null,
     "points": 6,
     "duration": "1h03",
-    "themes": ["Mouvement dans un champ de pesanteur", "Python"],
+    "themes": [
+      "Mouvement dans un champ de pesanteur",
+      "Python"
+    ],
     "url": "https://labolycee.org/le-molkky",
     "subjectUrl": "https://labolycee.org/le-molkky",
     "hasCorrection": true
@@ -332,20 +427,25 @@
     "session": null,
     "points": 6,
     "duration": "1h03",
-    "themes": ["Effet Doppler", "Mouvement dans un champ de pesanteur"],
+    "themes": [
+      "Effet Doppler",
+      "Mouvement dans un champ de pesanteur"
+    ],
     "url": "https://labolycee.org/slam-dunk-au-golf",
     "subjectUrl": "https://labolycee.org/slam-dunk-au-golf",
     "hasCorrection": true
   },
   {
     "id": "raven-saunders-la-lanceuse-de-poids-americaine",
-    "title": "Raven Saunders, la lanceuse de poids am\u00e9ricaine",
+    "title": "Raven Saunders, la lanceuse de poids américaine",
     "year": 2025,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": null,
     "points": 6,
     "duration": "1h03",
-    "themes": ["Mouvement dans un champ de pesanteur"],
+    "themes": [
+      "Mouvement dans un champ de pesanteur"
+    ],
     "url": "https://labolycee.org/raven-saunders-la-lanceuse-de-poids-americaine",
     "subjectUrl": "https://labolycee.org/raven-saunders-la-lanceuse-de-poids-americaine",
     "hasCorrection": true
@@ -354,63 +454,74 @@
     "id": "mouvement-de-la-sonde-tgo-autour-de-mars",
     "title": "Mouvement de la sonde TGO autour de Mars",
     "year": 2025,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Satellites - Lois de Kepler"],
+    "themes": [
+      "Satellites - Lois de Kepler"
+    ],
     "url": "https://labolycee.org/mouvement-de-la-sonde-tgo-autour-de-mars",
     "subjectUrl": "https://labolycee.org/mouvement-de-la-sonde-tgo-autour-de-mars",
     "hasCorrection": true
   },
   {
     "id": "les-satellites-artificiels-meteosat",
-    "title": "Les satellites artificiels : M\u00e9t\u00e9osat",
+    "title": "Les satellites artificiels : Météosat",
     "year": 2025,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 12,
     "duration": "40min",
-    "themes": ["Satellites - Lois de Kepler"],
+    "themes": [
+      "Satellites - Lois de Kepler"
+    ],
     "url": "https://labolycee.org/les-satellites-artificiels-meteosat",
     "subjectUrl": "https://labolycee.org/les-satellites-artificiels-meteosat",
     "hasCorrection": true
   },
   {
     "id": "position-de-liss-en-temps-reel",
-    "title": "Position de l'ISS en temps r\u00e9el",
+    "title": "Position de l'ISS en temps réel",
     "year": 2025,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Jour 2",
     "points": 10,
     "duration": "30min",
-    "themes": ["Satellites - Lois de Kepler"],
+    "themes": [
+      "Satellites - Lois de Kepler"
+    ],
     "url": "https://labolycee.org/position-de-liss-en-temps-reel",
     "subjectUrl": "https://labolycee.org/position-de-liss-en-temps-reel",
     "hasCorrection": true
   },
   {
     "id": "le-destin-funeste-de-la-planete-kepler-1658b",
-    "title": "Le destin funeste de la plan\u00e8te Kepler-1658b",
+    "title": "Le destin funeste de la planète Kepler-1658b",
     "year": 2025,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Jour 1",
     "points": 10,
     "duration": "30min",
-    "themes": ["Satellites - Lois de Kepler"],
+    "themes": [
+      "Satellites - Lois de Kepler"
+    ],
     "url": "https://labolycee.org/le-destin-funeste-de-la-planete-kepler-1658b",
     "subjectUrl": "https://labolycee.org/le-destin-funeste-de-la-planete-kepler-1658b",
     "hasCorrection": true
   },
   {
     "id": "la-face-cachee-de-la-lune",
-    "title": "La face cach\u00e9e de la Lune",
+    "title": "La face cachée de la Lune",
     "year": 2025,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": "Jour 1",
     "points": 5,
     "duration": "53min",
-    "themes": ["Nucl\u00e9aire", "Satellites - Lois de Kepler"],
+    "themes": [
+      "Nucléaire",
+      "Satellites - Lois de Kepler"
+    ],
     "url": "https://labolycee.org/la-face-cachee-de-la-lune",
     "subjectUrl": "https://labolycee.org/la-face-cachee-de-la-lune",
     "hasCorrection": true
@@ -419,11 +530,13 @@
     "id": "cargo-dirigeable",
     "title": "Cargo dirigeable",
     "year": 2025,
-    "location": "Am\u00e9rique du Sud",
+    "location": "Amérique du Sud",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["M\u00e9canique des fluides"],
+    "themes": [
+      "Mécanique des fluides"
+    ],
     "url": "https://labolycee.org/cargo-dirigeable",
     "subjectUrl": "https://labolycee.org/cargo-dirigeable",
     "hasCorrection": true
@@ -432,11 +545,15 @@
     "id": "la-physique-au-service-du-vigneron",
     "title": "La physique au service du vigneron",
     "year": 2025,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 11,
     "duration": "1h55",
-    "themes": ["Circuits RC", "M\u00e9canique des fluides", "Thermodynamique"],
+    "themes": [
+      "Circuits RC",
+      "Mécanique des fluides",
+      "Thermodynamique"
+    ],
     "url": "https://labolycee.org/la-physique-au-service-du-vigneron",
     "subjectUrl": "https://labolycee.org/la-physique-au-service-du-vigneron",
     "hasCorrection": true
@@ -449,33 +566,42 @@
     "session": null,
     "points": 11,
     "duration": "1h55",
-    "themes": ["M\u00e9canique des fluides", "Thermodynamique"],
+    "themes": [
+      "Mécanique des fluides",
+      "Thermodynamique"
+    ],
     "url": "https://labolycee.org/installation-sanitaire",
     "subjectUrl": "https://labolycee.org/installation-sanitaire",
     "hasCorrection": true
   },
   {
     "id": "ecoulement-du-sang-dans-une-artere",
-    "title": "\u00c9coulement du sang dans une art\u00e8re",
+    "title": "Écoulement du sang dans une artère",
     "year": 2025,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Effet Doppler", "M\u00e9canique des fluides"],
+    "themes": [
+      "Effet Doppler",
+      "Mécanique des fluides"
+    ],
     "url": "https://labolycee.org/ecoulement-du-sang-dans-une-artere",
     "subjectUrl": "https://labolycee.org/ecoulement-du-sang-dans-une-artere",
     "hasCorrection": true
   },
   {
     "id": "mostiglassr-le-vitrage-moustiquaire-rafraichissant",
-    "title": "Mostiglass, le vitrage moustiquaire rafra\u00eechissant",
+    "title": "Mostiglass, le vitrage moustiquaire rafraîchissant",
     "year": 2025,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": "Jour 2",
     "points": 6,
     "duration": "53min",
-    "themes": ["Diffraction", "M\u00e9canique des fluides"],
+    "themes": [
+      "Diffraction",
+      "Mécanique des fluides"
+    ],
     "url": "https://labolycee.org/mostiglassr-le-vitrage-moustiquaire-rafraichissant",
     "subjectUrl": "https://labolycee.org/mostiglassr-le-vitrage-moustiquaire-rafraichissant",
     "hasCorrection": true
@@ -484,11 +610,13 @@
     "id": "traitement-des-eaux-dun-bassin-dorage",
     "title": "Traitement des eaux d'un bassin d'orage",
     "year": 2025,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": null,
     "points": 6,
     "duration": "1h03",
-    "themes": ["M\u00e9canique des fluides"],
+    "themes": [
+      "Mécanique des fluides"
+    ],
     "url": "https://labolycee.org/traitement-des-eaux-dun-bassin-dorage",
     "subjectUrl": "https://labolycee.org/traitement-des-eaux-dun-bassin-dorage",
     "hasCorrection": true
@@ -497,63 +625,75 @@
     "id": "chauffe-eau-thermodynamique-dun-chalet",
     "title": "Chauffe-eau thermodynamique d'un chalet",
     "year": 2025,
-    "location": "Am\u00e9rique du Sud",
+    "location": "Amérique du Sud",
     "session": null,
     "points": 5,
     "duration": "1h",
-    "themes": ["Thermodynamique"],
+    "themes": [
+      "Thermodynamique"
+    ],
     "url": "https://labolycee.org/chauffe-eau-thermodynamique-dun-chalet",
     "subjectUrl": "https://labolycee.org/chauffe-eau-thermodynamique-dun-chalet",
-    "hasCorrection": true
+    "hasCorrection": false,
+    "hasContent": false
   },
   {
     "id": "le-refrigerateur",
-    "title": "Le r\u00e9frig\u00e9rateur",
+    "title": "Le réfrigérateur",
     "year": 2025,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 11,
     "duration": "1h56",
-    "themes": ["Thermodynamique"],
+    "themes": [
+      "Thermodynamique"
+    ],
     "url": "https://labolycee.org/le-refrigerateur",
     "subjectUrl": "https://labolycee.org/le-refrigerateur",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "preparation-dun-biberon",
-    "title": "Pr\u00e9paration d'un biberon",
+    "title": "Préparation d'un biberon",
     "year": 2025,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Thermodynamique"],
+    "themes": [
+      "Thermodynamique"
+    ],
     "url": "https://labolycee.org/preparation-dun-biberon",
     "subjectUrl": "https://labolycee.org/preparation-dun-biberon",
-    "hasCorrection": true
+    "hasCorrection": false,
+    "hasContent": false
   },
   {
     "id": "performances-des-bolometres-de-planck",
-    "title": "Performances des bolom\u00e8tres de Planck",
+    "title": "Performances des bolomètres de Planck",
     "year": 2025,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Thermodynamique"],
+    "themes": [
+      "Thermodynamique"
+    ],
     "url": "https://labolycee.org/performances-des-bolometres-de-planck",
     "subjectUrl": "https://labolycee.org/performances-des-bolometres-de-planck",
     "hasCorrection": true
   },
   {
     "id": "temperature-au-sein-dun-igloo",
-    "title": "Temp\u00e9rature au sein d'un igloo",
+    "title": "Température au sein d'un igloo",
     "year": 2025,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Thermodynamique"],
+    "themes": [
+      "Thermodynamique"
+    ],
     "url": "https://labolycee.org/temperature-au-sein-dun-igloo",
     "subjectUrl": "https://labolycee.org/temperature-au-sein-dun-igloo",
     "hasCorrection": true
@@ -562,50 +702,61 @@
     "id": "les-ondes-lumineuses",
     "title": "Les ondes lumineuses",
     "year": 2025,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Diffraction", "Interf\u00e9rences"],
+    "themes": [
+      "Diffraction",
+      "Interférences"
+    ],
     "url": "https://labolycee.org/les-ondes-lumineuses",
     "subjectUrl": "https://labolycee.org/les-ondes-lumineuses",
     "hasCorrection": true
   },
   {
     "id": "un-brin-en-matiere-synthetique",
-    "title": "Un brin en mati\u00e8re synth\u00e9tique",
+    "title": "Un brin en matière synthétique",
     "year": 2025,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Jour 1",
     "points": 10,
     "duration": "30min",
-    "themes": ["Diffraction"],
+    "themes": [
+      "Diffraction"
+    ],
     "url": "https://labolycee.org/un-brin-en-matiere-synthetique",
     "subjectUrl": "https://labolycee.org/un-brin-en-matiere-synthetique",
     "hasCorrection": true
   },
   {
     "id": "la-couleur-des-scarabees",
-    "title": "La couleur des scarab\u00e9es",
+    "title": "La couleur des scarabées",
     "year": 2025,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Jour 2",
     "points": 5,
     "duration": "53min",
-    "themes": ["Interf\u00e9rences", "Python"],
+    "themes": [
+      "Interférences",
+      "Python"
+    ],
     "url": "https://labolycee.org/la-couleur-des-scarabees",
     "subjectUrl": "https://labolycee.org/la-couleur-des-scarabees",
     "hasCorrection": true
   },
   {
     "id": "mesure-de-lepaisseur-dun-film-alimentaire",
-    "title": "Mesure de l'\u00e9paisseur d'un film alimentaire",
+    "title": "Mesure de l'épaisseur d'un film alimentaire",
     "year": 2025,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Jour 2",
     "points": 11,
     "duration": "1h15",
-    "themes": ["Circuits RC", "Interf\u00e9rences"],
+    "themes": [
+      "Circuits RC",
+      "Interférences"
+    ],
     "url": "https://labolycee.org/mesure-de-lepaisseur-dun-film-alimentaire",
     "subjectUrl": "https://labolycee.org/mesure-de-lepaisseur-dun-film-alimentaire",
     "hasCorrection": true
@@ -614,50 +765,60 @@
     "id": "le-trombone-de-koenig",
     "title": "Le trombone de Koenig",
     "year": 2025,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": "Jour 2",
     "points": 5,
     "duration": "53min",
-    "themes": ["Interf\u00e9rences", "Python"],
+    "themes": [
+      "Interférences",
+      "Python"
+    ],
     "url": "https://labolycee.org/le-trombone-de-koenig",
     "subjectUrl": "https://labolycee.org/le-trombone-de-koenig",
     "hasCorrection": true
   },
   {
     "id": "recharge-des-voitures-electriques",
-    "title": "Recharge des voitures \u00e9lectriques",
+    "title": "Recharge des voitures électriques",
     "year": 2025,
-    "location": "Am\u00e9rique du Sud",
+    "location": "Amérique du Sud",
     "session": "Jour 1",
     "points": 5,
     "duration": "53min",
-    "themes": ["Piles - Constante d'\u00e9quilibre"],
+    "themes": [
+      "Piles - Constante d'équilibre"
+    ],
     "url": "https://labolycee.org/recharge-des-voitures-electriques",
     "subjectUrl": "https://labolycee.org/recharge-des-voitures-electriques",
-    "hasCorrection": true
+    "hasCorrection": false,
+    "hasContent": false
   },
   {
     "id": "traitement-de-surface-dune-piece-de-jeu-dechecs",
-    "title": "Traitement de surface d'une pi\u00e8ce de jeu d'\u00e9checs",
+    "title": "Traitement de surface d'une pièce de jeu d'échecs",
     "year": 2025,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["\u00c9lectrolyse"],
+    "themes": [
+      "Électrolyse"
+    ],
     "url": "https://labolycee.org/traitement-de-surface-dune-piece-de-jeu-dechecs",
     "subjectUrl": "https://labolycee.org/traitement-de-surface-dune-piece-de-jeu-dechecs",
     "hasCorrection": true
   },
   {
     "id": "ariane-6-un-deluge-deau-pour-se-proteger-du-bruit",
-    "title": "Ariane 6 : un d\u00e9luge d'eau pour se prot\u00e9ger du bruit",
+    "title": "Ariane 6 : un déluge d'eau pour se protéger du bruit",
     "year": 2025,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Jour 2",
     "points": 10,
     "duration": "30min",
-    "themes": ["Intensit\u00e9 sonore"],
+    "themes": [
+      "Intensité sonore"
+    ],
     "url": "https://labolycee.org/ariane-6-un-deluge-deau-pour-se-proteger-du-bruit",
     "subjectUrl": "https://labolycee.org/ariane-6-un-deluge-deau-pour-se-proteger-du-bruit",
     "hasCorrection": true
@@ -670,33 +831,40 @@
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Circuits RC"],
+    "themes": [
+      "Circuits RC"
+    ],
     "url": "https://labolycee.org/paiement-sans-contact",
     "subjectUrl": "https://labolycee.org/paiement-sans-contact",
     "hasCorrection": true
   },
   {
     "id": "transition-energetique",
-    "title": "Transition \u00e9nerg\u00e9tique",
+    "title": "Transition énergétique",
     "year": 2025,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 4,
     "duration": "20min",
-    "themes": ["Effet photo\u00e9lectrique"],
+    "themes": [
+      "Effet photoélectrique"
+    ],
     "url": "https://labolycee.org/transition-energetique",
     "subjectUrl": "https://labolycee.org/transition-energetique",
-    "hasCorrection": true
+    "hasCorrection": false,
+    "hasContent": false
   },
   {
     "id": "utilisation-medicale-du-technetium",
-    "title": "Utilisation m\u00e9dicale du techn\u00e9tium",
+    "title": "Utilisation médicale du technétium",
     "year": 2025,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 6,
     "duration": "1h03",
-    "themes": ["Nucl\u00e9aire"],
+    "themes": [
+      "Nucléaire"
+    ],
     "url": "https://labolycee.org/utilisation-medicale-du-technetium",
     "subjectUrl": "https://labolycee.org/utilisation-medicale-du-technetium",
     "hasCorrection": true
@@ -705,50 +873,61 @@
     "id": "datation-dune-roche",
     "title": "Datation d'une roche",
     "year": 2025,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Jour 1",
     "points": 6,
     "duration": "1h03",
-    "themes": ["Nucl\u00e9aire"],
+    "themes": [
+      "Nucléaire"
+    ],
     "url": "https://labolycee.org/datation-dune-roche",
     "subjectUrl": "https://labolycee.org/datation-dune-roche",
     "hasCorrection": true
   },
   {
     "id": "combustible-mox-pour-limiter-les-dechets-radioactifs",
-    "title": "Combustible MOX pour limiter les d\u00e9chets radioactifs",
+    "title": "Combustible MOX pour limiter les déchets radioactifs",
     "year": 2025,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": "Jour 2",
     "points": 5,
     "duration": "53min",
-    "themes": ["Nucl\u00e9aire"],
+    "themes": [
+      "Nucléaire"
+    ],
     "url": "https://labolycee.org/combustible-mox-pour-limiter-les-dechets-radioactifs",
     "subjectUrl": "https://labolycee.org/combustible-mox-pour-limiter-les-dechets-radioactifs",
     "hasCorrection": true
   },
   {
     "id": "lacide-citrique-comme-produit-menager",
-    "title": "L'acide citrique comme produit m\u00e9nager",
+    "title": "L'acide citrique comme produit ménager",
     "year": 2024,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 9,
     "duration": "1h35",
-    "themes": ["Acide-Base", "Spectroscopie", "Titrage pH-m\u00e9trique"],
+    "themes": [
+      "Acide-Base",
+      "Spectroscopie",
+      "Titrage pH-métrique"
+    ],
     "url": "https://labolycee.org/lacide-citrique-comme-produit-menager",
     "subjectUrl": "https://labolycee.org/lacide-citrique-comme-produit-menager",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "suivi-cinetique-dune-decoloration",
-    "title": "Suivi cin\u00e9tique d'une d\u00e9coloration",
+    "title": "Suivi cinétique d'une décoloration",
     "year": 2024,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Acide-Base", "Cin\u00e9tique"],
+    "themes": [
+      "Acide-Base",
+      "Cinétique"
+    ],
     "url": "https://labolycee.org/suivi-cinetique-dune-decoloration",
     "subjectUrl": "https://labolycee.org/suivi-cinetique-dune-decoloration",
     "hasCorrection": true
@@ -757,11 +936,14 @@
     "id": "traitement-contre-le-varroa",
     "title": "Traitement contre le varroa",
     "year": 2024,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 4,
     "duration": "42min",
-    "themes": ["Acide-Base", "Titrage pH-m\u00e9trique"],
+    "themes": [
+      "Acide-Base",
+      "Titrage pH-métrique"
+    ],
     "url": "https://labolycee.org/traitement-contre-le-varroa",
     "subjectUrl": "https://labolycee.org/traitement-contre-le-varroa",
     "hasCorrection": true
@@ -770,24 +952,32 @@
     "id": "coloration-capillaire",
     "title": "Coloration capillaire",
     "year": 2024,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": null,
     "points": 9,
     "duration": "1h35",
-    "themes": ["Acide-Base", "Beer-Lambert", "Cin\u00e9tique", "Python"],
+    "themes": [
+      "Acide-Base",
+      "Beer-Lambert",
+      "Cinétique",
+      "Python"
+    ],
     "url": "https://labolycee.org/coloration-capillaire",
     "subjectUrl": "https://labolycee.org/coloration-capillaire",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "un-champignon-parfume",
-    "title": "Un champignon parfum\u00e9",
+    "title": "Un champignon parfumé",
     "year": 2024,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 4,
     "duration": "42min",
-    "themes": ["Acide-Base", "Synth\u00e8se organique"],
+    "themes": [
+      "Acide-Base",
+      "Synthèse organique"
+    ],
     "url": "https://labolycee.org/un-champignon-parfume",
     "subjectUrl": "https://labolycee.org/un-champignon-parfume",
     "hasCorrection": true
@@ -796,24 +986,32 @@
     "id": "vers-le-bleu-de-thymol",
     "title": "Vers le bleu de thymol",
     "year": 2024,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 9,
     "duration": "1h35",
-    "themes": ["Acide-Base", "Cin\u00e9tique", "Synth\u00e8se organique"],
+    "themes": [
+      "Acide-Base",
+      "Cinétique",
+      "Synthèse organique"
+    ],
     "url": "https://labolycee.org/vers-le-bleu-de-thymol",
     "subjectUrl": "https://labolycee.org/vers-le-bleu-de-thymol",
     "hasCorrection": true
   },
   {
     "id": "ne-jamais-melanger-eau-de-javel-et-acide",
-    "title": "Ne jamais m\u00e9langer eau de Javel et acide",
+    "title": "Ne jamais mélanger eau de Javel et acide",
     "year": 2024,
     "location": "Asie",
     "session": null,
     "points": 9,
     "duration": "1h35",
-    "themes": ["Acide-Base", "Cin\u00e9tique", "Titrage pH-m\u00e9trique"],
+    "themes": [
+      "Acide-Base",
+      "Cinétique",
+      "Titrage pH-métrique"
+    ],
     "url": "https://labolycee.org/ne-jamais-melanger-eau-de-javel-et-acide",
     "subjectUrl": "https://labolycee.org/ne-jamais-melanger-eau-de-javel-et-acide",
     "hasCorrection": true
@@ -822,11 +1020,15 @@
     "id": "lammoniac-un-futur-carburant-pour-les-transports",
     "title": "L'ammoniac : un futur carburant pour les transports",
     "year": 2024,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 9,
     "duration": "1h35",
-    "themes": ["Acide-Base", "Titrage pH-m\u00e9trique", "\u00c9lectrolyse"],
+    "themes": [
+      "Acide-Base",
+      "Titrage pH-métrique",
+      "Électrolyse"
+    ],
     "url": "https://labolycee.org/lammoniac-un-futur-carburant-pour-les-transports",
     "subjectUrl": "https://labolycee.org/lammoniac-un-futur-carburant-pour-les-transports",
     "hasCorrection": true
@@ -835,102 +1037,125 @@
     "id": "certification-dun-vin",
     "title": "Certification d'un vin",
     "year": 2024,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 9,
     "duration": "1h35",
-    "themes": ["Acide-Base", "Beer-Lambert"],
+    "themes": [
+      "Acide-Base",
+      "Beer-Lambert"
+    ],
     "url": "https://labolycee.org/certification-dun-vin",
     "subjectUrl": "https://labolycee.org/certification-dun-vin",
     "hasCorrection": true
   },
   {
     "id": "acidite-totale-dun-vin",
-    "title": "Acidit\u00e9 totale d'un vin",
+    "title": "Acidité totale d'un vin",
     "year": 2024,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": null,
     "points": 4,
     "duration": "38min",
-    "themes": ["Acide-Base", "Titrage pH-m\u00e9trique"],
+    "themes": [
+      "Acide-Base",
+      "Titrage pH-métrique"
+    ],
     "url": "https://labolycee.org/acidite-totale-dun-vin",
     "subjectUrl": "https://labolycee.org/acidite-totale-dun-vin",
     "hasCorrection": true
   },
   {
     "id": "sante-alimentaire-ne-pas-abuser-des-nitrites",
-    "title": "Sant\u00e9 alimentaire - ne pas abuser des nitrites",
+    "title": "Santé alimentaire - ne pas abuser des nitrites",
     "year": 2024,
     "location": "Asie",
     "session": "Jour 2",
     "points": 4,
     "duration": "30min",
-    "themes": ["Beer-Lambert"],
+    "themes": [
+      "Beer-Lambert"
+    ],
     "url": "https://labolycee.org/sante-alimentaire-ne-pas-abuser-des-nitrites",
     "subjectUrl": "https://labolycee.org/sante-alimentaire-ne-pas-abuser-des-nitrites",
     "hasCorrection": true
   },
   {
     "id": "larome-dananas",
-    "title": "L'ar\u00f4me d'ananas",
+    "title": "L'arôme d'ananas",
     "year": 2024,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 9,
     "duration": "1h35",
-    "themes": ["Cin\u00e9tique", "Spectroscopie", "Synth\u00e8se organique"],
+    "themes": [
+      "Cinétique",
+      "Spectroscopie",
+      "Synthèse organique"
+    ],
     "url": "https://labolycee.org/larome-dananas",
     "subjectUrl": "https://labolycee.org/larome-dananas",
     "hasCorrection": true
   },
   {
     "id": "controle-dun-medicament",
-    "title": "Contr\u00f4le d'un m\u00e9dicament",
+    "title": "Contrôle d'un médicament",
     "year": 2024,
     "location": "Asie",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Spectroscopie", "Titrage pH-m\u00e9trique"],
+    "themes": [
+      "Spectroscopie",
+      "Titrage pH-métrique"
+    ],
     "url": "https://labolycee.org/controle-dun-medicament",
     "subjectUrl": "https://labolycee.org/controle-dun-medicament",
     "hasCorrection": true
   },
   {
     "id": "une-serie-dexperiences-historiques-la-reaction-desterification-etudiee-par-marcellin-berthelot",
-    "title": "Une s\u00e9rie d'exp\u00e9riences historiques : la r\u00e9action d'est\u00e9rification",
+    "title": "Une série d'expériences historiques : la réaction d'estérification",
     "year": 2024,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": null,
     "points": 9,
     "duration": "1h35",
-    "themes": ["Cin\u00e9tique", "Piles - Constante d'\u00e9quilibre"],
+    "themes": [
+      "Cinétique",
+      "Piles - Constante d'équilibre"
+    ],
     "url": "https://labolycee.org/une-serie-dexperiences-historiques-la-reaction-desterification-etudiee-par-marcellin-berthelot",
     "subjectUrl": "https://labolycee.org/une-serie-dexperiences-historiques-la-reaction-desterification-etudiee-par-marcellin-berthelot",
     "hasCorrection": true
   },
   {
     "id": "suivi-cinetique-par-conductimetrie-de-lhydrolyse-du-chlorure-de-tertiobutyle",
-    "title": "Suivi cin\u00e9tique par conductim\u00e9trie de l'hydrolyse du chlorure de tertiobutyle",
+    "title": "Suivi cinétique par conductimétrie de l'hydrolyse du chlorure de tertiobutyle",
     "year": 2024,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": null,
     "points": 9,
     "duration": "1h35",
-    "themes": ["Cin\u00e9tique", "Kohlrausch"],
+    "themes": [
+      "Cinétique",
+      "Kohlrausch"
+    ],
     "url": "https://labolycee.org/suivi-cinetique-par-conductimetrie-de-lhydrolyse-du-chlorure-de-tertiobutyle",
     "subjectUrl": "https://labolycee.org/suivi-cinetique-par-conductimetrie-de-lhydrolyse-du-chlorure-de-tertiobutyle",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "le-gallate-de-propyle",
     "title": "Le gallate de propyle",
     "year": 2024,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": null,
     "points": 4,
     "duration": "38min",
-    "themes": ["Synth\u00e8se organique"],
+    "themes": [
+      "Synthèse organique"
+    ],
     "url": "https://labolycee.org/le-gallate-de-propyle",
     "subjectUrl": "https://labolycee.org/le-gallate-de-propyle",
     "hasCorrection": true
@@ -939,11 +1164,13 @@
     "id": "batterie-lithium-soufre",
     "title": "Batterie Lithium - Soufre",
     "year": 2024,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Jour 2",
     "points": 5,
     "duration": "53min",
-    "themes": ["Piles - Constante d'\u00e9quilibre"],
+    "themes": [
+      "Piles - Constante d'équilibre"
+    ],
     "url": "https://labolycee.org/batterie-lithium-soufre",
     "subjectUrl": "https://labolycee.org/batterie-lithium-soufre",
     "hasCorrection": true
@@ -952,50 +1179,62 @@
     "id": "une-batterie-comestible",
     "title": "Une batterie comestible",
     "year": 2024,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": "Jour 2",
     "points": 5,
     "duration": "53min",
-    "themes": ["Piles - Constante d'\u00e9quilibre"],
+    "themes": [
+      "Piles - Constante d'équilibre"
+    ],
     "url": "https://labolycee.org/une-batterie-comestible",
     "subjectUrl": "https://labolycee.org/une-batterie-comestible",
     "hasCorrection": true
   },
   {
     "id": "des-batteries-flux-redox-organiques",
-    "title": "Des batteries \u00e0 flux redox organiques",
+    "title": "Des batteries à flux redox organiques",
     "year": 2024,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": "Jour 1",
     "points": 5,
     "duration": "53min",
-    "themes": ["Piles - Constante d'\u00e9quilibre"],
+    "themes": [
+      "Piles - Constante d'équilibre"
+    ],
     "url": "https://labolycee.org/des-batteries-flux-redox-organiques",
     "subjectUrl": "https://labolycee.org/des-batteries-flux-redox-organiques",
     "hasCorrection": true
   },
   {
     "id": "emilie-du-chatelet-madame-pompon-newton",
-    "title": "\u00c9milie du Ch\u00e2telet, madame pompon Newton",
+    "title": "Émilie du Châtelet, madame pompon Newton",
     "year": 2024,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["2nde loi de Newton", "Mouvement dans un champ de pesanteur"],
+    "themes": [
+      "2nde loi de Newton",
+      "Mouvement dans un champ de pesanteur"
+    ],
     "url": "https://labolycee.org/emilie-du-chatelet-madame-pompon-newton",
     "subjectUrl": "https://labolycee.org/emilie-du-chatelet-madame-pompon-newton",
     "hasCorrection": true
   },
   {
     "id": "vol-en-montgolfiere",
-    "title": "Vol en montgolfi\u00e8re",
+    "title": "Vol en montgolfière",
     "year": 2024,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 11,
     "duration": "1h05",
-    "themes": ["2nde loi de Newton", "M\u00e9canique des fluides", "Mouvement dans un champ de pesanteur", "Thermodynamique"],
+    "themes": [
+      "2nde loi de Newton",
+      "Mécanique des fluides",
+      "Mouvement dans un champ de pesanteur",
+      "Thermodynamique"
+    ],
     "url": "https://labolycee.org/vol-en-montgolfiere",
     "subjectUrl": "https://labolycee.org/vol-en-montgolfiere",
     "hasCorrection": true
@@ -1004,24 +1243,29 @@
     "id": "le-curling",
     "title": "Le curling",
     "year": 2024,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["2nde loi de Newton"],
+    "themes": [
+      "2nde loi de Newton"
+    ],
     "url": "https://labolycee.org/le-curling",
     "subjectUrl": "https://labolycee.org/le-curling",
     "hasCorrection": true
   },
   {
     "id": "accelerometre-dun-mobile-multifonction",
-    "title": "Acc\u00e9l\u00e9rom\u00e8tre d'un mobile multifonction",
+    "title": "Accéléromètre d'un mobile multifonction",
     "year": 2024,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 6,
     "duration": "1h03",
-    "themes": ["2nde loi de Newton", "Mouvement dans un champ de pesanteur"],
+    "themes": [
+      "2nde loi de Newton",
+      "Mouvement dans un champ de pesanteur"
+    ],
     "url": "https://labolycee.org/accelerometre-dun-mobile-multifonction",
     "subjectUrl": "https://labolycee.org/accelerometre-dun-mobile-multifonction",
     "hasCorrection": true
@@ -1030,11 +1274,15 @@
     "id": "autour-du-basket-ball",
     "title": "Autour du basket-ball",
     "year": 2024,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 11,
     "duration": "1h55",
-    "themes": ["Intensit\u00e9 sonore", "Mouvement dans un champ de pesanteur", "Python"],
+    "themes": [
+      "Intensité sonore",
+      "Mouvement dans un champ de pesanteur",
+      "Python"
+    ],
     "url": "https://labolycee.org/autour-du-basket-ball",
     "subjectUrl": "https://labolycee.org/autour-du-basket-ball",
     "hasCorrection": true
@@ -1043,50 +1291,59 @@
     "id": "le-jeu-du-palet",
     "title": "Le jeu du palet",
     "year": 2024,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Mouvement dans un champ de pesanteur"],
+    "themes": [
+      "Mouvement dans un champ de pesanteur"
+    ],
     "url": "https://labolycee.org/le-jeu-du-palet",
     "subjectUrl": "https://labolycee.org/le-jeu-du-palet",
     "hasCorrection": true
   },
   {
     "id": "determination-de-la-valeur-du-champ-de-pesanteur",
-    "title": "D\u00e9termination de la valeur du champ de pesanteur \u00e0 la surface de la Lune",
+    "title": "Détermination de la valeur du champ de pesanteur à la surface de la Lune",
     "year": 2024,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 6,
     "duration": "1h03",
-    "themes": ["Mouvement dans un champ de pesanteur"],
+    "themes": [
+      "Mouvement dans un champ de pesanteur"
+    ],
     "url": "https://labolycee.org/determination-de-la-valeur-du-champ-de-pesanteur",
     "subjectUrl": "https://labolycee.org/determination-de-la-valeur-du-champ-de-pesanteur",
-    "hasCorrection": true
+    "hasCorrection": false,
+    "hasContent": false
   },
   {
     "id": "la-tour-de-la-terreur",
     "title": "La tour de la terreur",
     "year": 2024,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Mouvement dans un champ de pesanteur"],
+    "themes": [
+      "Mouvement dans un champ de pesanteur"
+    ],
     "url": "https://labolycee.org/la-tour-de-la-terreur",
     "subjectUrl": "https://labolycee.org/la-tour-de-la-terreur",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "vol-du-drone-ingenuity-sur-mars",
     "title": "Vol du drone Ingenuity sur Mars",
     "year": 2024,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Mouvement dans un champ de pesanteur"],
+    "themes": [
+      "Mouvement dans un champ de pesanteur"
+    ],
     "url": "https://labolycee.org/vol-du-drone-ingenuity-sur-mars",
     "subjectUrl": "https://labolycee.org/vol-du-drone-ingenuity-sur-mars",
     "hasCorrection": true
@@ -1095,141 +1352,169 @@
     "id": "lhomme-canon",
     "title": "L'homme canon",
     "year": 2024,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Mouvement dans un champ de pesanteur"],
+    "themes": [
+      "Mouvement dans un champ de pesanteur"
+    ],
     "url": "https://labolycee.org/lhomme-canon",
     "subjectUrl": "https://labolycee.org/lhomme-canon",
     "hasCorrection": true
   },
   {
     "id": "points-de-reglement-au-tennis-de-table",
-    "title": "Points de r\u00e8glement au tennis de table",
+    "title": "Points de règlement au tennis de table",
     "year": 2024,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": null,
     "points": 11,
     "duration": "1h55",
-    "themes": ["Effet Doppler", "Mouvement dans un champ de pesanteur"],
+    "themes": [
+      "Effet Doppler",
+      "Mouvement dans un champ de pesanteur"
+    ],
     "url": "https://labolycee.org/points-de-reglement-au-tennis-de-table",
     "subjectUrl": "https://labolycee.org/points-de-reglement-au-tennis-de-table",
     "hasCorrection": true
   },
   {
     "id": "la-protontherapie-sauve-la-vue",
-    "title": "La protonth\u00e9rapie sauve la vue",
+    "title": "La protonthérapie sauve la vue",
     "year": 2024,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": "Jour 1",
     "points": 5,
     "duration": "53min",
-    "themes": ["Mouvement dans un champ \u00e9lectrique", "Satellites - Lois de Kepler"],
+    "themes": [
+      "Mouvement dans un champ électrique",
+      "Satellites - Lois de Kepler"
+    ],
     "url": "https://labolycee.org/la-protontherapie-sauve-la-vue",
     "subjectUrl": "https://labolycee.org/la-protontherapie-sauve-la-vue",
     "hasCorrection": true
   },
   {
     "id": "les-accelerateurs-de-particules-au-service-de-la-medecine",
-    "title": "Les acc\u00e9l\u00e9rateurs de particules au service de la m\u00e9decine",
+    "title": "Les accélérateurs de particules au service de la médecine",
     "year": 2024,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Jour 2",
     "points": 10,
     "duration": "30min",
-    "themes": ["Mouvement dans un champ \u00e9lectrique"],
+    "themes": [
+      "Mouvement dans un champ électrique"
+    ],
     "url": "https://labolycee.org/les-accelerateurs-de-particules-au-service-de-la-medecine",
     "subjectUrl": "https://labolycee.org/les-accelerateurs-de-particules-au-service-de-la-medecine",
     "hasCorrection": true
   },
   {
     "id": "la-decouverte-de-neptune",
-    "title": "La d\u00e9couverte de Neptune",
+    "title": "La découverte de Neptune",
     "year": 2024,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Lunette astronomique", "Satellites - Lois de Kepler"],
+    "themes": [
+      "Lunette astronomique",
+      "Satellites - Lois de Kepler"
+    ],
     "url": "https://labolycee.org/la-decouverte-de-neptune",
     "subjectUrl": "https://labolycee.org/la-decouverte-de-neptune",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "mouvement-du-telescope-james-webb",
-    "title": "Mouvement du t\u00e9lescope James-Webb",
+    "title": "Mouvement du télescope James-Webb",
     "year": 2024,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Satellites - Lois de Kepler"],
+    "themes": [
+      "Satellites - Lois de Kepler"
+    ],
     "url": "https://labolycee.org/mouvement-du-telescope-james-webb",
     "subjectUrl": "https://labolycee.org/mouvement-du-telescope-james-webb",
-    "hasCorrection": true
+    "hasCorrection": false,
+    "hasContent": false
   },
   {
     "id": "la-masse-de-la-terre",
     "title": "La masse de la Terre",
     "year": 2024,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": "Jour 2",
     "points": 6,
     "duration": "1h03",
-    "themes": ["Satellites - Lois de Kepler"],
+    "themes": [
+      "Satellites - Lois de Kepler"
+    ],
     "url": "https://labolycee.org/la-masse-de-la-terre",
     "subjectUrl": "https://labolycee.org/la-masse-de-la-terre",
     "hasCorrection": true
   },
   {
     "id": "la-decouverte-des-lunes-glacees-de-jupiter",
-    "title": "\u00c0 la d\u00e9couverte des lunes glac\u00e9es de Jupiter",
+    "title": "À la découverte des lunes glacées de Jupiter",
     "year": 2024,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 6,
     "duration": "1h03",
-    "themes": ["Satellites - Lois de Kepler"],
+    "themes": [
+      "Satellites - Lois de Kepler"
+    ],
     "url": "https://labolycee.org/la-decouverte-des-lunes-glacees-de-jupiter",
     "subjectUrl": "https://labolycee.org/la-decouverte-des-lunes-glacees-de-jupiter",
     "hasCorrection": true
   },
   {
     "id": "observation-dun-volcan-par-interferometrie-satellitaire-radar",
-    "title": "Observation d'un volcan par interf\u00e9rom\u00e9trie satellitaire radar",
+    "title": "Observation d'un volcan par interférométrie satellitaire radar",
     "year": 2024,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": null,
     "points": 11,
     "duration": "1h56",
-    "themes": ["Interf\u00e9rences", "Python", "Satellites - Lois de Kepler"],
+    "themes": [
+      "Interférences",
+      "Python",
+      "Satellites - Lois de Kepler"
+    ],
     "url": "https://labolycee.org/observation-dun-volcan-par-interferometrie-satellitaire-radar",
     "subjectUrl": "https://labolycee.org/observation-dun-volcan-par-interferometrie-satellitaire-radar",
     "hasCorrection": true
   },
   {
     "id": "etude-dune-bouteille-isotherme",
-    "title": "\u00c9tude d'une bouteille isotherme",
+    "title": "Étude d'une bouteille isotherme",
     "year": 2024,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 6,
     "duration": "1h03",
-    "themes": ["Thermodynamique"],
+    "themes": [
+      "Thermodynamique"
+    ],
     "url": "https://labolycee.org/etude-dune-bouteille-isotherme",
     "subjectUrl": "https://labolycee.org/etude-dune-bouteille-isotherme",
     "hasCorrection": true
   },
   {
     "id": "evolution-de-la-temperature-dans-une-bouteille-isotherme",
-    "title": "\u00c9volution de la temp\u00e9rature dans une bouteille isotherme",
+    "title": "Évolution de la température dans une bouteille isotherme",
     "year": 2024,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Thermodynamique"],
+    "themes": [
+      "Thermodynamique"
+    ],
     "url": "https://labolycee.org/evolution-de-la-temperature-dans-une-bouteille-isotherme",
     "subjectUrl": "https://labolycee.org/evolution-de-la-temperature-dans-une-bouteille-isotherme",
     "hasCorrection": true
@@ -1242,7 +1527,9 @@
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Thermodynamique"],
+    "themes": [
+      "Thermodynamique"
+    ],
     "url": "https://labolycee.org/au-bonheur-des-hippocampes",
     "subjectUrl": "https://labolycee.org/au-bonheur-des-hippocampes",
     "hasCorrection": true
@@ -1251,37 +1538,45 @@
     "id": "couverture-de-survie-ou-couverture-en-laine",
     "title": "Couverture de survie ou couverture en laine ?",
     "year": 2024,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Thermodynamique"],
+    "themes": [
+      "Thermodynamique"
+    ],
     "url": "https://labolycee.org/couverture-de-survie-ou-couverture-en-laine",
     "subjectUrl": "https://labolycee.org/couverture-de-survie-ou-couverture-en-laine",
     "hasCorrection": true
   },
   {
     "id": "une-brosse-a-dents",
-    "title": "Une brosse \u00e0 dents",
+    "title": "Une brosse à dents",
     "year": 2024,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": null,
     "points": 6,
     "duration": "1h03",
-    "themes": ["Diffraction", "Intensit\u00e9 sonore"],
+    "themes": [
+      "Diffraction",
+      "Intensité sonore"
+    ],
     "url": "https://labolycee.org/une-brosse-a-dents",
     "subjectUrl": "https://labolycee.org/une-brosse-a-dents",
-    "hasCorrection": true
+    "hasCorrection": false,
+    "hasContent": false
   },
   {
     "id": "etude-de-la-calefaction",
-    "title": "\u00c9tude de la cal\u00e9faction",
+    "title": "Étude de la caléfaction",
     "year": 2024,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": "Jour 2",
     "points": 5,
     "duration": "53min",
-    "themes": ["Diffraction"],
+    "themes": [
+      "Diffraction"
+    ],
     "url": "https://labolycee.org/etude-de-la-calefaction",
     "subjectUrl": "https://labolycee.org/etude-de-la-calefaction",
     "hasCorrection": true
@@ -1290,11 +1585,14 @@
     "id": "acoustique-dune-salle-de-spectacle",
     "title": "Acoustique d'une salle de spectacle",
     "year": 2024,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Diffraction", "Interf\u00e9rences"],
+    "themes": [
+      "Diffraction",
+      "Interférences"
+    ],
     "url": "https://labolycee.org/acoustique-dune-salle-de-spectacle",
     "subjectUrl": "https://labolycee.org/acoustique-dune-salle-de-spectacle",
     "hasCorrection": true
@@ -1303,24 +1601,29 @@
     "id": "utilisation-dun-laser-comme-instrument-de-mesure",
     "title": "Utilisation d'un laser comme instrument de mesure",
     "year": 2024,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 6,
     "duration": "1h03",
-    "themes": ["Diffraction", "Interf\u00e9rences"],
+    "themes": [
+      "Diffraction",
+      "Interférences"
+    ],
     "url": "https://labolycee.org/utilisation-dun-laser-comme-instrument-de-mesure",
     "subjectUrl": "https://labolycee.org/utilisation-dun-laser-comme-instrument-de-mesure",
     "hasCorrection": true
   },
   {
     "id": "micro-usinage-par-interferences-laser",
-    "title": "Micro-usinage par interf\u00e9rences laser",
+    "title": "Micro-usinage par interférences laser",
     "year": 2024,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Interf\u00e9rences"],
+    "themes": [
+      "Interférences"
+    ],
     "url": "https://labolycee.org/micro-usinage-par-interferences-laser",
     "subjectUrl": "https://labolycee.org/micro-usinage-par-interferences-laser",
     "hasCorrection": true
@@ -1333,33 +1636,39 @@
     "session": "Jour 2",
     "points": 11,
     "duration": "1h35",
-    "themes": ["Interf\u00e9rences"],
+    "themes": [
+      "Interférences"
+    ],
     "url": "https://labolycee.org/tissage-dune-voile-de-bateau",
     "subjectUrl": "https://labolycee.org/tissage-dune-voile-de-bateau",
     "hasCorrection": true
   },
   {
     "id": "resolution-dun-ecran-de-smartphone",
-    "title": "R\u00e9solution d'un \u00e9cran de smartphone",
+    "title": "Résolution d'un écran de smartphone",
     "year": 2024,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Interf\u00e9rences"],
+    "themes": [
+      "Interférences"
+    ],
     "url": "https://labolycee.org/resolution-dun-ecran-de-smartphone",
     "subjectUrl": "https://labolycee.org/resolution-dun-ecran-de-smartphone",
     "hasCorrection": true
   },
   {
     "id": "galaxie-dandromede",
-    "title": "Galaxie d'Androm\u00e8de",
+    "title": "Galaxie d'Andromède",
     "year": 2024,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Effet Doppler"],
+    "themes": [
+      "Effet Doppler"
+    ],
     "url": "https://labolycee.org/galaxie-dandromede",
     "subjectUrl": "https://labolycee.org/galaxie-dandromede",
     "hasCorrection": true
@@ -1368,11 +1677,14 @@
     "id": "observation-dun-avion-en-vol",
     "title": "Observation d'un avion en vol",
     "year": 2024,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 6,
     "duration": "1h03",
-    "themes": ["Effet Doppler", "Lunette astronomique"],
+    "themes": [
+      "Effet Doppler",
+      "Lunette astronomique"
+    ],
     "url": "https://labolycee.org/observation-dun-avion-en-vol",
     "subjectUrl": "https://labolycee.org/observation-dun-avion-en-vol",
     "hasCorrection": true
@@ -1381,11 +1693,13 @@
     "id": "une-jeune-astronome",
     "title": "Une jeune astronome",
     "year": 2024,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": "Jour 1",
     "points": 5,
     "duration": "53min",
-    "themes": ["Lunette astronomique"],
+    "themes": [
+      "Lunette astronomique"
+    ],
     "url": "https://labolycee.org/une-jeune-astronome",
     "subjectUrl": "https://labolycee.org/une-jeune-astronome",
     "hasCorrection": true
@@ -1398,20 +1712,24 @@
     "session": "Jour 1",
     "points": 6,
     "duration": "1h03",
-    "themes": ["Lunette astronomique"],
+    "themes": [
+      "Lunette astronomique"
+    ],
     "url": "https://labolycee.org/observation-distante",
     "subjectUrl": "https://labolycee.org/observation-distante",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "securite-acoustique",
-    "title": "S\u00e9curit\u00e9 acoustique",
+    "title": "Sécurité acoustique",
     "year": 2024,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Intensit\u00e9 sonore"],
+    "themes": [
+      "Intensité sonore"
+    ],
     "url": "https://labolycee.org/securite-acoustique",
     "subjectUrl": "https://labolycee.org/securite-acoustique",
     "hasCorrection": true
@@ -1420,24 +1738,28 @@
     "id": "chargeur-solaire",
     "title": "Chargeur solaire",
     "year": 2024,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Jour 2",
     "points": 10,
     "duration": "30min",
-    "themes": ["Effet photo\u00e9lectrique"],
+    "themes": [
+      "Effet photoélectrique"
+    ],
     "url": "https://labolycee.org/chargeur-solaire",
     "subjectUrl": "https://labolycee.org/chargeur-solaire",
     "hasCorrection": true
   },
   {
     "id": "etude-dun-traitement-contre-les-verrues",
-    "title": "\u00c9tude d'un traitement contre les verrues",
+    "title": "Étude d'un traitement contre les verrues",
     "year": 2023,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": null,
     "points": 4,
     "duration": "42min",
-    "themes": ["Titrage pH-m\u00e9trique"],
+    "themes": [
+      "Titrage pH-métrique"
+    ],
     "url": "https://labolycee.org/etude-dun-traitement-contre-les-verrues",
     "subjectUrl": "https://labolycee.org/etude-dun-traitement-contre-les-verrues",
     "hasCorrection": true
@@ -1446,11 +1768,14 @@
     "id": "juste-une-impression-gustative",
     "title": "Juste une impression gustative ?",
     "year": 2023,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 9,
     "duration": "1h35",
-    "themes": ["Acide-Base", "Titrage pH-m\u00e9trique"],
+    "themes": [
+      "Acide-Base",
+      "Titrage pH-métrique"
+    ],
     "url": "https://labolycee.org/juste-une-impression-gustative",
     "subjectUrl": "https://labolycee.org/juste-une-impression-gustative",
     "hasCorrection": true
@@ -1459,11 +1784,15 @@
     "id": "lacide-butyrique",
     "title": "L'acide butyrique",
     "year": 2023,
-    "location": "R\u00e9union",
+    "location": "Réunion",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Acide-Base", "Spectroscopie", "Synth\u00e8se organique"],
+    "themes": [
+      "Acide-Base",
+      "Spectroscopie",
+      "Synthèse organique"
+    ],
     "url": "https://labolycee.org/lacide-butyrique",
     "subjectUrl": "https://labolycee.org/lacide-butyrique",
     "hasCorrection": true
@@ -1472,11 +1801,13 @@
     "id": "nettoyage-dune-paroi-de-douche",
     "title": "Nettoyage d'une paroi de douche",
     "year": 2023,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": null,
     "points": 4,
     "duration": "48min",
-    "themes": ["Acide-Base"],
+    "themes": [
+      "Acide-Base"
+    ],
     "url": "https://labolycee.org/nettoyage-dune-paroi-de-douche",
     "subjectUrl": "https://labolycee.org/nettoyage-dune-paroi-de-douche",
     "hasCorrection": true
@@ -1485,11 +1816,14 @@
     "id": "leau-de-boisson-des-poules",
     "title": "L'eau de boisson des poules",
     "year": 2023,
-    "location": "R\u00e9union",
+    "location": "Réunion",
     "session": null,
     "points": 9,
     "duration": "1h35",
-    "themes": ["Acide-Base", "Piles - Constante d'\u00e9quilibre"],
+    "themes": [
+      "Acide-Base",
+      "Piles - Constante d'équilibre"
+    ],
     "url": "https://labolycee.org/leau-de-boisson-des-poules",
     "subjectUrl": "https://labolycee.org/leau-de-boisson-des-poules",
     "hasCorrection": true
@@ -1502,7 +1836,12 @@
     "session": null,
     "points": 9,
     "duration": "1h35",
-    "themes": ["Acide-Base", "Cin\u00e9tique", "Kohlrausch", "Titrage conductim\u00e9trique"],
+    "themes": [
+      "Acide-Base",
+      "Cinétique",
+      "Kohlrausch",
+      "Titrage conductimétrique"
+    ],
     "url": "https://labolycee.org/limportance-de-la-vitamine-c",
     "subjectUrl": "https://labolycee.org/limportance-de-la-vitamine-c",
     "hasCorrection": true
@@ -1511,37 +1850,46 @@
     "id": "analyse-dun-sol",
     "title": "Analyse d'un sol",
     "year": 2023,
-    "location": "R\u00e9union",
+    "location": "Réunion",
     "session": "Jour 2",
     "points": 4,
     "duration": "48min",
-    "themes": ["Beer-Lambert", "Piles - Constante d'\u00e9quilibre"],
+    "themes": [
+      "Beer-Lambert",
+      "Piles - Constante d'équilibre"
+    ],
     "url": "https://labolycee.org/analyse-dun-sol",
     "subjectUrl": "https://labolycee.org/analyse-dun-sol",
     "hasCorrection": true
   },
   {
     "id": "technique-de-dosage-de-luree",
-    "title": "Technique de dosage de l'ur\u00e9e",
+    "title": "Technique de dosage de l'urée",
     "year": 2023,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": "Jour 1",
     "points": 5,
     "duration": "53min",
-    "themes": ["Beer-Lambert", "Spectroscopie"],
+    "themes": [
+      "Beer-Lambert",
+      "Spectroscopie"
+    ],
     "url": "https://labolycee.org/technique-de-dosage-de-luree",
     "subjectUrl": "https://labolycee.org/technique-de-dosage-de-luree",
     "hasCorrection": true
   },
   {
     "id": "teneur-en-ions-salicylate-dans-une-creme",
-    "title": "Teneur en ions salicylate dans une cr\u00e8me",
+    "title": "Teneur en ions salicylate dans une crème",
     "year": 2023,
     "location": "Asie",
     "session": "Jour 1",
     "points": 5,
     "duration": "48min",
-    "themes": ["Beer-Lambert", "Piles - Constante d'\u00e9quilibre"],
+    "themes": [
+      "Beer-Lambert",
+      "Piles - Constante d'équilibre"
+    ],
     "url": "https://labolycee.org/teneur-en-ions-salicylate-dans-une-creme",
     "subjectUrl": "https://labolycee.org/teneur-en-ions-salicylate-dans-une-creme",
     "hasCorrection": true
@@ -1550,180 +1898,223 @@
     "id": "une-formulation-de-laspirine",
     "title": "Une formulation de l'aspirine",
     "year": 2023,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Jour 1",
     "points": 4,
     "duration": "48min",
-    "themes": ["Beer-Lambert"],
+    "themes": [
+      "Beer-Lambert"
+    ],
     "url": "https://labolycee.org/une-formulation-de-laspirine",
     "subjectUrl": "https://labolycee.org/une-formulation-de-laspirine",
     "hasCorrection": true
   },
   {
     "id": "lerythrosine-colorant-alimentaire",
-    "title": "L'\u00e9rythrosine, colorant alimentaire",
+    "title": "L'érythrosine, colorant alimentaire",
     "year": 2023,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": "Jour 2",
     "points": 5,
     "duration": "48min",
-    "themes": ["Beer-Lambert", "Cin\u00e9tique"],
+    "themes": [
+      "Beer-Lambert",
+      "Cinétique"
+    ],
     "url": "https://labolycee.org/lerythrosine-colorant-alimentaire",
     "subjectUrl": "https://labolycee.org/lerythrosine-colorant-alimentaire",
     "hasCorrection": true
   },
   {
     "id": "controle-de-la-qualite-dun-biberon",
-    "title": "Contr\u00f4le de la qualit\u00e9 d'un biberon",
+    "title": "Contrôle de la qualité d'un biberon",
     "year": 2023,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": "Jour 1",
     "points": 9,
     "duration": "1h35",
-    "themes": ["Beer-Lambert", "Titrage conductim\u00e9trique"],
+    "themes": [
+      "Beer-Lambert",
+      "Titrage conductimétrique"
+    ],
     "url": "https://labolycee.org/controle-de-la-qualite-dun-biberon",
     "subjectUrl": "https://labolycee.org/controle-de-la-qualite-dun-biberon",
     "hasCorrection": true
   },
   {
     "id": "lacide-butanoique",
-    "title": "L'acide butano\u00efque",
+    "title": "L'acide butanoïque",
     "year": 2023,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Kohlrausch", "Piles - Constante d'\u00e9quilibre"],
+    "themes": [
+      "Kohlrausch",
+      "Piles - Constante d'équilibre"
+    ],
     "url": "https://labolycee.org/lacide-butanoique",
     "subjectUrl": "https://labolycee.org/lacide-butanoique",
     "hasCorrection": true
   },
   {
     "id": "un-polymere-biodegradable-le-pla",
-    "title": "Un polym\u00e8re biod\u00e9gradable, le PLA",
+    "title": "Un polymère biodégradable, le PLA",
     "year": 2023,
-    "location": "Nouvelle-Cal\u00e9donie",
+    "location": "Nouvelle-Calédonie",
     "session": null,
     "points": 9,
     "duration": "1h35",
-    "themes": ["Cin\u00e9tique", "Spectroscopie", "Titrage pH-m\u00e9trique"],
+    "themes": [
+      "Cinétique",
+      "Spectroscopie",
+      "Titrage pH-métrique"
+    ],
     "url": "https://labolycee.org/un-polymere-biodegradable-le-pla",
     "subjectUrl": "https://labolycee.org/un-polymere-biodegradable-le-pla",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "le-miel-et-les-abeilles",
     "title": "Le miel et les abeilles",
     "year": 2023,
-    "location": "Nouvelle-Cal\u00e9donie",
+    "location": "Nouvelle-Calédonie",
     "session": null,
     "points": 9,
     "duration": "1h35",
-    "themes": ["Cin\u00e9tique", "Synth\u00e8se organique", "Titrage pH-m\u00e9trique"],
+    "themes": [
+      "Cinétique",
+      "Synthèse organique",
+      "Titrage pH-métrique"
+    ],
     "url": "https://labolycee.org/le-miel-et-les-abeilles",
     "subjectUrl": "https://labolycee.org/le-miel-et-les-abeilles",
     "hasCorrection": true
   },
   {
     "id": "optimisation-de-la-synthese-de-lethanoate-de-benzyle",
-    "title": "Optimisation de la synth\u00e8se de l'\u00e9thanoate de benzyle",
+    "title": "Optimisation de la synthèse de l'éthanoate de benzyle",
     "year": 2023,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": "Jour 2",
     "points": 5,
     "duration": "53min",
-    "themes": ["Cin\u00e9tique", "Synth\u00e8se organique"],
+    "themes": [
+      "Cinétique",
+      "Synthèse organique"
+    ],
     "url": "https://labolycee.org/optimisation-de-la-synthese-de-lethanoate-de-benzyle",
     "subjectUrl": "https://labolycee.org/optimisation-de-la-synthese-de-lethanoate-de-benzyle",
     "hasCorrection": true
   },
   {
     "id": "controle-de-lordre-dune-reaction",
-    "title": "Contr\u00f4le de l'ordre d'une r\u00e9action",
+    "title": "Contrôle de l'ordre d'une réaction",
     "year": 2023,
     "location": "Asie",
     "session": "Jour 1",
     "points": 5,
     "duration": "48min",
-    "themes": ["Cin\u00e9tique"],
+    "themes": [
+      "Cinétique"
+    ],
     "url": "https://labolycee.org/controle-de-lordre-dune-reaction",
     "subjectUrl": "https://labolycee.org/controle-de-lordre-dune-reaction",
     "hasCorrection": true
   },
   {
     "id": "stockage-dangereux-du-peroxyde-dhydrogene",
-    "title": "Stockage dangereux du peroxyde d'hydrog\u00e8ne",
+    "title": "Stockage dangereux du peroxyde d'hydrogène",
     "year": 2023,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 4,
     "duration": "42min",
-    "themes": ["Cin\u00e9tique"],
+    "themes": [
+      "Cinétique"
+    ],
     "url": "https://labolycee.org/stockage-dangereux-du-peroxyde-dhydrogene",
     "subjectUrl": "https://labolycee.org/stockage-dangereux-du-peroxyde-dhydrogene",
     "hasCorrection": true
   },
   {
     "id": "etude-de-la-vitamine-c-contenue-dans-les-kiwis",
-    "title": "\u00c9tude de la vitamine C contenue dans les kiwis",
+    "title": "Étude de la vitamine C contenue dans les kiwis",
     "year": 2023,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Jour 2",
     "points": 9,
     "duration": "1h35",
-    "themes": ["Cin\u00e9tique", "Spectroscopie"],
+    "themes": [
+      "Cinétique",
+      "Spectroscopie"
+    ],
     "url": "https://labolycee.org/etude-de-la-vitamine-c-contenue-dans-les-kiwis",
     "subjectUrl": "https://labolycee.org/etude-de-la-vitamine-c-contenue-dans-les-kiwis",
     "hasCorrection": true
   },
   {
     "id": "synthese-de-larome-de-banane",
-    "title": "Synth\u00e8se de l'ar\u00f4me de banane",
+    "title": "Synthèse de l'arôme de banane",
     "year": 2023,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Jour 1",
     "points": 5,
     "duration": "53min",
-    "themes": ["Cin\u00e9tique", "Spectroscopie", "Synth\u00e8se organique"],
+    "themes": [
+      "Cinétique",
+      "Spectroscopie",
+      "Synthèse organique"
+    ],
     "url": "https://labolycee.org/synthese-de-larome-de-banane",
     "subjectUrl": "https://labolycee.org/synthese-de-larome-de-banane",
     "hasCorrection": true
   },
   {
     "id": "lacetanilide-medicament-antipyretique",
-    "title": "L'ac\u00e9tanilide, m\u00e9dicament antipyr\u00e9tique",
+    "title": "L'acétanilide, médicament antipyrétique",
     "year": 2023,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 5,
     "duration": "48min",
-    "themes": ["Cin\u00e9tique", "Piles - Constante d'\u00e9quilibre", "Spectroscopie", "Synth\u00e8se organique"],
+    "themes": [
+      "Cinétique",
+      "Piles - Constante d'équilibre",
+      "Spectroscopie",
+      "Synthèse organique"
+    ],
     "url": "https://labolycee.org/lacetanilide-medicament-antipyretique",
     "subjectUrl": "https://labolycee.org/lacetanilide-medicament-antipyretique",
     "hasCorrection": true
   },
   {
     "id": "etude-dune-chaufferette",
-    "title": "\u00c9tude d'une chaufferette",
+    "title": "Étude d'une chaufferette",
     "year": 2023,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 4,
     "duration": "42min",
-    "themes": ["Titrage conductim\u00e9trique"],
+    "themes": [
+      "Titrage conductimétrique"
+    ],
     "url": "https://labolycee.org/etude-dune-chaufferette",
     "subjectUrl": "https://labolycee.org/etude-dune-chaufferette",
     "hasCorrection": true
   },
   {
     "id": "un-chimiste-qui-merite-detre-connu-karl-friedrich-mohr",
-    "title": "Un chimiste qui m\u00e9rite d'\u00eatre connu : Karl Friedrich Mohr",
+    "title": "Un chimiste qui mérite d'être connu : Karl Friedrich Mohr",
     "year": 2023,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": null,
     "points": 9,
     "duration": "1h35",
-    "themes": ["Synth\u00e8se organique", "Titrage conductim\u00e9trique"],
+    "themes": [
+      "Synthèse organique",
+      "Titrage conductimétrique"
+    ],
     "url": "https://labolycee.org/un-chimiste-qui-merite-detre-connu-karl-friedrich-mohr",
     "subjectUrl": "https://labolycee.org/un-chimiste-qui-merite-detre-connu-karl-friedrich-mohr",
     "hasCorrection": true
@@ -1732,11 +2123,13 @@
     "id": "un-assouplissant-fait-maison",
     "title": "Un assouplissant fait maison",
     "year": 2023,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Titrage pH-m\u00e9trique"],
+    "themes": [
+      "Titrage pH-métrique"
+    ],
     "url": "https://labolycee.org/un-assouplissant-fait-maison",
     "subjectUrl": "https://labolycee.org/un-assouplissant-fait-maison",
     "hasCorrection": true
@@ -1745,102 +2138,125 @@
     "id": "un-savon-fait-maison",
     "title": "Un savon fait maison",
     "year": 2023,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Synth\u00e8se organique"],
+    "themes": [
+      "Synthèse organique"
+    ],
     "url": "https://labolycee.org/un-savon-fait-maison",
     "subjectUrl": "https://labolycee.org/un-savon-fait-maison",
     "hasCorrection": true
   },
   {
     "id": "fabrication-de-la-biere",
-    "title": "Fabrication de la bi\u00e8re",
+    "title": "Fabrication de la bière",
     "year": 2023,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": "Jour 2",
     "points": 4,
     "duration": "48min",
-    "themes": ["Spectroscopie", "Synth\u00e8se organique"],
+    "themes": [
+      "Spectroscopie",
+      "Synthèse organique"
+    ],
     "url": "https://labolycee.org/fabrication-de-la-biere",
     "subjectUrl": "https://labolycee.org/fabrication-de-la-biere",
     "hasCorrection": true
   },
   {
     "id": "preparation-du-chlorure-de-tertiobutyle",
-    "title": "Pr\u00e9paration du chlorure de tertiobutyle",
+    "title": "Préparation du chlorure de tertiobutyle",
     "year": 2023,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 4,
     "duration": "42min",
-    "themes": ["Spectroscopie", "Synth\u00e8se organique"],
+    "themes": [
+      "Spectroscopie",
+      "Synthèse organique"
+    ],
     "url": "https://labolycee.org/preparation-du-chlorure-de-tertiobutyle",
     "subjectUrl": "https://labolycee.org/preparation-du-chlorure-de-tertiobutyle",
     "hasCorrection": true
   },
   {
     "id": "synthese-et-recyclage-du-pet-en-vanilline",
-    "title": "Synth\u00e8se et recyclage du PET en vanilline",
+    "title": "Synthèse et recyclage du PET en vanilline",
     "year": 2023,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Synth\u00e8se organique"],
+    "themes": [
+      "Synthèse organique"
+    ],
     "url": "https://labolycee.org/synthese-et-recyclage-du-pet-en-vanilline",
     "subjectUrl": "https://labolycee.org/synthese-et-recyclage-du-pet-en-vanilline",
     "hasCorrection": true
   },
   {
     "id": "lexperience-de-millikan-revisitee-par-des-chercheurs-suedois",
-    "title": "L'exp\u00e9rience de Millikan revisit\u00e9e par des chercheurs su\u00e9dois",
+    "title": "L'expérience de Millikan revisitée par des chercheurs suédois",
     "year": 2023,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": null,
     "points": 11,
     "duration": "1h55",
-    "themes": ["2nde loi de Newton", "Circuits RC", "Mouvement dans un champ \u00e9lectrique"],
+    "themes": [
+      "2nde loi de Newton",
+      "Circuits RC",
+      "Mouvement dans un champ électrique"
+    ],
     "url": "https://labolycee.org/lexperience-de-millikan-revisitee-par-des-chercheurs-suedois",
     "subjectUrl": "https://labolycee.org/lexperience-de-millikan-revisitee-par-des-chercheurs-suedois",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "comprendre-les-nuages",
     "title": "Comprendre les nuages",
     "year": 2023,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 11,
     "duration": "1h56",
-    "themes": ["2nde loi de Newton", "Intensit\u00e9 sonore", "Satellites - Lois de Kepler"],
+    "themes": [
+      "2nde loi de Newton",
+      "Intensité sonore",
+      "Satellites - Lois de Kepler"
+    ],
     "url": "https://labolycee.org/comprendre-les-nuages",
     "subjectUrl": "https://labolycee.org/comprendre-les-nuages",
     "hasCorrection": true
   },
   {
     "id": "tir-a-larc-a-la-perche-verticale",
-    "title": "Tir \u00e0 l'arc \u00e0 la perche verticale",
+    "title": "Tir à l'arc à la perche verticale",
     "year": 2023,
-    "location": "Nouvelle-Cal\u00e9donie",
+    "location": "Nouvelle-Calédonie",
     "session": null,
     "points": 6,
     "duration": "1h03",
-    "themes": ["Mouvement dans un champ de pesanteur"],
+    "themes": [
+      "Mouvement dans un champ de pesanteur"
+    ],
     "url": "https://labolycee.org/tir-a-larc-a-la-perche-verticale",
     "subjectUrl": "https://labolycee.org/tir-a-larc-a-la-perche-verticale",
-    "hasCorrection": true
+    "hasCorrection": false,
+    "hasContent": false
   },
   {
     "id": "peser-un-corps-celeste",
-    "title": "Peser un corps c\u00e9leste",
+    "title": "Peser un corps céleste",
     "year": 2023,
-    "location": "R\u00e9union",
+    "location": "Réunion",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Mouvement dans un champ de pesanteur"],
+    "themes": [
+      "Mouvement dans un champ de pesanteur"
+    ],
     "url": "https://labolycee.org/peser-un-corps-celeste",
     "subjectUrl": "https://labolycee.org/peser-un-corps-celeste",
     "hasCorrection": true
@@ -1849,11 +2265,15 @@
     "id": "le-street-une-pratique-olympique",
     "title": "Le street - une pratique olympique",
     "year": 2023,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": null,
     "points": 11,
     "duration": "1h35",
-    "themes": ["Circuits RC", "Mouvement dans un champ de pesanteur", "Python"],
+    "themes": [
+      "Circuits RC",
+      "Mouvement dans un champ de pesanteur",
+      "Python"
+    ],
     "url": "https://labolycee.org/le-street-une-pratique-olympique",
     "subjectUrl": "https://labolycee.org/le-street-une-pratique-olympique",
     "hasCorrection": true
@@ -1862,11 +2282,15 @@
     "id": "bicycle-moto-cross",
     "title": "Bicycle Moto cross",
     "year": 2023,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": null,
     "points": 11,
     "duration": "1h56",
-    "themes": ["Intensit\u00e9 sonore", "Mouvement dans un champ de pesanteur", "Thermodynamique"],
+    "themes": [
+      "Intensité sonore",
+      "Mouvement dans un champ de pesanteur",
+      "Thermodynamique"
+    ],
     "url": "https://labolycee.org/bicycle-moto-cross",
     "subjectUrl": "https://labolycee.org/bicycle-moto-cross",
     "hasCorrection": true
@@ -1875,14 +2299,17 @@
     "id": "le-tweener-lob",
     "title": "Le tweener-lob ou le coup entre les jambes",
     "year": 2023,
-    "location": "R\u00e9union",
+    "location": "Réunion",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Mouvement dans un champ de pesanteur"],
+    "themes": [
+      "Mouvement dans un champ de pesanteur"
+    ],
     "url": "https://labolycee.org/le-tweener-lob",
     "subjectUrl": "https://labolycee.org/le-tweener-lob",
-    "hasCorrection": true
+    "hasCorrection": false,
+    "hasContent": false
   },
   {
     "id": "un-saut-parfait",
@@ -1892,72 +2319,85 @@
     "session": null,
     "points": 5,
     "duration": "1h",
-    "themes": ["Mouvement dans un champ de pesanteur"],
+    "themes": [
+      "Mouvement dans un champ de pesanteur"
+    ],
     "url": "https://labolycee.org/un-saut-parfait",
     "subjectUrl": "https://labolycee.org/un-saut-parfait",
     "hasCorrection": true
   },
   {
     "id": "imprimante-jet-dencre-continu",
-    "title": "Imprimante \u00e0 jet d'encre continu",
+    "title": "Imprimante à jet d'encre continu",
     "year": 2023,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Mouvement dans un champ \u00e9lectrique"],
+    "themes": [
+      "Mouvement dans un champ électrique"
+    ],
     "url": "https://labolycee.org/imprimante-jet-dencre-continu",
     "subjectUrl": "https://labolycee.org/imprimante-jet-dencre-continu",
     "hasCorrection": true
   },
   {
     "id": "mouvement-dune-goutte-dencre-dans-une-imprimante-jet-dencre",
-    "title": "Mouvement d'une goutte d'encre dans une imprimante \u00e0 jet d'encre",
+    "title": "Mouvement d'une goutte d'encre dans une imprimante à jet d'encre",
     "year": 2023,
-    "location": "R\u00e9union",
+    "location": "Réunion",
     "session": null,
     "points": 11,
     "duration": "1h56",
-    "themes": ["Circuits RC", "Mouvement dans un champ \u00e9lectrique"],
+    "themes": [
+      "Circuits RC",
+      "Mouvement dans un champ électrique"
+    ],
     "url": "https://labolycee.org/mouvement-dune-goutte-dencre-dans-une-imprimante-jet-dencre",
     "subjectUrl": "https://labolycee.org/mouvement-dune-goutte-dencre-dans-une-imprimante-jet-dencre",
     "hasCorrection": true
   },
   {
     "id": "le-scanner-rayons-x",
-    "title": "Le scanner \u00e0 rayons X",
+    "title": "Le scanner à rayons X",
     "year": 2023,
-    "location": "R\u00e9union",
+    "location": "Réunion",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Mouvement dans un champ \u00e9lectrique"],
+    "themes": [
+      "Mouvement dans un champ électrique"
+    ],
     "url": "https://labolycee.org/le-scanner-rayons-x",
     "subjectUrl": "https://labolycee.org/le-scanner-rayons-x",
     "hasCorrection": true
   },
   {
     "id": "etude-des-agregats-deau",
-    "title": "\u00c9tude des agr\u00e9gats d'eau",
+    "title": "Étude des agrégats d'eau",
     "year": 2023,
     "location": "Asie",
     "session": "Jour 2",
     "points": 5,
     "duration": "1h",
-    "themes": ["Mouvement dans un champ \u00e9lectrique"],
+    "themes": [
+      "Mouvement dans un champ électrique"
+    ],
     "url": "https://labolycee.org/etude-des-agregats-deau",
     "subjectUrl": "https://labolycee.org/etude-des-agregats-deau",
     "hasCorrection": true
   },
   {
     "id": "principe-de-laccelerateur-de-van-de-graaff",
-    "title": "Principe de l'acc\u00e9l\u00e9rateur de Van de Graaff",
+    "title": "Principe de l'accélérateur de Van de Graaff",
     "year": 2023,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": "Jour 2",
     "points": 6,
     "duration": "1h03",
-    "themes": ["Mouvement dans un champ \u00e9lectrique"],
+    "themes": [
+      "Mouvement dans un champ électrique"
+    ],
     "url": "https://labolycee.org/principe-de-laccelerateur-de-van-de-graaff",
     "subjectUrl": "https://labolycee.org/principe-de-laccelerateur-de-van-de-graaff",
     "hasCorrection": true
@@ -1966,24 +2406,31 @@
     "id": "dorothy-crowfoot-femme-de-sciences",
     "title": "Dorothy Crowfoot, femme de sciences",
     "year": 2023,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": "Jour 1",
     "points": 6,
     "duration": "1h03",
-    "themes": ["Interf\u00e9rences", "Mouvement dans un champ \u00e9lectrique"],
+    "themes": [
+      "Interférences",
+      "Mouvement dans un champ électrique"
+    ],
     "url": "https://labolycee.org/dorothy-crowfoot-femme-de-sciences",
     "subjectUrl": "https://labolycee.org/dorothy-crowfoot-femme-de-sciences",
     "hasCorrection": true
   },
   {
     "id": "mars-vue-sous-loeil-de-kepler",
-    "title": "Mars vue sous l'\u0153il de Kepler",
+    "title": "Mars vue sous l'œil de Kepler",
     "year": 2023,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 6,
     "duration": "1h03",
-    "themes": ["Lunette astronomique", "Python", "Satellites - Lois de Kepler"],
+    "themes": [
+      "Lunette astronomique",
+      "Python",
+      "Satellites - Lois de Kepler"
+    ],
     "url": "https://labolycee.org/mars-vue-sous-loeil-de-kepler",
     "subjectUrl": "https://labolycee.org/mars-vue-sous-loeil-de-kepler",
     "hasCorrection": true
@@ -1996,7 +2443,11 @@
     "session": null,
     "points": 11,
     "duration": "1h45",
-    "themes": ["Diffraction", "Lunette astronomique", "Satellites - Lois de Kepler"],
+    "themes": [
+      "Diffraction",
+      "Lunette astronomique",
+      "Satellites - Lois de Kepler"
+    ],
     "url": "https://labolycee.org/autour-de-saturne",
     "subjectUrl": "https://labolycee.org/autour-de-saturne",
     "hasCorrection": true
@@ -2005,24 +2456,29 @@
     "id": "sagittarius",
     "title": "Sagittarius A*",
     "year": 2023,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Jour 2",
     "points": 10,
     "duration": "30min",
-    "themes": ["Satellites - Lois de Kepler"],
+    "themes": [
+      "Satellites - Lois de Kepler"
+    ],
     "url": "https://labolycee.org/sagittarius",
     "subjectUrl": "https://labolycee.org/sagittarius",
     "hasCorrection": true
   },
   {
     "id": "la-decouverte-de-saturne",
-    "title": "\u00c0 la d\u00e9couverte de Saturne",
+    "title": "À la découverte de Saturne",
     "year": 2023,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Jour 1",
     "points": 11,
     "duration": "1h56",
-    "themes": ["Lunette astronomique", "Satellites - Lois de Kepler"],
+    "themes": [
+      "Lunette astronomique",
+      "Satellites - Lois de Kepler"
+    ],
     "url": "https://labolycee.org/la-decouverte-de-saturne",
     "subjectUrl": "https://labolycee.org/la-decouverte-de-saturne",
     "hasCorrection": true
@@ -2031,24 +2487,28 @@
     "id": "correction-de-la-trajectoire-dun-nanosatellite",
     "title": "Correction de la trajectoire d'un nanosatellite",
     "year": 2023,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Satellites - Lois de Kepler"],
+    "themes": [
+      "Satellites - Lois de Kepler"
+    ],
     "url": "https://labolycee.org/correction-de-la-trajectoire-dun-nanosatellite",
     "subjectUrl": "https://labolycee.org/correction-de-la-trajectoire-dun-nanosatellite",
     "hasCorrection": true
   },
   {
     "id": "la-recherche-dune-autre-terre",
-    "title": "\u00c0 la recherche d'une autre Terre",
+    "title": "À la recherche d'une autre Terre",
     "year": 2023,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 6,
     "duration": "1h03",
-    "themes": ["Satellites - Lois de Kepler"],
+    "themes": [
+      "Satellites - Lois de Kepler"
+    ],
     "url": "https://labolycee.org/la-recherche-dune-autre-terre",
     "subjectUrl": "https://labolycee.org/la-recherche-dune-autre-terre",
     "hasCorrection": true
@@ -2057,50 +2517,58 @@
     "id": "combien-de-temps-avant-lhypothermie",
     "title": "Combien de temps avant l'hypothermie ?",
     "year": 2023,
-    "location": "Nouvelle-Cal\u00e9donie",
+    "location": "Nouvelle-Calédonie",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Thermodynamique"],
+    "themes": [
+      "Thermodynamique"
+    ],
     "url": "https://labolycee.org/combien-de-temps-avant-lhypothermie",
     "subjectUrl": "https://labolycee.org/combien-de-temps-avant-lhypothermie",
     "hasCorrection": true
   },
   {
     "id": "installation-dune-fenetre-de-toit",
-    "title": "Installation d'une fen\u00eatre de toit",
+    "title": "Installation d'une fenêtre de toit",
     "year": 2023,
-    "location": "R\u00e9union",
+    "location": "Réunion",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Thermodynamique"],
+    "themes": [
+      "Thermodynamique"
+    ],
     "url": "https://labolycee.org/installation-dune-fenetre-de-toit",
     "subjectUrl": "https://labolycee.org/installation-dune-fenetre-de-toit",
     "hasCorrection": true
   },
   {
     "id": "evolution-de-la-temperature-dun-vaccin",
-    "title": "\u00c9volution de la temp\u00e9rature d'un vaccin",
+    "title": "Évolution de la température d'un vaccin",
     "year": 2023,
-    "location": "R\u00e9union",
+    "location": "Réunion",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Thermodynamique"],
+    "themes": [
+      "Thermodynamique"
+    ],
     "url": "https://labolycee.org/evolution-de-la-temperature-dun-vaccin",
     "subjectUrl": "https://labolycee.org/evolution-de-la-temperature-dun-vaccin",
     "hasCorrection": true
   },
   {
     "id": "etude-thermique-dun-methanier",
-    "title": "\u00c9tude thermique d'un m\u00e9thanier",
+    "title": "Étude thermique d'un méthanier",
     "year": 2023,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Thermodynamique"],
+    "themes": [
+      "Thermodynamique"
+    ],
     "url": "https://labolycee.org/etude-thermique-dun-methanier",
     "subjectUrl": "https://labolycee.org/etude-thermique-dun-methanier",
     "hasCorrection": true
@@ -2109,76 +2577,90 @@
     "id": "transfert-thermique-et-gastronomie",
     "title": "Transfert thermique et gastronomie",
     "year": 2023,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Thermodynamique"],
+    "themes": [
+      "Thermodynamique"
+    ],
     "url": "https://labolycee.org/transfert-thermique-et-gastronomie",
     "subjectUrl": "https://labolycee.org/transfert-thermique-et-gastronomie",
     "hasCorrection": true
   },
   {
     "id": "etude-thermique-dune-construction",
-    "title": "\u00c9tude thermique d'une construction",
+    "title": "Étude thermique d'une construction",
     "year": 2023,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Thermodynamique"],
+    "themes": [
+      "Thermodynamique"
+    ],
     "url": "https://labolycee.org/etude-thermique-dune-construction",
     "subjectUrl": "https://labolycee.org/etude-thermique-dune-construction",
     "hasCorrection": true
   },
   {
     "id": "pompe-chaleur-et-habitation",
-    "title": "Pompe \u00e0 chaleur et habitation",
+    "title": "Pompe à chaleur et habitation",
     "year": 2023,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Intensit\u00e9 sonore", "Thermodynamique"],
+    "themes": [
+      "Intensité sonore",
+      "Thermodynamique"
+    ],
     "url": "https://labolycee.org/pompe-chaleur-et-habitation",
     "subjectUrl": "https://labolycee.org/pompe-chaleur-et-habitation",
     "hasCorrection": true
   },
   {
     "id": "four-ceramique",
-    "title": "Four \u00e0 c\u00e9ramique",
+    "title": "Four à céramique",
     "year": 2023,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Thermodynamique"],
+    "themes": [
+      "Thermodynamique"
+    ],
     "url": "https://labolycee.org/four-ceramique",
     "subjectUrl": "https://labolycee.org/four-ceramique",
     "hasCorrection": true
   },
   {
     "id": "etude-dun-analyseur-dhematologie",
-    "title": "\u00c9tude d'un analyseur d'h\u00e9matologie",
+    "title": "Étude d'un analyseur d'hématologie",
     "year": 2023,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Diffraction"],
+    "themes": [
+      "Diffraction"
+    ],
     "url": "https://labolycee.org/etude-dun-analyseur-dhematologie",
     "subjectUrl": "https://labolycee.org/etude-dun-analyseur-dhematologie",
     "hasCorrection": true
   },
   {
     "id": "observation-ornithologique-dune-oie-cendree",
-    "title": "Observation ornithologique d'une oie cendr\u00e9e",
+    "title": "Observation ornithologique d'une oie cendrée",
     "year": 2023,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Jour 1",
     "points": 11,
     "duration": "1h45",
-    "themes": ["Interf\u00e9rences", "Lunette astronomique"],
+    "themes": [
+      "Interférences",
+      "Lunette astronomique"
+    ],
     "url": "https://labolycee.org/observation-ornithologique-dune-oie-cendree",
     "subjectUrl": "https://labolycee.org/observation-ornithologique-dune-oie-cendree",
     "hasCorrection": true
@@ -2187,76 +2669,89 @@
     "id": "lobservation-de-saturne",
     "title": "L'observation de Saturne",
     "year": 2023,
-    "location": "Nouvelle-Cal\u00e9donie",
+    "location": "Nouvelle-Calédonie",
     "session": "Jour 1",
     "points": 5,
     "duration": "53min",
-    "themes": ["Lunette astronomique"],
+    "themes": [
+      "Lunette astronomique"
+    ],
     "url": "https://labolycee.org/lobservation-de-saturne",
     "subjectUrl": "https://labolycee.org/lobservation-de-saturne",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "comment-sentendre-le-jour-de-la-fete-de-la-musique",
-    "title": "Comment s'entendre le jour de la f\u00eate de la musique ?",
+    "title": "Comment s'entendre le jour de la fête de la musique ?",
     "year": 2023,
-    "location": "Nouvelle-Cal\u00e9donie",
+    "location": "Nouvelle-Calédonie",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Intensit\u00e9 sonore"],
+    "themes": [
+      "Intensité sonore"
+    ],
     "url": "https://labolycee.org/comment-sentendre-le-jour-de-la-fete-de-la-musique",
     "subjectUrl": "https://labolycee.org/comment-sentendre-le-jour-de-la-fete-de-la-musique",
     "hasCorrection": true
   },
   {
     "id": "fete-de-la-musique",
-    "title": "F\u00eate de la musique",
+    "title": "Fête de la musique",
     "year": 2023,
-    "location": "Nouvelle-Cal\u00e9donie",
+    "location": "Nouvelle-Calédonie",
     "session": "Jour 2",
     "points": 5,
     "duration": "53min",
-    "themes": ["Intensit\u00e9 sonore"],
+    "themes": [
+      "Intensité sonore"
+    ],
     "url": "https://labolycee.org/fete-de-la-musique",
     "subjectUrl": "https://labolycee.org/fete-de-la-musique",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "un-jet-de-7-metres-au-hand-ball",
-    "title": "Un jet de 7 m\u00e8tres au hand-ball",
+    "title": "Un jet de 7 mètres au hand-ball",
     "year": 2023,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": "Jour 1",
     "points": 11,
     "duration": "1h56",
-    "themes": ["Intensit\u00e9 sonore"],
+    "themes": [
+      "Intensité sonore"
+    ],
     "url": "https://labolycee.org/un-jet-de-7-metres-au-hand-ball",
     "subjectUrl": "https://labolycee.org/un-jet-de-7-metres-au-hand-ball",
     "hasCorrection": true
   },
   {
     "id": "la-meduse-radar-anti-bruit",
-    "title": "La m\u00e9duse : radar anti-bruit",
+    "title": "La méduse : radar anti-bruit",
     "year": 2023,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Jour 2",
     "points": 10,
     "duration": "30min",
-    "themes": ["Intensit\u00e9 sonore"],
+    "themes": [
+      "Intensité sonore"
+    ],
     "url": "https://labolycee.org/la-meduse-radar-anti-bruit",
     "subjectUrl": "https://labolycee.org/la-meduse-radar-anti-bruit",
     "hasCorrection": true
   },
   {
     "id": "microphone-electrostatique",
-    "title": "Microphone \u00e9lectrostatique",
+    "title": "Microphone électrostatique",
     "year": 2023,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": "Jour 2",
     "points": 5,
     "duration": "53min",
-    "themes": ["Circuits RC", "Intensit\u00e9 sonore"],
+    "themes": [
+      "Circuits RC",
+      "Intensité sonore"
+    ],
     "url": "https://labolycee.org/microphone-electrostatique",
     "subjectUrl": "https://labolycee.org/microphone-electrostatique",
     "hasCorrection": true
@@ -2265,37 +2760,45 @@
     "id": "capteur-darrosage-capacitif",
     "title": "Capteur d'arrosage capacitif",
     "year": 2023,
-    "location": "Nouvelle-Cal\u00e9donie",
+    "location": "Nouvelle-Calédonie",
     "session": null,
     "points": 6,
     "duration": "1h03",
-    "themes": ["Circuits RC", "Python"],
+    "themes": [
+      "Circuits RC",
+      "Python"
+    ],
     "url": "https://labolycee.org/capteur-darrosage-capacitif",
     "subjectUrl": "https://labolycee.org/capteur-darrosage-capacitif",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "extraction-du-gaz-de-schiste-par-electro-fracturation",
-    "title": "Extraction du gaz de schiste par \u00e9lectro-fracturation",
+    "title": "Extraction du gaz de schiste par électro-fracturation",
     "year": 2023,
-    "location": "R\u00e9union",
+    "location": "Réunion",
     "session": null,
     "points": 6,
     "duration": "1h03",
-    "themes": ["Circuits RC"],
+    "themes": [
+      "Circuits RC"
+    ],
     "url": "https://labolycee.org/extraction-du-gaz-de-schiste-par-electro-fracturation",
     "subjectUrl": "https://labolycee.org/extraction-du-gaz-de-schiste-par-electro-fracturation",
     "hasCorrection": true
   },
   {
     "id": "modelisation-dun-detecteur-capacitif-dhumidite",
-    "title": "Mod\u00e9lisation d'un d\u00e9tecteur capacitif d'humidit\u00e9",
+    "title": "Modélisation d'un détecteur capacitif d'humidité",
     "year": 2023,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 6,
     "duration": "1h03",
-    "themes": ["Circuits RC", "Python"],
+    "themes": [
+      "Circuits RC",
+      "Python"
+    ],
     "url": "https://labolycee.org/modelisation-dun-detecteur-capacitif-dhumidite",
     "subjectUrl": "https://labolycee.org/modelisation-dun-detecteur-capacitif-dhumidite",
     "hasCorrection": true
@@ -2304,11 +2807,13 @@
     "id": "plongeon-de-haut-vol",
     "title": "Plongeon de haut vol",
     "year": 2023,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 9,
     "duration": "1h35",
-    "themes": ["Python"],
+    "themes": [
+      "Python"
+    ],
     "url": "https://labolycee.org/plongeon-de-haut-vol",
     "subjectUrl": "https://labolycee.org/plongeon-de-haut-vol",
     "hasCorrection": true
@@ -2321,33 +2826,41 @@
     "session": null,
     "points": 10,
     "duration": "1h45",
-    "themes": ["Beer-Lambert", "Titrage pH-m\u00e9trique"],
+    "themes": [
+      "Beer-Lambert",
+      "Titrage pH-métrique"
+    ],
     "url": "https://labolycee.org/le-vin-et-ses-composants",
     "subjectUrl": "https://labolycee.org/le-vin-et-ses-composants",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "etude-de-colorants-dans-une-boisson",
-    "title": "\u00c9tude de colorants dans une boisson",
+    "title": "Étude de colorants dans une boisson",
     "year": 2022,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Beer-Lambert"],
+    "themes": [
+      "Beer-Lambert"
+    ],
     "url": "https://labolycee.org/etude-de-colorants-dans-une-boisson",
     "subjectUrl": "https://labolycee.org/etude-de-colorants-dans-une-boisson",
     "hasCorrection": true
   },
   {
     "id": "arome-de-vanille",
-    "title": "Ar\u00f4me de vanille",
+    "title": "Arôme de vanille",
     "year": 2022,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Beer-Lambert", "Titrage conductim\u00e9trique"],
+    "themes": [
+      "Beer-Lambert",
+      "Titrage conductimétrique"
+    ],
     "url": "https://labolycee.org/arome-de-vanille",
     "subjectUrl": "https://labolycee.org/arome-de-vanille",
     "hasCorrection": true
@@ -2356,11 +2869,13 @@
     "id": "la-spiruline",
     "title": "La spiruline",
     "year": 2022,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Beer-Lambert"],
+    "themes": [
+      "Beer-Lambert"
+    ],
     "url": "https://labolycee.org/la-spiruline",
     "subjectUrl": "https://labolycee.org/la-spiruline",
     "hasCorrection": true
@@ -2369,11 +2884,13 @@
     "id": "indigo-et-carmin-dindigo",
     "title": "Indigo et carmin d'indigo",
     "year": 2022,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": "Jour 1",
     "points": 10,
     "duration": "1h45",
-    "themes": ["Beer-Lambert"],
+    "themes": [
+      "Beer-Lambert"
+    ],
     "url": "https://labolycee.org/indigo-et-carmin-dindigo",
     "subjectUrl": "https://labolycee.org/indigo-et-carmin-dindigo",
     "hasCorrection": true
@@ -2382,11 +2899,13 @@
     "id": "encre-et-effaceur",
     "title": "Encre et effaceur",
     "year": 2022,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Jour 2",
     "points": 5,
     "duration": "53min",
-    "themes": ["Beer-Lambert"],
+    "themes": [
+      "Beer-Lambert"
+    ],
     "url": "https://labolycee.org/encre-et-effaceur",
     "subjectUrl": "https://labolycee.org/encre-et-effaceur",
     "hasCorrection": true
@@ -2395,102 +2914,123 @@
     "id": "le-colorant-e-127",
     "title": "Le colorant E 127",
     "year": 2022,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Jour 1",
     "points": 10,
     "duration": "1h45",
-    "themes": ["Beer-Lambert"],
+    "themes": [
+      "Beer-Lambert"
+    ],
     "url": "https://labolycee.org/le-colorant-e-127",
     "subjectUrl": "https://labolycee.org/le-colorant-e-127",
     "hasCorrection": true
   },
   {
     "id": "synthese-dun-ester-a-odeur-florale",
-    "title": "Synth\u00e8se d'un ester \u00e0 odeur florale",
+    "title": "Synthèse d'un ester à odeur florale",
     "year": 2022,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": "Jour 1",
     "points": 10,
     "duration": "1h45",
-    "themes": ["Beer-Lambert"],
+    "themes": [
+      "Beer-Lambert"
+    ],
     "url": "https://labolycee.org/synthese-dun-ester-a-odeur-florale",
     "subjectUrl": "https://labolycee.org/synthese-dun-ester-a-odeur-florale",
-    "hasCorrection": true
+    "hasCorrection": false,
+    "hasContent": false
   },
   {
     "id": "lacide-formique-pour-stocker-le-dihydrogene",
-    "title": "L'acide formique pour stocker le dihydrog\u00e8ne ?",
+    "title": "L'acide formique pour stocker le dihydrogène ?",
     "year": 2022,
     "location": "Asie",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Kohlrausch", "Piles - Constante d'\u00e9quilibre"],
+    "themes": [
+      "Kohlrausch",
+      "Piles - Constante d'équilibre"
+    ],
     "url": "https://labolycee.org/lacide-formique-pour-stocker-le-dihydrogene",
     "subjectUrl": "https://labolycee.org/lacide-formique-pour-stocker-le-dihydrogene",
     "hasCorrection": true
   },
   {
     "id": "solution-desinfectante",
-    "title": "Solution d\u00e9sinfectante",
+    "title": "Solution désinfectante",
     "year": 2022,
-    "location": "Am\u00e9rique du Sud",
+    "location": "Amérique du Sud",
     "session": "Jour 1",
     "points": 10,
     "duration": "1h45",
-    "themes": ["Spectroscopie", "Titrage conductim\u00e9trique"],
+    "themes": [
+      "Spectroscopie",
+      "Titrage conductimétrique"
+    ],
     "url": "https://labolycee.org/solution-desinfectante",
     "subjectUrl": "https://labolycee.org/solution-desinfectante",
     "hasCorrection": true
   },
   {
     "id": "dissolution-dune-coquille-doeuf",
-    "title": "Dissolution d'une coquille d'\u0153uf",
+    "title": "Dissolution d'une coquille d'œuf",
     "year": 2022,
     "location": "Asie",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Spectroscopie", "Titrage pH-m\u00e9trique"],
+    "themes": [
+      "Spectroscopie",
+      "Titrage pH-métrique"
+    ],
     "url": "https://labolycee.org/dissolution-dune-coquille-doeuf",
     "subjectUrl": "https://labolycee.org/dissolution-dune-coquille-doeuf",
     "hasCorrection": true
   },
   {
     "id": "synthese-du-polycarbonate-de-bisphenol",
-    "title": "Synth\u00e8se du polycarbonate de bisph\u00e9nol A",
+    "title": "Synthèse du polycarbonate de bisphénol A",
     "year": 2022,
-    "location": "Nouvelle-Cal\u00e9donie",
+    "location": "Nouvelle-Calédonie",
     "session": null,
     "points": 10,
     "duration": "1h45",
-    "themes": ["Spectroscopie"],
+    "themes": [
+      "Spectroscopie"
+    ],
     "url": "https://labolycee.org/synthese-du-polycarbonate-de-bisphenol",
     "subjectUrl": "https://labolycee.org/synthese-du-polycarbonate-de-bisphenol",
     "hasCorrection": true
   },
   {
     "id": "lacide-methanoique",
-    "title": "L'acide m\u00e9thano\u00efque",
+    "title": "L'acide méthanoïque",
     "year": 2022,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 10,
     "duration": "1h45",
-    "themes": ["Python", "Spectroscopie"],
+    "themes": [
+      "Python",
+      "Spectroscopie"
+    ],
     "url": "https://labolycee.org/lacide-methanoique",
     "subjectUrl": "https://labolycee.org/lacide-methanoique",
     "hasCorrection": true
   },
   {
     "id": "fermentation-de-la-pate-pizza-napolitaine",
-    "title": "Fermentation de la p\u00e2te \u00e0 pizza napolitaine",
+    "title": "Fermentation de la pâte à pizza napolitaine",
     "year": 2022,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 10,
     "duration": "1h45",
-    "themes": ["Spectroscopie"],
+    "themes": [
+      "Spectroscopie"
+    ],
     "url": "https://labolycee.org/fermentation-de-la-pate-pizza-napolitaine",
     "subjectUrl": "https://labolycee.org/fermentation-de-la-pate-pizza-napolitaine",
     "hasCorrection": true
@@ -2499,24 +3039,28 @@
     "id": "lacide-formique",
     "title": "L'acide formique",
     "year": 2022,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 10,
     "duration": "1h45",
-    "themes": ["Spectroscopie"],
+    "themes": [
+      "Spectroscopie"
+    ],
     "url": "https://labolycee.org/lacide-formique",
     "subjectUrl": "https://labolycee.org/lacide-formique",
     "hasCorrection": true
   },
   {
     "id": "synthese-dun-arome-dorange",
-    "title": "Synth\u00e8se d'un ar\u00f4me d'orange",
+    "title": "Synthèse d'un arôme d'orange",
     "year": 2022,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Spectroscopie"],
+    "themes": [
+      "Spectroscopie"
+    ],
     "url": "https://labolycee.org/synthese-dun-arome-dorange",
     "subjectUrl": "https://labolycee.org/synthese-dun-arome-dorange",
     "hasCorrection": true
@@ -2525,50 +3069,61 @@
     "id": "la-vitamine-c-sans-sucre",
     "title": "La vitamine C sans sucre",
     "year": 2022,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": "Jour 2",
     "points": 10,
     "duration": "1h45",
-    "themes": ["Spectroscopie", "Titrage conductim\u00e9trique"],
+    "themes": [
+      "Spectroscopie",
+      "Titrage conductimétrique"
+    ],
     "url": "https://labolycee.org/la-vitamine-c-sans-sucre",
     "subjectUrl": "https://labolycee.org/la-vitamine-c-sans-sucre",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "besoin-en-magnesium",
-    "title": "Besoin en magn\u00e9sium",
+    "title": "Besoin en magnésium",
     "year": 2022,
-    "location": "Am\u00e9rique du Sud",
+    "location": "Amérique du Sud",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Titrage conductim\u00e9trique", "Titrage pH-m\u00e9trique"],
+    "themes": [
+      "Titrage conductimétrique",
+      "Titrage pH-métrique"
+    ],
     "url": "https://labolycee.org/besoin-en-magnesium",
     "subjectUrl": "https://labolycee.org/besoin-en-magnesium",
     "hasCorrection": true
   },
   {
     "id": "qualite-des-eaux-souterraines-sur-le-littoral",
-    "title": "Qualit\u00e9 des eaux souterraines sur le littoral",
+    "title": "Qualité des eaux souterraines sur le littoral",
     "year": 2022,
-    "location": "Nouvelle-Cal\u00e9donie",
+    "location": "Nouvelle-Calédonie",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Python", "Titrage conductim\u00e9trique"],
+    "themes": [
+      "Python",
+      "Titrage conductimétrique"
+    ],
     "url": "https://labolycee.org/qualite-des-eaux-souterraines-sur-le-littoral",
     "subjectUrl": "https://labolycee.org/qualite-des-eaux-souterraines-sur-le-littoral",
     "hasCorrection": true
   },
   {
     "id": "synthese-du-2-methylpropan-2-ol",
-    "title": "Synth\u00e8se du 2-m\u00e9thylpropan-2-ol",
+    "title": "Synthèse du 2-méthylpropan-2-ol",
     "year": 2022,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Titrage conductim\u00e9trique"],
+    "themes": [
+      "Titrage conductimétrique"
+    ],
     "url": "https://labolycee.org/synthese-du-2-methylpropan-2-ol",
     "subjectUrl": "https://labolycee.org/synthese-du-2-methylpropan-2-ol",
     "hasCorrection": true
@@ -2577,37 +3132,43 @@
     "id": "la-batterie-au-lithium-fer-phosphate-dune-automobile",
     "title": "La batterie au lithium-fer-phosphate d'une automobile",
     "year": 2022,
-    "location": "Am\u00e9rique du Sud",
+    "location": "Amérique du Sud",
     "session": "Jour 2",
     "points": 5,
     "duration": "53min",
-    "themes": ["Piles - Constante d'\u00e9quilibre"],
+    "themes": [
+      "Piles - Constante d'équilibre"
+    ],
     "url": "https://labolycee.org/la-batterie-au-lithium-fer-phosphate-dune-automobile",
     "subjectUrl": "https://labolycee.org/la-batterie-au-lithium-fer-phosphate-dune-automobile",
     "hasCorrection": true
   },
   {
     "id": "la-pile-au-methanol",
-    "title": "La pile au m\u00e9thanol",
+    "title": "La pile au méthanol",
     "year": 2022,
-    "location": "Nouvelle-Cal\u00e9donie",
+    "location": "Nouvelle-Calédonie",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Piles - Constante d'\u00e9quilibre"],
+    "themes": [
+      "Piles - Constante d'équilibre"
+    ],
     "url": "https://labolycee.org/la-pile-au-methanol",
     "subjectUrl": "https://labolycee.org/la-pile-au-methanol",
     "hasCorrection": true
   },
   {
     "id": "defibrillateur-cardiaque-implantable",
-    "title": "D\u00e9fibrillateur cardiaque implantable",
+    "title": "Défibrillateur cardiaque implantable",
     "year": 2022,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Piles - Constante d'\u00e9quilibre"],
+    "themes": [
+      "Piles - Constante d'équilibre"
+    ],
     "url": "https://labolycee.org/defibrillateur-cardiaque-implantable",
     "subjectUrl": "https://labolycee.org/defibrillateur-cardiaque-implantable",
     "hasCorrection": true
@@ -2616,24 +3177,28 @@
     "id": "des-piles-historiques",
     "title": "Des piles historiques",
     "year": 2022,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Piles - Constante d'\u00e9quilibre"],
+    "themes": [
+      "Piles - Constante d'équilibre"
+    ],
     "url": "https://labolycee.org/des-piles-historiques",
     "subjectUrl": "https://labolycee.org/des-piles-historiques",
     "hasCorrection": true
   },
   {
     "id": "etudes-de-manoeuvres-avec-un-gyropode",
-    "title": "\u00c9tudes de man\u0153uvres avec un gyropode",
+    "title": "Études de manœuvres avec un gyropode",
     "year": 2022,
-    "location": "Nouvelle-Cal\u00e9donie",
+    "location": "Nouvelle-Calédonie",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["2nde loi de Newton"],
+    "themes": [
+      "2nde loi de Newton"
+    ],
     "url": "https://labolycee.org/etudes-de-manoeuvres-avec-un-gyropode",
     "subjectUrl": "https://labolycee.org/etudes-de-manoeuvres-avec-un-gyropode",
     "hasCorrection": true
@@ -2642,37 +3207,45 @@
     "id": "lairbag",
     "title": "L'airbag",
     "year": 2022,
-    "location": "Am\u00e9rique du Sud",
+    "location": "Amérique du Sud",
     "session": null,
     "points": 10,
     "duration": "1h45",
-    "themes": ["2nde loi de Newton", "Circuits RC"],
+    "themes": [
+      "2nde loi de Newton",
+      "Circuits RC"
+    ],
     "url": "https://labolycee.org/lairbag",
     "subjectUrl": "https://labolycee.org/lairbag",
     "hasCorrection": true
   },
   {
     "id": "atterrissage-du-premier-etage-dune-fusee",
-    "title": "Atterrissage du premier \u00e9tage d'une fus\u00e9e",
+    "title": "Atterrissage du premier étage d'une fusée",
     "year": 2022,
-    "location": "Am\u00e9rique du Sud",
+    "location": "Amérique du Sud",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["2nde loi de Newton"],
+    "themes": [
+      "2nde loi de Newton"
+    ],
     "url": "https://labolycee.org/atterrissage-du-premier-etage-dune-fusee",
     "subjectUrl": "https://labolycee.org/atterrissage-du-premier-etage-dune-fusee",
     "hasCorrection": true
   },
   {
     "id": "telemetre-ultrasons",
-    "title": "T\u00e9l\u00e9m\u00e8tre \u00e0 ultrasons",
+    "title": "Télémètre à ultrasons",
     "year": 2022,
     "location": "Asie",
     "session": null,
     "points": 10,
     "duration": "1h45",
-    "themes": ["2nde loi de Newton", "Python"],
+    "themes": [
+      "2nde loi de Newton",
+      "Python"
+    ],
     "url": "https://labolycee.org/telemetre-ultrasons",
     "subjectUrl": "https://labolycee.org/telemetre-ultrasons",
     "hasCorrection": true
@@ -2685,72 +3258,84 @@
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["2nde loi de Newton"],
+    "themes": [
+      "2nde loi de Newton"
+    ],
     "url": "https://labolycee.org/formule-1-freinage-en-ligne-droite",
     "subjectUrl": "https://labolycee.org/formule-1-freinage-en-ligne-droite",
     "hasCorrection": true
   },
   {
     "id": "ingenuity-le-premier-helicoptere-voler-sur-mars",
-    "title": "Ingenuity, le premier h\u00e9licopt\u00e8re \u00e0 voler sur Mars",
+    "title": "Ingenuity, le premier hélicoptère à voler sur Mars",
     "year": 2022,
-    "location": "Nouvelle-Cal\u00e9donie",
+    "location": "Nouvelle-Calédonie",
     "session": null,
     "points": 10,
     "duration": "1h45",
-    "themes": ["2nde loi de Newton"],
+    "themes": [
+      "2nde loi de Newton"
+    ],
     "url": "https://labolycee.org/ingenuity-le-premier-helicoptere-voler-sur-mars",
     "subjectUrl": "https://labolycee.org/ingenuity-le-premier-helicoptere-voler-sur-mars",
     "hasCorrection": true
   },
   {
     "id": "etude-dune-frappe-au-football",
-    "title": "\u00c9tude d'une frappe au football",
+    "title": "Étude d'une frappe au football",
     "year": 2022,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["2nde loi de Newton"],
+    "themes": [
+      "2nde loi de Newton"
+    ],
     "url": "https://labolycee.org/etude-dune-frappe-au-football",
     "subjectUrl": "https://labolycee.org/etude-dune-frappe-au-football",
     "hasCorrection": true
   },
   {
     "id": "la-physique-de-la-plongee",
-    "title": "La physique de la plong\u00e9e",
+    "title": "La physique de la plongée",
     "year": 2022,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 10,
     "duration": "1h45",
-    "themes": ["2nde loi de Newton"],
+    "themes": [
+      "2nde loi de Newton"
+    ],
     "url": "https://labolycee.org/la-physique-de-la-plongee",
     "subjectUrl": "https://labolycee.org/la-physique-de-la-plongee",
     "hasCorrection": true
   },
   {
     "id": "vol-droit-dequilibre-dun-parapentiste",
-    "title": "Vol droit d'\u00e9quilibre d'un parapentiste",
+    "title": "Vol droit d'équilibre d'un parapentiste",
     "year": 2022,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["2nde loi de Newton"],
+    "themes": [
+      "2nde loi de Newton"
+    ],
     "url": "https://labolycee.org/vol-droit-dequilibre-dun-parapentiste",
     "subjectUrl": "https://labolycee.org/vol-droit-dequilibre-dun-parapentiste",
     "hasCorrection": true
   },
   {
     "id": "mission-mars-2020-le-portrait-robot-de-perseverance",
-    "title": "Mission Mars 2020 : Pers\u00e9v\u00e9rance",
+    "title": "Mission Mars 2020 : Persévérance",
     "year": 2022,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["2nde loi de Newton"],
+    "themes": [
+      "2nde loi de Newton"
+    ],
     "url": "https://labolycee.org/mission-mars-2020-le-portrait-robot-de-perseverance",
     "subjectUrl": "https://labolycee.org/mission-mars-2020-le-portrait-robot-de-perseverance",
     "hasCorrection": true
@@ -2759,11 +3344,13 @@
     "id": "vers-liss",
     "title": "Vers l'ISS",
     "year": 2022,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["2nde loi de Newton"],
+    "themes": [
+      "2nde loi de Newton"
+    ],
     "url": "https://labolycee.org/vers-liss",
     "subjectUrl": "https://labolycee.org/vers-liss",
     "hasCorrection": true
@@ -2772,24 +3359,29 @@
     "id": "la-pente-deau-de-montech",
     "title": "La pente d'eau de Montech",
     "year": 2022,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["2nde loi de Newton", "Lunette astronomique"],
+    "themes": [
+      "2nde loi de Newton",
+      "Lunette astronomique"
+    ],
     "url": "https://labolycee.org/la-pente-deau-de-montech",
     "subjectUrl": "https://labolycee.org/la-pente-deau-de-montech",
     "hasCorrection": true
   },
   {
     "id": "impression-3d-dobjets-metalliques",
-    "title": "Impression 3D d'objets m\u00e9talliques",
+    "title": "Impression 3D d'objets métalliques",
     "year": 2022,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Mouvement dans un champ \u00e9lectrique"],
+    "themes": [
+      "Mouvement dans un champ électrique"
+    ],
     "url": "https://labolycee.org/impression-3d-dobjets-metalliques",
     "subjectUrl": "https://labolycee.org/impression-3d-dobjets-metalliques",
     "hasCorrection": true
@@ -2798,24 +3390,29 @@
     "id": "quelques-utilisations-du-condensateur",
     "title": "Quelques utilisations du condensateur",
     "year": 2022,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 10,
     "duration": "1h45",
-    "themes": ["Circuits RC", "Mouvement dans un champ \u00e9lectrique"],
+    "themes": [
+      "Circuits RC",
+      "Mouvement dans un champ électrique"
+    ],
     "url": "https://labolycee.org/quelques-utilisations-du-condensateur",
     "subjectUrl": "https://labolycee.org/quelques-utilisations-du-condensateur",
     "hasCorrection": true
   },
   {
     "id": "des-satellites-pour-mieux-connaitre-les-oceans",
-    "title": "Des satellites pour mieux conna\u00eetre les oc\u00e9ans",
+    "title": "Des satellites pour mieux connaître les océans",
     "year": 2022,
-    "location": "Nouvelle-Cal\u00e9donie",
+    "location": "Nouvelle-Calédonie",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Satellites - Lois de Kepler"],
+    "themes": [
+      "Satellites - Lois de Kepler"
+    ],
     "url": "https://labolycee.org/des-satellites-pour-mieux-connaitre-les-oceans",
     "subjectUrl": "https://labolycee.org/des-satellites-pour-mieux-connaitre-les-oceans",
     "hasCorrection": true
@@ -2824,11 +3421,13 @@
     "id": "vitesse-de-la-station-spatiale-internationale",
     "title": "Vitesse de la station spatiale internationale",
     "year": 2022,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Satellites - Lois de Kepler"],
+    "themes": [
+      "Satellites - Lois de Kepler"
+    ],
     "url": "https://labolycee.org/vitesse-de-la-station-spatiale-internationale",
     "subjectUrl": "https://labolycee.org/vitesse-de-la-station-spatiale-internationale",
     "hasCorrection": true
@@ -2837,37 +3436,44 @@
     "id": "observation-de-la-lune-depuis-la-terre",
     "title": "Observation de la Lune depuis la Terre",
     "year": 2022,
-    "location": "Am\u00e9rique du Sud",
+    "location": "Amérique du Sud",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Lunette astronomique", "Satellites - Lois de Kepler"],
+    "themes": [
+      "Lunette astronomique",
+      "Satellites - Lois de Kepler"
+    ],
     "url": "https://labolycee.org/observation-de-la-lune-depuis-la-terre",
     "subjectUrl": "https://labolycee.org/observation-de-la-lune-depuis-la-terre",
     "hasCorrection": true
   },
   {
     "id": "linteret-energetique-dune-pac",
-    "title": "L'int\u00e9r\u00eat \u00e9nerg\u00e9tique d'une PAC",
+    "title": "L'intérêt énergétique d'une PAC",
     "year": 2022,
-    "location": "Nouvelle-Cal\u00e9donie",
+    "location": "Nouvelle-Calédonie",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Thermodynamique"],
+    "themes": [
+      "Thermodynamique"
+    ],
     "url": "https://labolycee.org/linteret-energetique-dune-pac",
     "subjectUrl": "https://labolycee.org/linteret-energetique-dune-pac",
     "hasCorrection": true
   },
   {
     "id": "controle-de-la-largeur-dun-fil-de-suture",
-    "title": "Contr\u00f4le de la largeur d'un fil de suture",
+    "title": "Contrôle de la largeur d'un fil de suture",
     "year": 2022,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Diffraction"],
+    "themes": [
+      "Diffraction"
+    ],
     "url": "https://labolycee.org/controle-de-la-largeur-dun-fil-de-suture",
     "subjectUrl": "https://labolycee.org/controle-de-la-largeur-dun-fil-de-suture",
     "hasCorrection": true
@@ -2876,37 +3482,45 @@
     "id": "mesure-de-la-taille-des-mailles-dun-masque-respiratoire",
     "title": "Mesure de la taille des mailles d'un masque respiratoire",
     "year": 2022,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Diffraction", "Interf\u00e9rences"],
+    "themes": [
+      "Diffraction",
+      "Interférences"
+    ],
     "url": "https://labolycee.org/mesure-de-la-taille-des-mailles-dun-masque-respiratoire",
     "subjectUrl": "https://labolycee.org/mesure-de-la-taille-des-mailles-dun-masque-respiratoire",
     "hasCorrection": true
   },
   {
     "id": "photographie-de-letoile-albireo",
-    "title": "Photographie de l'\u00e9toile Albir\u00e9o au t\u00e9lescope 200 mm",
+    "title": "Photographie de l'étoile Albiréo au télescope 200 mm",
     "year": 2022,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Diffraction"],
+    "themes": [
+      "Diffraction"
+    ],
     "url": "https://labolycee.org/photographie-de-letoile-albireo",
     "subjectUrl": "https://labolycee.org/photographie-de-letoile-albireo",
-    "hasCorrection": true
+    "hasCorrection": false,
+    "hasContent": false
   },
   {
     "id": "granulometrie-du-lactose",
-    "title": "Granulom\u00e9trie du lactose",
+    "title": "Granulométrie du lactose",
     "year": 2022,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Diffraction"],
+    "themes": [
+      "Diffraction"
+    ],
     "url": "https://labolycee.org/granulometrie-du-lactose",
     "subjectUrl": "https://labolycee.org/granulometrie-du-lactose",
     "hasCorrection": true
@@ -2915,11 +3529,13 @@
     "id": "dimension-dune-microalgue",
     "title": "Dimension d'une microalgue",
     "year": 2022,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Diffraction"],
+    "themes": [
+      "Diffraction"
+    ],
     "url": "https://labolycee.org/dimension-dune-microalgue",
     "subjectUrl": "https://labolycee.org/dimension-dune-microalgue",
     "hasCorrection": true
@@ -2928,63 +3544,73 @@
     "id": "acoustique-dune-salle",
     "title": "Acoustique d'une salle",
     "year": 2022,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": "Jour 1",
     "points": 5,
     "duration": "53min",
-    "themes": ["Diffraction"],
+    "themes": [
+      "Diffraction"
+    ],
     "url": "https://labolycee.org/acoustique-dune-salle",
     "subjectUrl": "https://labolycee.org/acoustique-dune-salle",
     "hasCorrection": true
   },
   {
     "id": "les-ondes-gravitationnelles-detectees-par-interferometrie",
-    "title": "Les ondes gravitationnelles d\u00e9tect\u00e9es par interf\u00e9rom\u00e9trie",
+    "title": "Les ondes gravitationnelles détectées par interférométrie",
     "year": 2022,
-    "location": "Nouvelle-Cal\u00e9donie",
+    "location": "Nouvelle-Calédonie",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Interf\u00e9rences"],
+    "themes": [
+      "Interférences"
+    ],
     "url": "https://labolycee.org/les-ondes-gravitationnelles-detectees-par-interferometrie",
     "subjectUrl": "https://labolycee.org/les-ondes-gravitationnelles-detectees-par-interferometrie",
     "hasCorrection": true
   },
   {
     "id": "lexperience-des-trous-de-young",
-    "title": "L'exp\u00e9rience des trous de Young",
+    "title": "L'expérience des trous de Young",
     "year": 2022,
     "location": "Asie",
     "session": "Jour 1",
     "points": 5,
     "duration": "53min",
-    "themes": ["Interf\u00e9rences"],
+    "themes": [
+      "Interférences"
+    ],
     "url": "https://labolycee.org/lexperience-des-trous-de-young",
     "subjectUrl": "https://labolycee.org/lexperience-des-trous-de-young",
     "hasCorrection": true
   },
   {
     "id": "qualite-decoute-dune-enceinte-bluetooth",
-    "title": "Qualit\u00e9 d'\u00e9coute d'une enceinte bluetooth",
+    "title": "Qualité d'écoute d'une enceinte bluetooth",
     "year": 2022,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Interf\u00e9rences"],
+    "themes": [
+      "Interférences"
+    ],
     "url": "https://labolycee.org/qualite-decoute-dune-enceinte-bluetooth",
     "subjectUrl": "https://labolycee.org/qualite-decoute-dune-enceinte-bluetooth",
     "hasCorrection": true
   },
   {
     "id": "intervalle-entre-les-buses-dune-tete-dimpression",
-    "title": "Intervalle entre les buses d'une t\u00eate d'impression",
+    "title": "Intervalle entre les buses d'une tête d'impression",
     "year": 2022,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Interf\u00e9rences"],
+    "themes": [
+      "Interférences"
+    ],
     "url": "https://labolycee.org/intervalle-entre-les-buses-dune-tete-dimpression",
     "subjectUrl": "https://labolycee.org/intervalle-entre-les-buses-dune-tete-dimpression",
     "hasCorrection": true
@@ -2993,27 +3619,32 @@
     "id": "la-physique-du-son-sur-un-mobile-multifonction",
     "title": "La physique du son sur un mobile multifonction",
     "year": 2022,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Interf\u00e9rences"],
+    "themes": [
+      "Interférences"
+    ],
     "url": "https://labolycee.org/la-physique-du-son-sur-un-mobile-multifonction",
     "subjectUrl": "https://labolycee.org/la-physique-du-son-sur-un-mobile-multifonction",
-    "hasCorrection": true
+    "hasCorrection": false,
+    "hasContent": false
   },
   {
     "id": "observer-les-anneaux-de-saturne",
     "title": "Observer les anneaux de Saturne",
     "year": 2022,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Lunette astronomique"],
+    "themes": [
+      "Lunette astronomique"
+    ],
     "url": "https://labolycee.org/observer-les-anneaux-de-saturne",
     "subjectUrl": "https://labolycee.org/observer-les-anneaux-de-saturne",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "observations-de-la-division-de-cassini",
@@ -3023,7 +3654,9 @@
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Lunette astronomique"],
+    "themes": [
+      "Lunette astronomique"
+    ],
     "url": "https://labolycee.org/observations-de-la-division-de-cassini",
     "subjectUrl": "https://labolycee.org/observations-de-la-division-de-cassini",
     "hasCorrection": true
@@ -3032,50 +3665,58 @@
     "id": "observation-dun-satellite",
     "title": "Observation d'un satellite",
     "year": 2022,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Lunette astronomique"],
+    "themes": [
+      "Lunette astronomique"
+    ],
     "url": "https://labolycee.org/observation-dun-satellite",
     "subjectUrl": "https://labolycee.org/observation-dun-satellite",
     "hasCorrection": true
   },
   {
     "id": "determination-du-diametre-de-jupiter",
-    "title": "D\u00e9termination du diam\u00e8tre de Jupiter",
+    "title": "Détermination du diamètre de Jupiter",
     "year": 2022,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Lunette astronomique"],
+    "themes": [
+      "Lunette astronomique"
+    ],
     "url": "https://labolycee.org/determination-du-diametre-de-jupiter",
     "subjectUrl": "https://labolycee.org/determination-du-diametre-de-jupiter",
     "hasCorrection": true
   },
   {
     "id": "une-exoplanete-51pegb",
-    "title": "Une exoplan\u00e8te : 51PEG_b",
+    "title": "Une exoplanète : 51PEG_b",
     "year": 2022,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": "Jour 1",
     "points": 5,
     "duration": "53min",
-    "themes": ["Lunette astronomique"],
+    "themes": [
+      "Lunette astronomique"
+    ],
     "url": "https://labolycee.org/une-exoplanete-51pegb",
     "subjectUrl": "https://labolycee.org/une-exoplanete-51pegb",
     "hasCorrection": true
   },
   {
     "id": "observation-de-la-planete-mars",
-    "title": "Observation de la plan\u00e8te Mars",
+    "title": "Observation de la planète Mars",
     "year": 2022,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Jour 2",
     "points": 10,
     "duration": "1h45",
-    "themes": ["Lunette astronomique"],
+    "themes": [
+      "Lunette astronomique"
+    ],
     "url": "https://labolycee.org/observation-de-la-planete-mars",
     "subjectUrl": "https://labolycee.org/observation-de-la-planete-mars",
     "hasCorrection": true
@@ -3084,24 +3725,28 @@
     "id": "lunette-astronomique-et-observations-de-mars",
     "title": "Lunette astronomique et observations de Mars",
     "year": 2022,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": "Jour 1",
     "points": 10,
     "duration": "1h45",
-    "themes": ["Lunette astronomique"],
+    "themes": [
+      "Lunette astronomique"
+    ],
     "url": "https://labolycee.org/lunette-astronomique-et-observations-de-mars",
     "subjectUrl": "https://labolycee.org/lunette-astronomique-et-observations-de-mars",
     "hasCorrection": true
   },
   {
     "id": "eclipse-solaire-du-10-juin-2021",
-    "title": "\u00c9clipse solaire du 10 juin 2021",
+    "title": "Éclipse solaire du 10 juin 2021",
     "year": 2022,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Lunette astronomique"],
+    "themes": [
+      "Lunette astronomique"
+    ],
     "url": "https://labolycee.org/eclipse-solaire-du-10-juin-2021",
     "subjectUrl": "https://labolycee.org/eclipse-solaire-du-10-juin-2021",
     "hasCorrection": true
@@ -3110,11 +3755,13 @@
     "id": "utilisation-dun-avertisseur-sonore",
     "title": "Utilisation d'un avertisseur sonore",
     "year": 2022,
-    "location": "Nouvelle-Cal\u00e9donie",
+    "location": "Nouvelle-Calédonie",
     "session": null,
     "points": 10,
     "duration": "30min",
-    "themes": ["Intensit\u00e9 sonore"],
+    "themes": [
+      "Intensité sonore"
+    ],
     "url": "https://labolycee.org/utilisation-dun-avertisseur-sonore",
     "subjectUrl": "https://labolycee.org/utilisation-dun-avertisseur-sonore",
     "hasCorrection": true
@@ -3123,24 +3770,28 @@
     "id": "nos-oreilles-y-tient",
     "title": "Nos oreilles on y tient !",
     "year": 2022,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": "Jour 2",
     "points": 5,
     "duration": "53min",
-    "themes": ["Intensit\u00e9 sonore"],
+    "themes": [
+      "Intensité sonore"
+    ],
     "url": "https://labolycee.org/nos-oreilles-y-tient",
     "subjectUrl": "https://labolycee.org/nos-oreilles-y-tient",
     "hasCorrection": true
   },
   {
     "id": "defibrillateur-cardiaque-implantable-0",
-    "title": "D\u00e9fibrillateur cardiaque implantable",
+    "title": "Défibrillateur cardiaque implantable",
     "year": 2022,
-    "location": "Am\u00e9rique du Sud",
+    "location": "Amérique du Sud",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Circuits RC"],
+    "themes": [
+      "Circuits RC"
+    ],
     "url": "https://labolycee.org/defibrillateur-cardiaque-implantable-0",
     "subjectUrl": "https://labolycee.org/defibrillateur-cardiaque-implantable-0",
     "hasCorrection": true
@@ -3149,50 +3800,58 @@
     "id": "anatomie-dun-condensateur",
     "title": "Anatomie d'un condensateur",
     "year": 2022,
-    "location": "Nouvelle-Cal\u00e9donie",
+    "location": "Nouvelle-Calédonie",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Circuits RC"],
+    "themes": [
+      "Circuits RC"
+    ],
     "url": "https://labolycee.org/anatomie-dun-condensateur",
     "subjectUrl": "https://labolycee.org/anatomie-dun-condensateur",
     "hasCorrection": true
   },
   {
     "id": "un-radar-de-controle-de-vitesses",
-    "title": "Un radar de contr\u00f4le de vitesses",
+    "title": "Un radar de contrôle de vitesses",
     "year": 2022,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Circuits RC"],
+    "themes": [
+      "Circuits RC"
+    ],
     "url": "https://labolycee.org/un-radar-de-controle-de-vitesses",
     "subjectUrl": "https://labolycee.org/un-radar-de-controle-de-vitesses",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "des-supercondensateurs-pour-recharger-un-bus-electrique",
-    "title": "Des supercondensateurs pour recharger un bus \u00e9lectrique",
+    "title": "Des supercondensateurs pour recharger un bus électrique",
     "year": 2022,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Circuits RC"],
+    "themes": [
+      "Circuits RC"
+    ],
     "url": "https://labolycee.org/des-supercondensateurs-pour-recharger-un-bus-electrique",
     "subjectUrl": "https://labolycee.org/des-supercondensateurs-pour-recharger-un-bus-electrique",
     "hasCorrection": true
   },
   {
     "id": "defibrillateur-cardiaque-0",
-    "title": "D\u00e9fibrillateur cardiaque",
+    "title": "Défibrillateur cardiaque",
     "year": 2022,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Circuits RC"],
+    "themes": [
+      "Circuits RC"
+    ],
     "url": "https://labolycee.org/defibrillateur-cardiaque-0",
     "subjectUrl": "https://labolycee.org/defibrillateur-cardiaque-0",
     "hasCorrection": true
@@ -3201,50 +3860,58 @@
     "id": "un-capteur-capacitif",
     "title": "Un capteur capacitif",
     "year": 2022,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Circuits RC"],
+    "themes": [
+      "Circuits RC"
+    ],
     "url": "https://labolycee.org/un-capteur-capacitif",
     "subjectUrl": "https://labolycee.org/un-capteur-capacitif",
     "hasCorrection": true
   },
   {
     "id": "une-table-de-tennis-de-table-connectee",
-    "title": "Une table de tennis de table connect\u00e9e",
+    "title": "Une table de tennis de table connectée",
     "year": 2022,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Python"],
+    "themes": [
+      "Python"
+    ],
     "url": "https://labolycee.org/une-table-de-tennis-de-table-connectee",
     "subjectUrl": "https://labolycee.org/une-table-de-tennis-de-table-connectee",
     "hasCorrection": true
   },
   {
     "id": "degradation-dun-produit-de-contraste",
-    "title": "D\u00e9gradation d'un produit de contraste",
+    "title": "Dégradation d'un produit de contraste",
     "year": 2022,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Python"],
+    "themes": [
+      "Python"
+    ],
     "url": "https://labolycee.org/degradation-dun-produit-de-contraste",
     "subjectUrl": "https://labolycee.org/degradation-dun-produit-de-contraste",
     "hasCorrection": true
   },
   {
     "id": "lepaisseur-du-matelas-du-saut-la-perche",
-    "title": "L'\u00e9paisseur du matelas du saut \u00e0 la perche",
+    "title": "L'épaisseur du matelas du saut à la perche",
     "year": 2022,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Python"],
+    "themes": [
+      "Python"
+    ],
     "url": "https://labolycee.org/lepaisseur-du-matelas-du-saut-la-perche",
     "subjectUrl": "https://labolycee.org/lepaisseur-du-matelas-du-saut-la-perche",
     "hasCorrection": true
@@ -3253,11 +3920,13 @@
     "id": "le-sel-doseille",
     "title": "Le sel d'oseille",
     "year": 2022,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": null,
     "points": 10,
     "duration": "1h45",
-    "themes": ["Python"],
+    "themes": [
+      "Python"
+    ],
     "url": "https://labolycee.org/le-sel-doseille",
     "subjectUrl": "https://labolycee.org/le-sel-doseille",
     "hasCorrection": true
@@ -3266,154 +3935,180 @@
     "id": "lencre-et-son-effaceur",
     "title": "L'encre et son effaceur",
     "year": 2021,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Beer-Lambert"],
+    "themes": [
+      "Beer-Lambert"
+    ],
     "url": "https://labolycee.org/lencre-et-son-effaceur",
     "subjectUrl": "https://labolycee.org/lencre-et-son-effaceur",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "une-boisson-de-rehydratation",
-    "title": "Une boisson de r\u00e9hydratation",
+    "title": "Une boisson de réhydratation",
     "year": 2021,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Sujet 2",
     "points": 5,
     "duration": "55min",
-    "themes": ["Beer-Lambert"],
+    "themes": [
+      "Beer-Lambert"
+    ],
     "url": "https://labolycee.org/une-boisson-de-rehydratation",
     "subjectUrl": "https://labolycee.org/une-boisson-de-rehydratation",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "laquarium-recifal",
-    "title": "L'aquarium r\u00e9cifal",
+    "title": "L'aquarium récifal",
     "year": 2021,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Sujet 2",
     "points": 10,
     "duration": "1h45",
-    "themes": ["Beer-Lambert", "Kohlrausch"],
+    "themes": [
+      "Beer-Lambert",
+      "Kohlrausch"
+    ],
     "url": "https://labolycee.org/laquarium-recifal",
     "subjectUrl": "https://labolycee.org/laquarium-recifal",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "degre-dhydratation-du-chlorure-de-magnesium",
-    "title": "Degr\u00e9 d'hydratation du chlorure de magn\u00e9sium",
+    "title": "Degré d'hydratation du chlorure de magnésium",
     "year": 2021,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Sujet 1",
     "points": 5,
     "duration": "55min",
-    "themes": ["Kohlrausch", "Titrage conductim\u00e9trique"],
+    "themes": [
+      "Kohlrausch",
+      "Titrage conductimétrique"
+    ],
     "url": "https://labolycee.org/degre-dhydratation-du-chlorure-de-magnesium",
     "subjectUrl": "https://labolycee.org/degre-dhydratation-du-chlorure-de-magnesium",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "preparation-dune-biere-brune-aromatisee",
-    "title": "Pr\u00e9paration d'une bi\u00e8re brune aromatis\u00e9e",
+    "title": "Préparation d'une bière brune aromatisée",
     "year": 2021,
     "location": "Liban",
     "session": null,
     "points": 10,
     "duration": "1h45",
-    "themes": ["Titrage conductim\u00e9trique"],
+    "themes": [
+      "Titrage conductimétrique"
+    ],
     "url": "https://labolycee.org/preparation-dune-biere-brune-aromatisee",
     "subjectUrl": "https://labolycee.org/preparation-dune-biere-brune-aromatisee",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "additif-alimentaire-pour-les-agneaux",
     "title": "Additif alimentaire pour les agneaux",
     "year": 2021,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": null,
     "points": 5,
     "duration": "55min",
-    "themes": ["Titrage conductim\u00e9trique"],
+    "themes": [
+      "Titrage conductimétrique"
+    ],
     "url": "https://labolycee.org/additif-alimentaire-pour-les-agneaux",
     "subjectUrl": "https://labolycee.org/additif-alimentaire-pour-les-agneaux",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "decapage-dune-piece-en-aluminium",
-    "title": "D\u00e9capage d'une pi\u00e8ce en aluminium",
+    "title": "Décapage d'une pièce en aluminium",
     "year": 2021,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": null,
     "points": 5,
     "duration": "55min",
-    "themes": ["Titrage conductim\u00e9trique"],
+    "themes": [
+      "Titrage conductimétrique"
+    ],
     "url": "https://labolycee.org/decapage-dune-piece-en-aluminium",
     "subjectUrl": "https://labolycee.org/decapage-dune-piece-en-aluminium",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "etude-dune-pile-au-laboratoire",
-    "title": "\u00c9tude d'une pile au laboratoire",
+    "title": "Étude d'une pile au laboratoire",
     "year": 2021,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Piles - Constante d'\u00e9quilibre"],
+    "themes": [
+      "Piles - Constante d'équilibre"
+    ],
     "url": "https://labolycee.org/etude-dune-pile-au-laboratoire",
     "subjectUrl": "https://labolycee.org/etude-dune-pile-au-laboratoire",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "protection-des-fondations-en-acier-des-eoliennes-de-mer",
-    "title": "Protection des fondations en acier des \u00e9oliennes de mer",
+    "title": "Protection des fondations en acier des éoliennes de mer",
     "year": 2021,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": null,
     "points": 5,
     "duration": "55min",
-    "themes": ["Piles - Constante d'\u00e9quilibre"],
+    "themes": [
+      "Piles - Constante d'équilibre"
+    ],
     "url": "https://labolycee.org/protection-des-fondations-en-acier-des-eoliennes-de-mer",
     "subjectUrl": "https://labolycee.org/protection-des-fondations-en-acier-des-eoliennes-de-mer",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "pile-zinc-air",
-    "title": "Pile \u00ab zinc-air \u00bb",
+    "title": "Pile « zinc-air »",
     "year": 2021,
-    "location": "Sujet z\u00e9ro",
+    "location": "Sujet zéro",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Piles - Constante d'\u00e9quilibre"],
+    "themes": [
+      "Piles - Constante d'équilibre"
+    ],
     "url": "https://labolycee.org/pile-zinc-air",
     "subjectUrl": "https://labolycee.org/pile-zinc-air",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "accelerateur-lineaire-linac2-du-cern",
-    "title": "Acc\u00e9l\u00e9rateur lin\u00e9aire Linac2 du CERN",
+    "title": "Accélérateur linéaire Linac2 du CERN",
     "year": 2021,
-    "location": "Sujet z\u00e9ro",
+    "location": "Sujet zéro",
     "session": null,
     "points": 5,
     "duration": "55min",
-    "themes": ["Mouvement dans un champ \u00e9lectrique"],
+    "themes": [
+      "Mouvement dans un champ électrique"
+    ],
     "url": "https://labolycee.org/accelerateur-lineaire-linac2-du-cern",
     "subjectUrl": "https://labolycee.org/accelerateur-lineaire-linac2-du-cern",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "appareil-photographique",
     "title": "Appareil photographique",
     "year": 2021,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 3,
     "duration": "30min",
-    "themes": ["Diffraction"],
+    "themes": [
+      "Diffraction"
+    ],
     "url": "https://labolycee.org/appareil-photographique",
     "subjectUrl": "https://labolycee.org/appareil-photographique",
     "hasCorrection": true
@@ -3422,89 +4117,105 @@
     "id": "quelle-taille-pour-les-mailles-dun-tamis",
     "title": "Quelle taille pour les mailles d'un tamis ?",
     "year": 2021,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 5,
     "duration": "55min",
-    "themes": ["Diffraction"],
+    "themes": [
+      "Diffraction"
+    ],
     "url": "https://labolycee.org/quelle-taille-pour-les-mailles-dun-tamis",
     "subjectUrl": "https://labolycee.org/quelle-taille-pour-les-mailles-dun-tamis",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "enregistrement-sonore-en-stereophonie",
-    "title": "Enregistrement sonore en st\u00e9r\u00e9ophonie",
+    "title": "Enregistrement sonore en stéréophonie",
     "year": 2021,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 3,
     "duration": "30min",
-    "themes": ["Interf\u00e9rences"],
+    "themes": [
+      "Interférences"
+    ],
     "url": "https://labolycee.org/enregistrement-sonore-en-stereophonie",
     "subjectUrl": "https://labolycee.org/enregistrement-sonore-en-stereophonie",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "apprentissage-du-saut-en-parachute",
     "title": "Apprentissage du saut en parachute",
     "year": 2021,
-    "location": "Centres \u00e9trangers",
+    "location": "Centres étrangers",
     "session": "Sujet 2",
     "points": 10,
     "duration": "1h45",
-    "themes": ["Intensit\u00e9 sonore", "Interf\u00e9rences"],
+    "themes": [
+      "Intensité sonore",
+      "Interférences"
+    ],
     "url": "https://labolycee.org/apprentissage-du-saut-en-parachute",
     "subjectUrl": "https://labolycee.org/apprentissage-du-saut-en-parachute",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "de-la-musique-dans-le-calme",
     "title": "De la musique dans le calme",
     "year": 2021,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 3,
     "duration": "30min",
-    "themes": ["Intensit\u00e9 sonore", "Interf\u00e9rences"],
+    "themes": [
+      "Intensité sonore",
+      "Interférences"
+    ],
     "url": "https://labolycee.org/de-la-musique-dans-le-calme",
     "subjectUrl": "https://labolycee.org/de-la-musique-dans-le-calme",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "etude-dun-film-de-savon",
-    "title": "\u00c9tude d'un film de savon",
+    "title": "Étude d'un film de savon",
     "year": 2021,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Sujet 2",
     "points": 5,
     "duration": "55min",
-    "themes": ["Interf\u00e9rences"],
+    "themes": [
+      "Interférences"
+    ],
     "url": "https://labolycee.org/etude-dun-film-de-savon",
     "subjectUrl": "https://labolycee.org/etude-dun-film-de-savon",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "une-lunette-damateur-pour-voir-des-etoiles-doubles",
-    "title": "Une lunette d'amateur pour voir des \u00e9toiles doubles",
+    "title": "Une lunette d'amateur pour voir des étoiles doubles",
     "year": 2021,
     "location": "Asie",
     "session": "Jour 2",
     "points": 5,
     "duration": "53min",
-    "themes": ["Lunette astronomique"],
+    "themes": [
+      "Lunette astronomique"
+    ],
     "url": "https://labolycee.org/une-lunette-damateur-pour-voir-des-etoiles-doubles",
     "subjectUrl": "https://labolycee.org/une-lunette-damateur-pour-voir-des-etoiles-doubles",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "puissance-rayonnee-par-la-lune",
-    "title": "Puissance rayon\u00e9e par la Lune",
+    "title": "Puissance rayonée par la Lune",
     "year": 2021,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Lunette astronomique"],
+    "themes": [
+      "Lunette astronomique"
+    ],
     "url": "https://labolycee.org/puissance-rayonnee-par-la-lune",
     "subjectUrl": "https://labolycee.org/puissance-rayonnee-par-la-lune",
     "hasCorrection": true
@@ -3513,50 +4224,59 @@
     "id": "la-grande-lunette-de-meudon",
     "title": "La Grande Lunette de Meudon",
     "year": 2021,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": null,
     "points": 5,
     "duration": "55min",
-    "themes": ["Lunette astronomique"],
+    "themes": [
+      "Lunette astronomique"
+    ],
     "url": "https://labolycee.org/la-grande-lunette-de-meudon",
     "subjectUrl": "https://labolycee.org/la-grande-lunette-de-meudon",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "mesures-depaisseur",
-    "title": "Mesures d'\u00e9paisseur",
+    "title": "Mesures d'épaisseur",
     "year": 2021,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": "Sujet 2",
     "points": 5,
     "duration": "55min",
-    "themes": ["Circuits RC", "Lunette astronomique"],
+    "themes": [
+      "Circuits RC",
+      "Lunette astronomique"
+    ],
     "url": "https://labolycee.org/mesures-depaisseur",
     "subjectUrl": "https://labolycee.org/mesures-depaisseur",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "cave-vin",
-    "title": "Cave \u00e0 vin",
+    "title": "Cave à vin",
     "year": 2021,
     "location": "Asie",
     "session": "Jour 2",
     "points": 5,
     "duration": "53min",
-    "themes": ["Intensit\u00e9 sonore"],
+    "themes": [
+      "Intensité sonore"
+    ],
     "url": "https://labolycee.org/cave-vin",
     "subjectUrl": "https://labolycee.org/cave-vin",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "nuisances-sonores-dun-aeroport",
-    "title": "Nuisances sonores d'un a\u00e9roport",
+    "title": "Nuisances sonores d'un aéroport",
     "year": 2021,
-    "location": "Polyn\u00e9sie",
+    "location": "Polynésie",
     "session": null,
     "points": 5,
     "duration": "55min",
-    "themes": ["Intensit\u00e9 sonore"],
+    "themes": [
+      "Intensité sonore"
+    ],
     "url": "https://labolycee.org/nuisances-sonores-dun-aeroport",
     "subjectUrl": "https://labolycee.org/nuisances-sonores-dun-aeroport",
     "hasCorrection": true
@@ -3565,53 +4285,62 @@
     "id": "nuisances-sonores-dun-drone",
     "title": "Nuisances sonores d'un drone",
     "year": 2021,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 3,
     "duration": "30min",
-    "themes": ["Intensit\u00e9 sonore"],
+    "themes": [
+      "Intensité sonore"
+    ],
     "url": "https://labolycee.org/nuisances-sonores-dun-drone",
     "subjectUrl": "https://labolycee.org/nuisances-sonores-dun-drone",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "niveaux-dintensite-sonore",
-    "title": "Niveaux d'intensit\u00e9 sonore",
+    "title": "Niveaux d'intensité sonore",
     "year": 2021,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 3,
     "duration": "30min",
-    "themes": ["Intensit\u00e9 sonore"],
+    "themes": [
+      "Intensité sonore"
+    ],
     "url": "https://labolycee.org/niveaux-dintensite-sonore",
     "subjectUrl": "https://labolycee.org/niveaux-dintensite-sonore",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "pollution-acoustique-dans-une-web-radio",
     "title": "Pollution acoustique dans une web radio",
     "year": 2021,
-    "location": "Sujet z\u00e9ro",
+    "location": "Sujet zéro",
     "session": null,
     "points": 3,
     "duration": "30min",
-    "themes": ["Intensit\u00e9 sonore"],
+    "themes": [
+      "Intensité sonore"
+    ],
     "url": "https://labolycee.org/pollution-acoustique-dans-une-web-radio",
     "subjectUrl": "https://labolycee.org/pollution-acoustique-dans-une-web-radio",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "un-sport-traditionnel-le-lancer-de-gerbe-de-paille",
     "title": "Un sport traditionnel : le lancer de gerbe de paille",
     "year": 2021,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": null,
     "points": 10,
     "duration": "1h15",
-    "themes": ["Circuits RC", "Intensit\u00e9 sonore"],
+    "themes": [
+      "Circuits RC",
+      "Intensité sonore"
+    ],
     "url": "https://labolycee.org/un-sport-traditionnel-le-lancer-de-gerbe-de-paille",
     "subjectUrl": "https://labolycee.org/un-sport-traditionnel-le-lancer-de-gerbe-de-paille",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "les-supercondensateurs",
@@ -3621,36 +4350,42 @@
     "session": null,
     "points": 5,
     "duration": "55min",
-    "themes": ["Circuits RC"],
+    "themes": [
+      "Circuits RC"
+    ],
     "url": "https://labolycee.org/les-supercondensateurs",
     "subjectUrl": "https://labolycee.org/les-supercondensateurs",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "un-systeme-de-detection-de-passager",
-    "title": "Un syst\u00e8me de d\u00e9tection de passager",
+    "title": "Un système de détection de passager",
     "year": 2021,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 5,
     "duration": "55min",
-    "themes": ["Circuits RC"],
+    "themes": [
+      "Circuits RC"
+    ],
     "url": "https://labolycee.org/un-systeme-de-detection-de-passager",
     "subjectUrl": "https://labolycee.org/un-systeme-de-detection-de-passager",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "la-mission-grace-fo",
     "title": "La mission GRACE-FO",
     "year": 2021,
-    "location": "Am\u00e9rique du Nord",
+    "location": "Amérique du Nord",
     "session": null,
     "points": 10,
     "duration": "1h15",
-    "themes": ["Circuits RC"],
+    "themes": [
+      "Circuits RC"
+    ],
     "url": "https://labolycee.org/la-mission-grace-fo",
     "subjectUrl": "https://labolycee.org/la-mission-grace-fo",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "water-bottle-flip",
@@ -3660,10 +4395,12 @@
     "session": null,
     "points": 5,
     "duration": "53min",
-    "themes": ["Python"],
+    "themes": [
+      "Python"
+    ],
     "url": "https://labolycee.org/water-bottle-flip",
     "subjectUrl": "https://labolycee.org/water-bottle-flip",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "parker-solar-probe",
@@ -3673,46 +4410,54 @@
     "session": null,
     "points": 10,
     "duration": "1h45",
-    "themes": ["Python"],
+    "themes": [
+      "Python"
+    ],
     "url": "https://labolycee.org/parker-solar-probe",
     "subjectUrl": "https://labolycee.org/parker-solar-probe",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "le-jeu-du-cornhole",
     "title": "Le jeu du cornhole",
     "year": 2021,
-    "location": "M\u00e9tropole",
+    "location": "Métropole",
     "session": null,
     "points": 10,
     "duration": "1h45",
-    "themes": ["Python"],
+    "themes": [
+      "Python"
+    ],
     "url": "https://labolycee.org/le-jeu-du-cornhole",
     "subjectUrl": "https://labolycee.org/le-jeu-du-cornhole",
-    "hasCorrection": true
+    "hasCorrection": false
   },
   {
     "id": "les-cellules-photovoltaiques-multi-jonctions",
-    "title": "Les cellules photovolta\u00efques multi-jonctions",
+    "title": "Les cellules photovoltaïques multi-jonctions",
     "year": 2017,
-    "location": "Nouvelle-Cal\u00e9donie",
+    "location": "Nouvelle-Calédonie",
     "session": null,
     "points": 5,
     "duration": "50min",
-    "themes": ["Effet photo\u00e9lectrique"],
+    "themes": [
+      "Effet photoélectrique"
+    ],
     "url": "https://labolycee.org/les-cellules-photovoltaiques-multi-jonctions",
     "subjectUrl": "https://labolycee.org/les-cellules-photovoltaiques-multi-jonctions",
     "hasCorrection": true
   },
   {
     "id": "des-alternatives-aux-lampes-incandescence",
-    "title": "Des alternatives aux lampes \u00e0 incandescence",
+    "title": "Des alternatives aux lampes à incandescence",
     "year": 2016,
-    "location": "Nouvelle-Cal\u00e9donie",
+    "location": "Nouvelle-Calédonie",
     "session": null,
     "points": 5,
     "duration": "50min",
-    "themes": ["Effet photo\u00e9lectrique"],
+    "themes": [
+      "Effet photoélectrique"
+    ],
     "url": "https://labolycee.org/des-alternatives-aux-lampes-incandescence",
     "subjectUrl": "https://labolycee.org/des-alternatives-aux-lampes-incandescence",
     "hasCorrection": true
